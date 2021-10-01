@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "CSW HMDK Summary",
+    "url": "http://metaver.de/csw?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=summary",
+    "typ": "CSW"
+  },
+  {
+    "id": "3",
+    "name": "CSW HMDK Full",
+    "url": "http://metaver.de/csw?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=full",
+    "typ": "CSW"
+  },
+  {
+    "id" : "2",
+    "name" : "Metadaten-URL",
+    "url" : "http://metaver.de/trefferanzeige?docuuid=",
+    "typ" : "URL"
+  },
+  {
+    "id" : "4",
+    "name" : "BKG Suggest",
+    "url" : "http://sg.geodatenzentrum.de/gdz_geokodierung__144b5163-36a6-d212-f66f-fc002cfa13d6/suggest",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "5",
+    "name" : "BKG Service",
+    "url" : "http://sg.geodatenzentrum.de/gdz_geokodierung__144b5163-36a6-d212-f66f-fc002cfa13d6/geosearch",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "10",
+    "name" : "OSM Suche",
+    "url" : "https://nominatim.openstreetmap.org/search?",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "80002",
+    "name" : "Email Service by PHP",
+    "url" : "https://geoportal-hamburg.de/smtp/sendmail.php",
+    "typ" : "EmailService"
+  },
+  {
+    "id" : "99999",
+    "name" : "Print Service",
+    "url":"https://geodienste.hamburg.de/mapfish_print_2_internet",
+    "typ" : "PrintService"
+  },
+  {
+    "id": "mapfish",
+    "name": "Print Service Prod",
+    "url": "https://tsb-mapfishprint.onrender.com/print/ ",
+    "typ": "Print"
+  }
+]
