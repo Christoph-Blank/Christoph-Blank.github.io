@@ -321,7 +321,7 @@
 {
 	"id": "Neubauten_Neu",
 	"name": "Neubauten",
-	"url": "/mp/Info_Karte/resources/geojson/Neubauten.geojson",
+	"url": "/Info_Karte/resources/geojson/Neubauten.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
