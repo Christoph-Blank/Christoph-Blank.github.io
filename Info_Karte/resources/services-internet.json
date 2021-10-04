@@ -234,7 +234,7 @@
 {
 	"id": "Neubauten_Neu",
 	"name": "Neubauten",
-	"url": "/mp/Info_Karte/resources/geojson/Neubauten.geojson",
+	"url": "/Info_Karte/resources/geojson/Neubauten.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -248,14 +248,14 @@
 		"URL": "Übersicht"
 		
 	},
-	"legendURL": "/mp/Info_Karte/resources/Leg/Legende_Neubauten.png",
+	"legendURL": "/Info_Karte/resources/Leg/Legende_Neubauten.png",
 	"layerAttribution": "Neubauvorhaben im Bezirk Mitte (Stand 01.09.2021)",
 	"cache": false
 },
 {
 	"id": "Parkraum",
 	"name": "Parkraumbewirtschaftung",
-	"url": "/mp/Info_Karte/resources/geojson/Parkraumbewirtschaftung.geojson",
+	"url": "/Info_Karte/resources/geojson/Parkraumbewirtschaftung.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -269,14 +269,14 @@
 		"TYP": "Zonentyp",
 		"ZEITEN": "Bewirtschaftungszeiten"		
 	},
-	"legendURL": "/mp/Info_Karte/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"legendURL": "/Info_Karte/resources/Leg/Legende_Parkraumbewirtschaftung.png",
 	"layerAttribution": "Parkraumbewirtschaftung",
 	"cache": false
 },
 {
 	"id": "Blockak",
 	"name": "Blockakte",
-	"url": "/mp/Info_Karte/resources/geojson/Blockakte.geojson",
+	"url": "/Info_Karte/resources/geojson/Blockakte.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -295,7 +295,7 @@
 {
 	"id": "Nummerierung_P",
 	"name": "Nummerierung_Pkt",
-	"url": "/mp/Info_Karte/resources/geojson/Nummerierungsbezirk_P.geojson",
+	"url": "/Info_Karte/resources/geojson/Nummerierungsbezirk_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -305,7 +305,7 @@
 {
 	"id": "Nummerierung_F",
 	"name": "Nummerierung_Fl",
-	"url": "/mp/Info_Karte/resources/geojson/Nummerierungsbezirk_F.geojson",
+	"url": "/Info_Karte/resources/geojson/Nummerierungsbezirk_F.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -315,7 +315,7 @@
 {
 	"id": "Kartenblatt_P",
 	"name": "Kartenblatt_Pkt",
-	"url": "/mp/Info_Karte/resources/geojson/Kartenblatt_P.geojson",
+	"url": "/Info_Karte/resources/geojson/Kartenblatt_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -325,7 +325,7 @@
 {
 	"id": "Kartenblatt_L",
 	"name": "Kartenblatt_LI",
-	"url": "/mp/Info_Karte/resources/geojson/Kartenblatt_L.geojson",
+	"url": "/Info_Karte/resources/geojson/Kartenblatt_L.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -360,7 +360,7 @@
 {
 	"id": "Vermessung_AP",
 	"name": "AP",
-	"url": "/mp/Info_Karte/resources/geojson/AP_P.geojson",
+	"url": "/Info_Karte/resources/geojson/AP_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"layerAttribution": "Arbeitspläne (Stand 14.06.2021)",
@@ -370,7 +370,7 @@
 {
 	"id": "Vermessung_EK",
 	"name": "EK",
-	"url": "/mp/Info_Karte/resources/geojson/EK_P.geojson",
+	"url": "/Info_Karte/resources/geojson/EK_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"layerAttribution": "Ergänzungskarte (Stand 14.06.2021)",
@@ -380,7 +380,7 @@
 {
 	"id": "Vermessung_GB",
 	"name": "GB",
-	"url": "/mp/Info_Karte/resources/geojson/GB_P.geojson",
+	"url": "/Info_Karte/resources/geojson/GB_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"layerAttribution": "Gebäudebuch / Gebäudevermessung (Stand 14.06.2021)",
@@ -390,7 +390,7 @@
 {
 	"id": "Vermessung_SH",
 	"name": "SH",
-	"url": "/mp/Info_Karte/resources/geojson/SH_P.geojson",
+	"url": "/Info_Karte/resources/geojson/SH_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"layerAttribution": "Stückvermessungshandriss (Stand 14.06.2021)",
@@ -400,7 +400,7 @@
 {
 	"id": "Vermessung_VN",
 	"name": "VN",
-	"url": "/mp/Info_Karte/resources/geojson/VN_P.geojson",
+	"url": "/Info_Karte/resources/geojson/VN_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"layerAttribution": "Vermessungsnachweis (Stand 14.06.2021)",
@@ -410,7 +410,7 @@
 {
 	"id": "Vermessung_VS",
 	"name": "VS",
-	"url": "/mp/Info_Karte/resources/geojson/VS_P.geojson",
+	"url": "/Info_Karte/resources/geojson/VS_P.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"layerAttribution": "Vermessungsschriften (Stand 14.06.2021)",
@@ -420,7 +420,7 @@
 {
 	"id": "Schulen_T",
 	"name": "Schulen_TXT",
-	"url": "/mp/Info_Karte/resources/geojson/Schulen_2021_TX.geojson",
+	"url": "/Info_Karte/resources/geojson/Schulen_2021_TX.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -430,7 +430,7 @@
 {
 	"id": "Schulen_F",
 	"name": "Schulen",
-	"url": "/mp/Info_Karte/resources/geojson/Schulen_2021_FL.geojson",
+	"url": "/Info_Karte/resources/geojson/Schulen_2021_FL.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -447,7 +447,7 @@
 		"BEZIRK": "Bezirk"			
 	},
 	"layerAttribution": "Schulen im Bezirk Mitte (Stand 07.2021)",
-	"legendURL": "/mp/Info_Karte/resources/Leg/Legende_Schulen.png",
+	"legendURL": "/Info_Karte/resources/Leg/Legende_Schulen.png",
 	"cache": false,
 	"datasets": [{    	 	
 			"csw_url": "https://fbinter.stadt-berlin.de/fb/csw"		
@@ -457,7 +457,7 @@
 {
 	"id": "Fernverkehr_L",
 	"name": "Fernverkehr",
-	"url": "/mp/Info_Karte/resources/geojson/Fernverkehr_Linien.geojson",
+	"url": "/Info_Karte/resources/geojson/Fernverkehr_Linien.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -470,7 +470,7 @@
 {
 	"id": "Fernverkehr_P",
 	"name": "Fernverkehr",
-	"url": "/mp/Info_Karte/resources/geojson/Fernverkehr_Halte.geojson",
+	"url": "/Info_Karte/resources/geojson/Fernverkehr_Halte.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -482,7 +482,7 @@
 {
 	"id": "S-Bahn_L",
 	"name": "S-Bahn",
-	"url": "/mp/Info_Karte/resources/geojson/S-Bahn_Linien.geojson",
+	"url": "/Info_Karte/resources/geojson/S-Bahn_Linien.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -495,7 +495,7 @@
 {
 	"id": "S-Bahn_P",
 	"name": "S-Bahn",
-	"url": "/mp/Info_Karte/resources/geojson/S-Bahn_Halte.geojson",
+	"url": "/Info_Karte/resources/geojson/S-Bahn_Halte.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -507,7 +507,7 @@
 {
 	"id": "U-Bahn_L",
 	"name": "U-Bahn",
-	"url": "/mp/Info_Karte/resources/geojson/U-Bahn_Linien.geojson",
+	"url": "/Info_Karte/resources/geojson/U-Bahn_Linien.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -520,7 +520,7 @@
 {
 	"id": "U-Bahn_P",
 	"name": "U-Bahn",
-	"url": "/mp/Info_Karte/resources/geojson/U-Bahn_Halte.geojson",
+	"url": "/Info_Karte/resources/geojson/U-Bahn_Halte.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -532,7 +532,7 @@
 {
 	"id": "Bus_L",
 	"name": "Bus",
-	"url": "/mp/Info_Karte/resources/geojson/Bus_Linien.geojson",
+	"url": "/Info_Karte/resources/geojson/Bus_Linien.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -545,7 +545,7 @@
 {
 	"id": "Bus_P",
 	"name": "Bus",
-	"url": "/mp/Info_Karte/resources/geojson/Bus_Halte_1.geojson",
+	"url": "/Info_Karte/resources/geojson/Bus_Halte_1.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -558,7 +558,7 @@
 {
 	"id": "Tram_L",
 	"name": "Tram",
-	"url": "/mp/Info_Karte/resources/geojson/Tram_Linien.geojson",
+	"url": "/Info_Karte/resources/geojson/Tram_Linien.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -571,7 +571,7 @@
 {
 	"id": "Tram_P",
 	"name": "Tram",
-	"url": "/mp/Info_Karte/resources/geojson/Tram_Halte.geojson",
+	"url": "/Info_Karte/resources/geojson/Tram_Halte.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -584,7 +584,7 @@
 {
 	"id": "B-Plan_T",
 	"name": "Bebauungspläne",
-	"url": "/mp/Info_Karte/resources/geojson/B-Plan_TX.geojson",
+	"url": "/Info_Karte/resources/geojson/B-Plan_TX.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -594,7 +594,7 @@
 {
 	"id": "B-Plan_F",
 	"name": "Bebauungspläne",
-	"url": "/mp/Info_Karte/resources/geojson/B-Plan_FL.geojson",
+	"url": "/Info_Karte/resources/geojson/B-Plan_FL.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -609,13 +609,13 @@
 		"URL": "B-Plan"			
 	},
 	"layerAttribution": "Bebauungspläne im Bezirk Mitte (Stand 08.2021)",
-	"legendURL": "/mp/Info_Karte/resources/Leg/Legende_B-Plan.png",
+	"legendURL": "/Info_Karte/resources/Leg/Legende_B-Plan.png",
 	"cache": false
 },
 {
 	"id": "B-Plan_L",
 	"name": "Bebauungspläne",
-	"url": "/mp/Info_Karte/resources/geojson/B-Plan_LI.geojson",
+	"url": "/Info_Karte/resources/geojson/B-Plan_LI.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
@@ -625,7 +625,7 @@
 {
 	"id": "Citytoiletten_P",
 	"name": "Citytoiletten",
-	"url": "/mp/Info_Karte/resources/geojson/Citytoiletten_im_Bezirk_Mitte.geojson",
+	"url": "/Info_Karte/resources/geojson/Citytoiletten_im_Bezirk_Mitte.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -646,7 +646,7 @@
 {
 	"id": "Denkmale_Standbilder_P",
 	"name": "Denkmale_Standbilder",
-	"url": "/mp/Info_Karte/resources/geojson/Denkmale_Standbilder.geojson",
+	"url": "/Info_Karte/resources/geojson/Denkmale_Standbilder.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
