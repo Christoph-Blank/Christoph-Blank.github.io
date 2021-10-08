@@ -255,7 +255,7 @@
 {
 	"id": "Parkraum",
 	"name": "Parkraumbewirtschaftung",
-	"url": "/mp/Info_Karte/resources/geojson/Parkraumbewirtschaftung.geojson",
+	"url": "/Info_Karte/resources/geojson/Parkraumbewirtschaftung.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
@@ -269,14 +269,14 @@
 		"TYP": "Zonentyp",
 		"ZEITEN": "Bewirtschaftungszeiten"		
 	},
-	"legendURL": "/mp/Info_Karte/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"legendURL": "/Info_Karte/resources/Leg/Legende_Parkraumbewirtschaftung.png",
 	"layerAttribution": "Parkraumbewirtschaftung",
 	"cache": false
 },
 {
 	"id": "Parkschein",
 	"name": "Parkscheinautomat",
-	"url": "/mp/Info_Karte/resources/geojson/Parkscheinautomaten.geojson",
+	"url": "/Info_Karte/resources/geojson/Parkscheinautomaten.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
