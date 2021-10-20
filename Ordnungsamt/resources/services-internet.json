@@ -178,7 +178,7 @@
 		"ZEITEN": "Bewirtschaftungszeiten"		
 	},
 	"legendURL": "/Ordnungsamt/resources/Leg/Legende_Parkraumbewirtschaftung.png",
-	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br> <br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br> <br>Ansprechpartener Fachlich: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br> <br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Fachlich: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
 	"cache": false,
 	"datasets" : [
         {
