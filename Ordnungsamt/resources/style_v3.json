@@ -295,8 +295,8 @@
 		{
 			"style": {
 				"type": "icon",
-				"clusterImageName": "img/Citytoiletten_im_Bezirk_Mitte_Symbol.png",
-				"imageName": "img/Citytoiletten_im_Bezirk_Mitte_Symbol.png",
+				"clusterImageName": "Citytoiletten_im_Bezirk_Mitte_Symbol.png",
+				"imageName": "Citytoiletten_im_Bezirk_Mitte_Symbol.png",
 				"imageWidth": 3,
 				"imageHeight": 3,
 				"imageScale": 0.05
