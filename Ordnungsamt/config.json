@@ -1,0 +1,414 @@
+{
+"Portalconfig": {
+    "portalTitle": {
+        "title": "Ordnungsamt Berlin Mitte",
+        "logo": "../Ordnungsamt/resources/img/Wappen.png",
+        "link": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/",
+        "tooltip": "Bezirksamt Mitte, FB Vermessung"
+        },
+    "treeType": "custom",
+    "searchBar": {
+        "bkg": {
+            "minCharacters": 3,
+            "suggestServiceId": "4",
+            "geosearchServiceId": "5",
+            "extent": [384000.0, 5817000.0, 394000.0, 5826000.0],
+            "suggestCount": 10,
+            "epsg": "EPSG:25833",
+            "filter": "filter=(ort:Mitte, Moabit, Hansaviertel, Gesundbrunnen, Wedding, Tiergarten)",
+            "score": 0.6,
+            "zoomToResultOnHover": false,
+            "zoomToResultOnClick": true,
+            "zoomLevel": 6
+            },
+			"visibleVector": {
+            "minChars": 3,
+            "layerTypes": ["WFS", "GeoJSON"]
+            },
+        "tree": {},
+        "startzoomLevel": 2,
+        "placeholder": "Suche nach: Straße, Haus-Nr.",
+	"parcelSearch": true
+        },
+    "mapView": {
+        "backgroundImage": "",
+        "startCenter": [389437.73, 5821509.84],
+ "extent": [384000.0, 5817000.0, 394000.0, 5826000.0],        
+ "startZoomLevel": 2,
+        "epsg": "EPSG:25833",
+        "options": [{
+            "resolution":15.874991427504629,
+            "scale":60000,
+            "zoomLevel":0
+            },
+            {
+            "resolution": 10.583327618336419,
+            "scale":40000,
+            "zoomLevel":1
+            },
+            {
+            "resolution":5.2916638091682096,
+            "scale":20000,
+            "zoomLevel":2
+            },
+            {
+            "resolution":2.6458319045841048,
+            "scale":10000,
+            "zoomLevel":3
+            },
+            {
+            "resolution":1.3229159522920524,
+            "scale":5000,
+            "zoomLevel":4
+            },
+            {
+            "resolution":0.6614579761460262,
+            "scale":2500,
+            "zoomLevel":5
+            },
+            {
+            "resolution":0.2645831904584105,
+            "scale": 1000,
+            "zoomLevel":6
+            },
+            {
+            "resolution":0.13229159522920521,
+            "scale":500,
+            "zoomLevel":7
+            }]
+        },
+    "menu": {
+        "tree": {
+            "name": "Themen"
+            },
+        		"tools": {
+            		"name": "Werkzeuge",
+            		"children": {
+                	"gfi": {
+                    	"name": "Informationen abfragen",
+		    				"glyphicon": "glyphicon-info-sign",
+                    		"active": true
+                    		},
+						
+                		"searchByCoord": {
+                    		"name": "Koordinatensuche"
+                    		},
+                		"coord": {
+                    		"name": "Koordinaten abfragen"
+                    		},
+               			"measure": {
+                    		"name": "Strecke / Fläche messen"
+                    		},
+						"saveSelection": {
+							"name": "Auswahl speichern"
+							},
+						"draw": {
+							"name": "Zeichnen / Schreiben",
+							"renderToWindow": false
+								}
+						
+                		}
+            		},
+          
+        		"legend": {
+            		"name": "Legende"
+           			},
+        		"info": {
+            		"name": "Informationen",
+            		"children": {
+                	"staticlinks": [{
+		    			"name": "Ordnungsamt",
+                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/"
+						},
+		    			{
+						"name": "Parkraumbewirtschaftung",
+                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/parkraumbewirtschaftung/"
+						}
+						]
+                	}
+            	}
+        },
+    "controls": {
+		"fullScreen": true,
+        "zoom": true,
+        "orientation": {
+            "zoomMode": "always"
+            },
+        "attributions": {
+            "isInitOpenDesktop": false,
+            "isInitOpenMobile": false
+            },
+        "mousePosition": true,
+		"overviewMap": {
+			"layerId": "fis_webatlas_sw",
+			"isInitOpen": false
+			}
+        }
+    },
+
+"Themenconfig": {
+    "Hintergrundkarten": {
+	
+        "Layer": [{
+            "id": "myId1",
+            "name": "Hintergrundkarte (farbig)",
+            "visibility": false,
+            "children": [{
+                "id": "fis_k5_f",
+                "minScale": "0",
+                "maxScale": "5009"
+                },
+                {
+                "id": "fis_webatlas_f",
+                "minScale": "5010",
+                "maxScale": "250000"
+                }]
+            },
+            {
+            "id": "myId2",
+            "name": "Hintergrundkarte (schwarz/ weiß)",
+            "visibility": false,
+            "children":
+            [
+            {
+            "id": "fis_k5_sw",
+            "minScale": "0",
+            "maxScale": "5009"
+            },
+            {
+            "id": "fis_webatlas_sw",
+            "minScale": "5010",
+            "maxScale": "250000"
+            }
+            ]
+   },
+{
+            "id": "myId5",
+            "name": "Berlin-Zoom (SW-Ausgabe)",
+            "visibility": true,
+            "children":
+            [
+            {
+            "id": "990006",
+            "minScale": "0",
+            "maxScale": "40000"
+            }
+            
+            ]
+   },
+{
+	"id": "Alkis_Fis",
+	"name": "ALKIS (farbig)"
+},
+{
+	"id": "Alkis_sw_Fis",
+	"name": "ALKIS (sw)"
+}
+
+
+
+
+         ]
+    },    "Fachdaten": {
+			"name": "Fachdaten",
+			"Ordner": [
+				
+			{"Titel": "Parkraumbewirtschaftung",
+				"isFolderSelectable": false,
+				"visibility": false,
+						"Layer":[
+					{
+						"id": "Parkraumbew",
+						"name": "Parkraumbewirtschaftung",
+						"visibility": true,
+						"children": [
+							{
+								"id": "Gebührenzone_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Parkzone_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Parkzone_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Parkschein",
+            	 					"name": "Parkscheinautomaten",
+							"visibility": false,
+							"children": [
+                   						{"id": "Parkschein",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+                   						"mouseHoverField": ["PSA-Nr."],
+		   						"nearbyTitle": "PSA-Nr."},
+
+								{"id": "Parkschein_alt",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+                   						"mouseHoverField": ["PSA_NR"],
+		   						"nearbyTitle": "PSA_NR"}
+							]
+		   
+					
+					}
+							]
+			},
+
+			{
+				"Titel": "ÖPNV",
+				"isFolderSelectable": false,
+				"visibility": false,
+						"Layer":[
+					{
+						"id": "OePNV_Fernverkehr",
+						"name": "Fernverkehr",
+						"children": [
+							{
+								"id": "Fernverkehr_L",
+								"mouseHoverField": ["name"],
+								"styleId": "Fernverkehr.LI"
+							},
+							{
+								"id": "Fernverkehr_P",
+								"mouseHoverField": ["name"],
+								"searchField": ["name"],
+								"styleId": "Fernverkehr.PKT"
+							}
+
+							]
+					},
+					{
+						"id": "OePNV_S-Bahn",
+						"name": "S-Bahn",
+						"children": [
+							{
+								"id": "S-Bahn_L",
+								"mouseHoverField": ["name"],
+								"styleId": "S-Bahn.LI"
+
+							},
+							{
+								"id": "S-Bahn_P",
+								"mouseHoverField": ["name"],
+								"searchField": ["name"],
+								"styleId": "S-Bahn.PKT"
+							}
+							    ]
+					},
+					{
+						"id": "OePNV_U-Bahn",
+						"name": "U-Bahn",
+						"children": [
+							{
+								"id": "U-Bahn_L",
+								"mouseHoverField": ["name"],
+								"styleId": "U-Bahn.LI"
+
+							},
+							{
+								"id": "U-Bahn_P",
+								"mouseHoverField": ["name"],
+								"searchField": ["name"],
+								"styleId": "U-Bahn.PKT"
+							}
+							    ]
+					},
+					{
+						"id": "OePNV_Tram",
+						"name": "Tram",
+						"children": [
+							{
+								"id": "Tram_L",
+								"mouseHoverField": ["name"],
+								"styleId": "Tram.LI"
+
+							},
+							{
+								"id": "Tram_P",
+								"mouseHoverField": ["NAME"],
+								"searchField": ["NAME"],
+								"styleId": "Tram.PKT"
+							}
+							    ]
+					},
+					{
+						"id": "OePNV_Bus",
+						"name": "Bus",
+						"children": [
+							{
+								"id": "Bus_L",
+								"mouseHoverField": ["name"],
+								"styleId": "Bus.LI"
+
+							},
+							{
+								"id": "Bus_P",
+								"mouseHoverField": ["NAME"],
+								"searchField": ["NAME"],
+								"styleId": "Bus.PKT"
+							}
+							    ]
+					}
+					
+							]
+			}
+
+			
+
+			],
+        "Layer": [
+
+
+	  {"id": "Postleit",
+           	   "name": "Postleitzahlen",
+            	   "visibility": false,
+            	   "minScale": "0",
+           	   "maxScale": "100000"},
+
+	  {"id": "Citytoiletten_P",
+           	   "name": "Citytoiletten",
+            	   "visibility": false,
+		   "styleId": "Citytoiletten_PKT",
+		   "mouseHoverField": ["StandortBezeichnung"],
+		   "nearbyTitle": "StandortBezeichnung"},
+
+         {"id": "Verkehrslage",
+		   "name": "Verkehrslage",
+		   "visibility": false,
+		   "autoRefresh": "300000"},
+
+	{"id": "k_luftbild2021_rgb:0",
+		"minScale": "50",
+		"maxScale": "210000"},
+
+	  {"id": "Behindertenparkp_P",           	   
+            	   "visibility": false,
+		   "styleId": "Behindertenparkp_Style",
+		   "clusterDistance": 50,
+		   "mouseHoverField": ["STRASSE_"],
+		   "nearbyTitle": "STRASSE_"}
+
+
+
+
+                     
+            
+  
+
+  ]
+    }
+ }
+}
