@@ -2,8 +2,8 @@
 "Portalconfig": {
     "portalTitle": {
         "title": "Ordnungsamt Berlin Mitte",
-        "logo": "../Ordnungsamt/resources/img/Wappen.png",
-        "link": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/",
+        "logo": "../resources/img/Wappen.png",
+        "link": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/",
         "tooltip": "Bezirksamt Mitte, FB Vermessung"
         },
     "treeType": "custom",
@@ -118,11 +118,11 @@
             		"children": {
                 	"staticlinks": [{
 		    			"name": "Ordnungsamt",
-                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/"
+                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/"
 						},
 		    			{
 						"name": "Parkraumbewirtschaftung",
-                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/parkraumbewirtschaftung/"
+                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/parkraumbewirtschaftung/"
 						}
 						]
                 	}
