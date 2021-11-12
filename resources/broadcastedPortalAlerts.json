@@ -2,7 +2,7 @@
   "globalAlerts": [],
 
   "restrictedAlerts": {
-	"https://christoph-blank.github.io/": ["searchHint", "wartung"]
+	"https://christoph-blank.github.io/Ordnungsamt.html": ["searchHint", "wartung"]
 	
   },
 
