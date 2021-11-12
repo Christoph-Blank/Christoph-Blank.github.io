@@ -14,9 +14,7 @@ const Config = {
             }],
         showVersion: true
         },
-    alerting: {
-        fetchBroadcastUrl: "https://geoportal.frankfurt.de/v2.8.0/mastercode/broadcastedPortalAlerts.json"
-    },
+  
 
     quickHelp: {
         imgPath: "./resources/img/"
