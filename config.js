@@ -14,7 +14,10 @@ const Config = {
             }],
         showVersion: true
         },
-  
+    
+    alerting: {
+        fetchBroadcastUrl: "../resources/broadcastedPortalAlerts.json"
+    },
 
     quickHelp: {
         imgPath: "./resources/img/"
