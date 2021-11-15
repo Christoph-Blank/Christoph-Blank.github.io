@@ -1,5 +1,5 @@
 {
-  "globalAlerts": [],
+  "globalAlerts": ["searchHint", "wartung"],
 
   "restrictedAlerts": {
 	"https://christoph-blank.github.io/Ordnungsamt.html?userid=test&pwd=test": ["searchHint", "wartung"],
