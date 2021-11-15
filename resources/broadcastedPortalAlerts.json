@@ -3,8 +3,7 @@
 
   "restrictedAlerts": {
 	"https://christoph-blank.github.io/Ordnungsamt.html?userid=test&pwd=test": ["searchHint", "wartung"],
-	"https://christoph-blank.github.io/Ordnungsamt.html?": ["searchHint", "wartung"],
-	 "https://christoph-blank.github.io/Ordnungsamt.html": ["searchHint", "wartung"]
+	"https://christoph-blank.github.io/Ordnungsamt.html": ["searchHint", "wartung"]
 	
   },
 
@@ -12,16 +11,16 @@
    
     "wartung": {
       "displayClass": "warning",
-      "category": "Achtung - Wartungsarbeiten am Freitag, 12.11.2021",
-      "content": "Das Geoportal wird am Freitag, den 12.11.2021 zwischen 18:00 Uhr und 20:00 Uhr vorraussichtlich nicht zur Verfügung stehen.</p> Grund hierfür sind Wartungsarbeiten an der zentralen IT-Infrastruktur der Stadt Frankfurt.</p>Wir bitten um Ihr Verständnis.",
+      "category": "Achtung - Wartungsarbeiten am Freitag, 19.11.2021",
+      "content": "Das Geoportal wird am Freitag, den 19.11.2021 zwischen 18:00 Uhr und 20:00 Uhr vorraussichtlich nicht zur Verfügung stehen.</p> Grund hierfür sind Wartungsarbeiten an der zentralen IT-Infrastruktur der Stadt Frankfurt.</p>Wir bitten um Ihr Verständnis.",
       "displayFrom": "2021-11-10 00:00:00",
-      "displayUntil": "2021-11-11 20:00:00",
+      "displayUntil": "2021-11-19 20:00:00",
       "once": {"days": 1}
     },
 	"searchHint": {
       "displayClass": "info",
       "category": "Willkommen im Geoportal des Ordnungsamt Mitte!",
-      "content": "Über die Suche oben rechts finden Sie schnell und einfach Themen.</p>Gleich daneben finden Sie Hilfestellungen zur Suche.</p>Viel Spaß mit der Anwendung.</p>",
+      "content": "Über die Suche oben finden Sie schnell und einfach Themen.</p>Gleich daneben finden Sie Hilfestellungen zur Suche.</p>Viel Spaß mit der Anwendung.</p>",
 	  "mustBeConfirmed": true,
 	  "once": true
     }
