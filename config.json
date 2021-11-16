@@ -14,6 +14,7 @@
 		"minChars": 3,
 		"serviceId": "10",
 		"limit": 60,
+                "city": "Berlin",
 		"states": "Berlin",
                 "city_district": "Mitte",
                 "suburb": ["Wedding", "Tiergarten"],
