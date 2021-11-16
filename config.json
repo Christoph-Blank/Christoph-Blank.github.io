@@ -15,6 +15,7 @@
 		"serviceId": "10",
 		"limit": 60,
 		"states": "Berlin",
+                "suburb": ["Wedding", "Tiergarten"],
 		"classes": "place,highway,building,shop,historic,leisure,city,county"
 		},
 			"visibleVector": {
