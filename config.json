@@ -118,11 +118,11 @@
             		"children": {
                 	"staticlinks": [{
 		    			"name": "Ordnungsamt",
-                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/"
+                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/"
 						},
 		    			{
 						"name": "Parkraumbewirtschaftung",
-                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/parkraumbewirtschaftung/"
+                    	"url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/parkraumbewirtschaftung/"
 						}
                                    
 	      					]
