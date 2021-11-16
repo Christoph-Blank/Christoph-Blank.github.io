@@ -134,7 +134,7 @@
 		"fullScreen": true,
         "zoom": true,
         "orientation": {
-            "zoomMode": "always"
+            "zoomMode": "once"
             },
         "attributions": {
             "isInitOpenDesktop": false,
