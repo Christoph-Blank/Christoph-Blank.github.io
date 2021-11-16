@@ -15,6 +15,7 @@
 		"serviceId": "10",
 		"limit": 60,
 		"states": "Berlin",
+                "city_district": "Mitte",
                 "suburb": ["Wedding", "Tiergarten"],
 		"classes": "place,highway,building,shop,historic,leisure,city,county"
 		},
