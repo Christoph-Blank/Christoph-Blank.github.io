@@ -11,8 +11,8 @@
    
     "wartung": {
       "displayClass": "warning",
-      "category": "Achtung - Wartungsarbeiten am Freitag, 19.11.2021",
-      "content": "Das Geoportal wird am Freitag, den 19.11.2021 zwischen 18:00 Uhr und 20:00 Uhr vorraussichtlich nicht zur Verfügung stehen.</p> Grund hierfür sind Wartungsarbeiten an der zentralen IT-Infrastruktur.</p>Wir bitten um Ihr Verständnis.",
+      "category": "Achtung - Fehler in der Adresssuche",
+      "content": "Leider gibt es einen Fehler in der Adresssuche.</p> Um diesen Fehler zu umgehen bitte vor die Straße "Berlin, " schreiben.</p>Wir bitten um Ihr Verständnis.",
       "displayFrom": "2021-11-10 00:00:00",
       "displayUntil": "2021-11-19 20:00:00",
       "once": {"days": 1}
