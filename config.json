@@ -21,6 +21,13 @@
             "zoomToResultOnClick": true,
             "zoomLevel": 6
             },
+	"osm": {
+		"minChars": 3,
+		"serviceId": "10",
+		"limit": 60,
+		"states": "Berlin",
+		"classes": "place,highway,building,shop,historic,leisure,city,county"
+		},
 			"visibleVector": {
             "minChars": 3,
             "layerTypes": ["WFS", "GeoJSON"]
