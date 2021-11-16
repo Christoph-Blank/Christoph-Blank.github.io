@@ -20,13 +20,13 @@
   {
     "id" : "4",
     "name" : "BKG Suggest",
-    "url" : "http://sg.geodatenzentrum.de/gdz_geokodierung__144b5163-36a6-d212-f66f-fc002cfa13d6/suggest",
+    "url" : "/bkg_suggest",
     "typ" : "WFS"
   },
   {
     "id" : "5",
     "name" : "BKG Service",
-    "url" : "http://sg.geodatenzentrum.de/gdz_geokodierung__144b5163-36a6-d212-f66f-fc002cfa13d6/geosearch",
+    "url" : "/bkg_geosearch",
     "typ" : "WFS"
   },
   {
