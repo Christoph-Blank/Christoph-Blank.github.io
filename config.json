@@ -26,8 +26,8 @@
 
 	  "bkg": {
 				"minChars": 3,
-				"suggestServiceId": "BKG_SUG",
-				"geosearchServiceId": "BKG_GEO",
+				"suggestServiceId": "4",
+				"geosearchServiceId": "5",
 				"extent": [384000.0, 5817000.0, 394000.0, 5826000.0],
 				"suggestCount": 10,
 				"epsg": "EPSG:25833",
