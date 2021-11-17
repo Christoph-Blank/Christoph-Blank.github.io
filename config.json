@@ -8,6 +8,22 @@
         },
     "treeType": "light",
     "searchBar": {
+	    "specialWFS": {
+			"minChars": 3,
+			"timeout": 10000,
+			"definitions": [
+				{
+					"url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_adressenberlin",
+					"typeName": "fis_s_wfs_adressenber_PG:fis_s_wfs_adressenberlin_epsg25833",
+					"propertyNames": ["fis_s_wfs_adressenber_PG:STR_NAME"],
+					"propertyNames": ["fis_s_wfs_adressenber_PG:HNR"],
+					"geometryName": "fis_s_wfs_adressenber_PG:SHAPE",
+					"name": "Adresse"
+				}
+            ]
+
+		},
+
        	"osm": {
 		"minChars": 3,
 		"serviceId": "10",
