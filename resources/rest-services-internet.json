@@ -19,16 +19,18 @@
   },
   {
     "id" : "4",
-    "name" : "BKG Suggest",
-    "url" : "/bkg_suggest",
-    "typ" : "WFS"
+    "name" : "BKG Geokodierungsdienst Suggest",
+	  "url" : "https://gdi.berlin.de/searches/bkg/suggest",
+    "typ" : "GDZ"
   },
+
   {
     "id" : "5",
-    "name" : "BKG Service",
-    "url" : "/bkg_geosearch",
-    "typ" : "WFS"
+     "name" : "BKG Geokodierungsdienst Geosearch",
+	   "url" : "https://gdi.berlin.de/searches/bkg/geosearch",
+     "typ" : "GDZ"
   },
+
   {
     "id" : "10",
     "name" : "OSM Suche",
