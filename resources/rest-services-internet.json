@@ -52,10 +52,24 @@
     "name": "Print Service Prod",
     "url": "https://tsb-mapfishprint.onrender.com/print/ ",
     "typ": "Print"
+  }, 
+  {
+    "id" : "11",
+    "name" : "Komoot Photon Suche",
+    "url" : "https://photon.komoot.io/api/?",
+    "typ" : "WFS"
   },
-     { "id": "FBCSW",
-    "name": "CSW FBINTER",
-    "url": "http://fbinter.stadt-berlin.de/fb/csw/?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=full",
-    "typ": "CSW"
-     }
+  {
+    "id": "elastic",
+    "name": "Elastic Prod",
+    "url": "https://geodienste.hamburg.de/layers-internet/_search",
+    "typ": "Search"
+  },
+  {
+    "id": "elastic",
+    "name": "Elastic Prod",
+     "url": "https://geodienste.hamburg.de/layers/_search/template?source_content_type=application/json&source=",
+     "typ": "Search"
+  }
+
 ]
