@@ -8,20 +8,7 @@
         },
     "treeType": "light",
     "searchBar": {
-        "gdi": {
-    		"minChars": 3,
-    		"serviceId": "elastic",
-    		"queryObject": {
-        	"id": "query",
-        		"params": {
-            		"query_string": "%%searchString%%",
-			"typ":["sensorthings","wms"]
-        		}
-		}
-	},
-
-
-	"osm": {
+       	"osm": {
 		"minChars": 3,
 		"serviceId": "10",
 		"limit": 60,
