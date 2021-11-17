@@ -14,7 +14,8 @@
     		"queryObject": {
         	"id": "query",
         		"params": {
-            		"query_string": "%%searchString%%"
+            		"query_string": "%%searchString%%",
+			"typ":["sensorthings","wms"]
         		}
 		}
 
