@@ -8,7 +8,16 @@
         },
     "treeType": "light",
     "searchBar": {
-      
+        "gdi": {
+    		"minChars": 3,
+    		"serviceId": "elastic",
+    		"queryObject": {
+        	"id": "query",
+        		"params": {
+            		"query_string": "%%searchString%%"
+        		}
+		}
+
 
 	"osm": {
 		"minChars": 3,
