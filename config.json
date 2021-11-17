@@ -8,22 +8,7 @@
         },
     "treeType": "light",
     "searchBar": {
-	    "specialWFS": {
-			"minChars": 3,
-			"timeout": 10000,
-			"definitions": [
-				{
-					"url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_adressenberlin",
-					"typeName": "fis_s_wfs_adressenber_PG:fis_s_wfs_adressenberlin_epsg25833",
-					"propertyNames": ["fis_s_wfs_adressenber_PG:STR_NAME"],
-					
-					"geometryName": "fis_s_wfs_adressenber_PG:SHAPE",
-					"name": "Adresse"
-				}
-            ]
-
-		},
-
+	  
 	  "bkg": {
 				"minChars": 3,
 				"suggestServiceId": "4",
@@ -38,10 +23,8 @@
        	"osm": {
 		"minChars": 3,
 		"serviceId": "10",
-		"limit": 60,
-                "city": "Berlin",
-		"states": "Berlin",
-                "city_district": "Mitte",
+		"limit": 60,                
+		"states": "Berlin",                
 		"classes": "place,highway,building,shop,historic,leisure,city,county"
 		},
 			"visibleVector": {
