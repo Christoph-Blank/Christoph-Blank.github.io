@@ -111,7 +111,15 @@
 						"draw": {
 							"name": "Zeichnen / Schreiben",
 							"renderToWindow": false
-								}
+								},
+                    "print": {
+                        "name": "Drucken (PDF, PNG)",
+                        "version": "mapfish_print_3",
+                        "mapfishServiceId": "mapfish",
+                        "filename": "karte",
+                        "title": "Karte",
+                        "isVisibleInMenu": true
+                    },
 						
                 		}
             		},
