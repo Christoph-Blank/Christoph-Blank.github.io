@@ -49,11 +49,11 @@
     "url":"https://geodienste.hamburg.de/mapfish_print_2_internet",
     "typ" : "PrintService"
   },
-  {
+   {
     "id": "mapfish",
-    "name": "Print Service Prod",
-    "url": "https://tsb-mapfishprint.onrender.com/print/ ",
-    "typ": "Print"
+    "name": "Print Service",
+    "url": "/api/mapfish/print/",
+    "typ": "PrintService"
   }, 
   {
     "id" : "11",
