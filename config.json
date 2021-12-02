@@ -27,7 +27,17 @@
 		"states": "Berlin",                
 		"classes": "place,highway,building,shop,historic,leisure,city,county"
 		},
-			"visibleVector": {
+	"komoot": {
+			"minChars": 3,
+			"serviceId": "11",
+			"limit": 20,
+			"lang": "de",
+			"lat": 53.6,
+			"lon": 10.0,
+			"bbox": "13,52.3,13.7,52.7"
+		},
+  		
+	    "visibleVector": {
             "minChars": 3,
             "layerTypes": ["WFS", "GeoJSON"]
             },
