@@ -61,7 +61,7 @@
         		},
 
 			"style": {
-				"circleRadius": 0,
+				"circleRadius": 0.1,
 				"circleStrokeColor": [97, 69, 222, 0],
 				"circleStrokeWidth": 0,
 				"circleFillColor":[255, 255, 255, 0],
@@ -85,7 +85,7 @@
        					},
 
 			"style": {
-				"circleRadius": 0,
+				"circleRadius": 0.1,
 				"circleStrokeColor": [97, 69, 222, 0],
 				"circleStrokeWidth": 0,
 				"circleFillColor":[255, 255, 255, 0],
