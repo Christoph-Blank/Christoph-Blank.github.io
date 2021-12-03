@@ -503,6 +503,7 @@
             }
         ],
         "featureNS": "http://www.berlin.de/broker",
+	"wfsFilter": "resources/Metadaten/Ladesaeulen_Filtern.xml",
         "gfiAttributes": {
                             "importid": "Schlüssel",
                             "id": "id",
