@@ -288,8 +288,7 @@
 					{
                         			"id": "s_lades_standort",
 						"name": "Standorte der E-Ladesäulen",
-						"visibility": false,
-						"gfiUrlTemplate": "https://christoph-blank.github.io/resources/Metadaten/Ladesaeulen_Filter.xml",
+						"visibility": false,						
                         			"minScale": "600",
                         			"maxScale": "210000"
                         			
