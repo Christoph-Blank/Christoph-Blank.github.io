@@ -487,9 +487,46 @@
 	},
 	"legendURL": "ignore",
 	"cache": false
+},
+{
+        "id": "s_lades_standort",
+        "name": "Elektro-Ladesäulen - Standorte",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lades_standort",
+        "typ": "WFS",
+        "featureType": "fis:s_lades_standort",
+        "datasets": [
+            {
+                "md_id": "296596d0-dde2-3a73-b769-5853fe3d8f80",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/eeebbc13-75dd-3122-965f-2efeabbfc358",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+                            "importid": "Schlüssel",
+                            "id": "id",
+                            "adresse": "Adresse",
+                            "plz": "Postleitzahl",
+                            "ort": "Ort",
+                            "bezirk": "Bezirk",
+                            "oeffentlicher_raum": "Zugang",
+                            "art_ladeeinrichtung": "Art der Ladeeinrichtung",
+                            "anzahl_ladepunkte": "Anzahl der Ladepunkte",
+                            "ladeleistung_1": "Leistung von Ladepunkt 1 [kW]",
+                            "anschluss_1": "Anschlusstyp von Ladepunkt 1",
+                            "ladeleistung_2": "Leistung von Ladepunkt 2 [kW]",
+                            "anschluss_2": "Anschlusstyp von Ladepunkt 2",
+                            "ladeleistung_3": "Leistung von Ladepunkt 3 [kW]",
+                            "anschluss_3": "Anschlusstyp von Ladepunkt 3",
+                            "ladeleistung_4": "Leistung von Ladepunkt 4 [kW]",
+                            "anschluss_4": "Anschlusstyp von Ladepunkt 4",
+                            "betreiber": "Betreiber",
+                            "standort_nr": "Standortnummer",
+                            "inbetriebnahme": "Inbetriebnahmedatum",
+                            "datenquelle": "Datenquelle"
+                        }
 }
-
-
 
 
 ]
