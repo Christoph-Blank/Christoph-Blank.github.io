@@ -354,6 +354,41 @@
     ]
   
 
+},
+{
+	"styleId": "Ladestation_P_Style",
+    "rules": [{
+			 "conditions": {
+        			"properties": {
+            				"oeffentlicher_raum": "Öffentlicher Raum"
+            					}
+        		},
+
+			"style": {
+				"circleRadius": 5,
+				"circleStrokeColor": [97, 69, 222, 0],
+				"circleStrokeWidth": 0,
+				"circleFillColor":[86, 171, 255, 0],
+				
+			}
+        },
+        {
+			"conditions": {
+       				"properties": {
+            				"oeffentlicher_raum": "Öffentlich zugänglich, auf privatem Grund"
+            					}
+            
+       					},
+
+			"style": {
+				"circleRadius": 5,
+				"circleStrokeColor": [97, 69, 222, 0],
+				"circleStrokeWidth": 0,
+				"circleFillColor":[0, 227, 227, 0],				
+							}
+
+		}
+	]
 }
 
 
