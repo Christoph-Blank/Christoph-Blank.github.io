@@ -286,10 +286,12 @@
 					
 					},
 					{
-                        			"id": "ladesaeulen_ea:1",
+                        			"id": "s_lades_standort",
+						"name": "Parkscheinautomaten",
+						"visibility": false,
                         			"minScale": "600",
                         			"maxScale": "210000",
-                        			"gfiUrlTemplate": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lades_standort?request=GetFeature&service=wfs&version=2.0.0&typenames=s_lades_standort&filter=<Filter><Intersects><ValueReference>geom</ValueReference><gml:Point srsName=\"__CRS__\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:coordinates>__X__,__Y__</gml:coordinates></gml:Point></Intersects></Filter>&outputFormat=text/xml; subtype=gml/3.1.1",
+                        			
                                                 
                     			}
 
