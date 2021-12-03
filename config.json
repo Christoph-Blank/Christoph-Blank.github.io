@@ -290,7 +290,7 @@
 						"name": "Parkscheinautomaten",
 						"visibility": false,
                         			"minScale": "600",
-                        			"maxScale": "210000",
+                        			"maxScale": "210000"
                         			
                                                 
                     			}
