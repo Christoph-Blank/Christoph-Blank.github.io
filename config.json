@@ -251,7 +251,7 @@
 							"children": [{
 									"id": "Gebuehrenzone_F",
 									"name": "Parkzone",
-									"styleId": "Gebuehrenzone_F_Style",
+									"styleId": "Gebührenzone_F_Style",
 									"mouseHoverField": ["ZEITEN"],
 									"nearbyTitle": "ZEITEN"
 								},
