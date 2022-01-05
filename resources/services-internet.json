@@ -208,6 +208,1443 @@
 	"legendURL": "ignore",
 	"cache": false
 },
+	
+{
+	"id": "Zone_1_F",
+	"name": "Zone_1_F",
+	"url": "/resources/geojson/Zone_1_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_1_T",
+	"name": "Zone_1_T",
+	"url": "/resources/geojson/Zone_1_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_1_L",
+	"name": "Zone_1_L",
+	"url": "/resources/geojson/Zone_1_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_2_F",
+	"name": "Zone_2_F",
+	"url": "/resources/geojson/Zone_2_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_2_T",
+	"name": "Zone_2_T",
+	"url": "/resources/geojson/Zone_2_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_2_L",
+	"name": "Zone_2_L",
+	"url": "/resources/geojson/Zone_2_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_3_F",
+	"name": "Zone_3_F",
+	"url": "/resources/geojson/Zone_3_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_3_T",
+	"name": "Zone_3_T",
+	"url": "/resources/geojson/Zone_3_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_3_L",
+	"name": "Zone_3_L",
+	"url": "/resources/geojson/Zone_3_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_14_F",
+	"name": "Zone_14_F",
+	"url": "/resources/geojson/Zone_14_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_14_T",
+	"name": "Zone_14_T",
+	"url": "/resources/geojson/Zone_14_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_14_L",
+	"name": "Zone_14_L",
+	"url": "/resources/geojson/Zone_14_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_15_F",
+	"name": "Zone_15_F",
+	"url": "/resources/geojson/Zone_15_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_15_T",
+	"name": "Zone_15_T",
+	"url": "/resources/geojson/Zone_15_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_15_L",
+	"name": "Zone_15_L",
+	"url": "/resources/geojson/Zone_15_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_20_F",
+	"name": "Zone_20_F",
+	"url": "/resources/geojson/Zone_20_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_20_T",
+	"name": "Zone_20_T",
+	"url": "/resources/geojson/Zone_20_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_20_L",
+	"name": "Zone_20_L",
+	"url": "/resources/geojson/Zone_20_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_21_F",
+	"name": "Zone_21_F",
+	"url": "/resources/geojson/Zone_21_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_21_T",
+	"name": "Zone_21_T",
+	"url": "/resources/geojson/Zone_21_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_21_L",
+	"name": "Zone_21_L",
+	"url": "/resources/geojson/Zone_21_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_22_F",
+	"name": "Zone_22_F",
+	"url": "/resources/geojson/Zone_22_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_22_T",
+	"name": "Zone_22_T",
+	"url": "/resources/geojson/Zone_22_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_22_L",
+	"name": "Zone_22_L",
+	"url": "/resources/geojson/Zone_22_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_29_F",
+	"name": "Zone_29_F",
+	"url": "/resources/geojson/Zone_29_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_29_T",
+	"name": "Zone_29_T",
+	"url": "/resources/geojson/Zone_29_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_29_L",
+	"name": "Zone_29_L",
+	"url": "/resources/geojson/Zone_29_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_33_F",
+	"name": "Zone_33_F",
+	"url": "/resources/geojson/Zone_33_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_33_T",
+	"name": "Zone_33_T",
+	"url": "/resources/geojson/Zone_33_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_33_L",
+	"name": "Zone_33_L",
+	"url": "/resources/geojson/Zone_33_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_34_F",
+	"name": "Zone_34_F",
+	"url": "/resources/geojson/Zone_34_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_34_T",
+	"name": "Zone_34_T",
+	"url": "/resources/geojson/Zone_34_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_34_L",
+	"name": "Zone_34_L",
+	"url": "/resources/geojson/Zone_34_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_35_F",
+	"name": "Zone_35_F",
+	"url": "/resources/geojson/Zone_35_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_35_T",
+	"name": "Zone_35_T",
+	"url": "/resources/geojson/Zone_35_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_35_L",
+	"name": "Zone_35_L",
+	"url": "/resources/geojson/Zone_35_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},{
+	"id": "Zone_36_F",
+	"name": "Zone_36_F",
+	"url": "/resources/geojson/Zone_36_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_36_T",
+	"name": "Zone_36_T",
+	"url": "/resources/geojson/Zone_36_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_36_L",
+	"name": "Zone_36_L",
+	"url": "/resources/geojson/Zone_36_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_37_F",
+	"name": "Zone_37_F",
+	"url": "/resources/geojson/Zone_37_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_37_T",
+	"name": "Zone_37_T",
+	"url": "/resources/geojson/Zone_37_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_37_L",
+	"name": "Zone_37_L",
+	"url": "/resources/geojson/Zone_37_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_38_F",
+	"name": "Zone_38_F",
+	"url": "/resources/geojson/Zone_38_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_38_T",
+	"name": "Zone_38_T",
+	"url": "/resources/geojson/Zone_38_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_38_L",
+	"name": "Zone_38_L",
+	"url": "/resources/geojson/Zone_38_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_41_F",
+	"name": "Zone_41_F",
+	"url": "/resources/geojson/Zone_41_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_41_T",
+	"name": "Zone_41_T",
+	"url": "/resources/geojson/Zone_41_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_41_L",
+	"name": "Zone_41_L",
+	"url": "/resources/geojson/Zone_41_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_70_F",
+	"name": "Zone_70_F",
+	"url": "/resources/geojson/Zone_70_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_70_T",
+	"name": "Zone_70_T",
+	"url": "/resources/geojson/Zone_70_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_70_L",
+	"name": "Zone_70_L",
+	"url": "/resources/geojson/Zone_70_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_71_F",
+	"name": "Zone_71_F",
+	"url": "/resources/geojson/Zone_71_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_71_T",
+	"name": "Zone_71_T",
+	"url": "/resources/geojson/Zone_71_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_71_L",
+	"name": "Zone_71_L",
+	"url": "/resources/geojson/Zone_71_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_72_F",
+	"name": "Zone_72_F",
+	"url": "/resources/geojson/Zone_72_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_72_T",
+	"name": "Zone_72_T",
+	"url": "/resources/geojson/Zone_72_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_72_L",
+	"name": "Zone_72_L",
+	"url": "/resources/geojson/Zone_72_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_73_F",
+	"name": "Zone_73_F",
+	"url": "/resources/geojson/Zone_73_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_73_T",
+	"name": "Zone_73_T",
+	"url": "/resources/geojson/Zone_73_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_73_L",
+	"name": "Zone_73_L",
+	"url": "/resources/geojson/Zone_73_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_74_F",
+	"name": "Zone_74_F",
+	"url": "/resources/geojson/Zone_74_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_74_T",
+	"name": "Zone_74_T",
+	"url": "/resources/geojson/Zone_74_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_74_L",
+	"name": "Zone_74_L",
+	"url": "/resources/geojson/Zone_74_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_75_F",
+	"name": "Zone_75_F",
+	"url": "/resources/geojson/Zone_75_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_75_T",
+	"name": "Zone_75_T",
+	"url": "/resources/geojson/Zone_75_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_75_L",
+	"name": "Zone_75_L",
+	"url": "/resources/geojson/Zone_75_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_76_F",
+	"name": "Zone_76_F",
+	"url": "/resources/geojson/Zone_76_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_76_T",
+	"name": "Zone_76_T",
+	"url": "/resources/geojson/Zone_76_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_76_L",
+	"name": "Zone_76_L",
+	"url": "/resources/geojson/Zone_76_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_77_F",
+	"name": "Zone_77_F",
+	"url": "/resources/geojson/Zone_77_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_77_T",
+	"name": "Zone_77_T",
+	"url": "/resources/geojson/Zone_77_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_77_L",
+	"name": "Zone_77_L",
+	"url": "/resources/geojson/Zone_77_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_78_F",
+	"name": "Zone_78_F",
+	"url": "/resources/geojson/Zone_78_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_78_T",
+	"name": "Zone_78_T",
+	"url": "/resources/geojson/Zone_78_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_78_L",
+	"name": "Zone_78_L",
+	"url": "/resources/geojson/Zone_78_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_79_F",
+	"name": "Zone_79_F",
+	"url": "/resources/geojson/Zone_79_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_79_T",
+	"name": "Zone_79_T",
+	"url": "/resources/geojson/Zone_79_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_79_L",
+	"name": "Zone_79_L",
+	"url": "/resources/geojson/Zone_79_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_80_F",
+	"name": "Zone_80_F",
+	"url": "/resources/geojson/Zone_80_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_80_T",
+	"name": "Zone_80_T",
+	"url": "/resources/geojson/Zone_80_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_80_L",
+	"name": "Zone_80_L",
+	"url": "/resources/geojson/Zone_80_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_81_F",
+	"name": "Zone_81_F",
+	"url": "/resources/geojson/Zone_81_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_81_T",
+	"name": "Zone_81_T",
+	"url": "/resources/geojson/Zone_81_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_81_L",
+	"name": "Zone_81_L",
+	"url": "/resources/geojson/Zone_81_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_82_F",
+	"name": "Zone_82_F",
+	"url": "/resources/geojson/Zone_82_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_82_T",
+	"name": "Zone_82_T",
+	"url": "/resources/geojson/Zone_82_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_82_L",
+	"name": "Zone_82_L",
+	"url": "/resources/geojson/Zone_82_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+
+{
+	"id": "Zone_83_F",
+	"name": "Zone_83_F",
+	"url": "/resources/geojson/Zone_83_F.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"BEZIRK": "Bezirk",
+		"DATUM": "Aktualisiert am",
+		"GEBUEHREN": "Gebühren",
+		"HANDY": "Handyzone",
+		"LINK": "Internet",
+		"ORTSTEIL": "Ortsteil",
+		"PARKZONE": "Parkzone",
+		"ZEITEN": "Bewirtschaftungszeiten"		
+	},
+	"legendURL": "/resources/Leg/Legende_Parkraumbewirtschaftung.png",
+	"layerAttribution": "Parkraumbewirtschaftung in Berlin Mitte. <br>.<br>Letzte Aktualisierung: 19.10.2021 <br>Quelle: Ordnungsamt <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 901833610<br>E-Mail: christoph.blank@ba-mitte.berlin.de<br>.<br>Ansprechpartener Inhaltlich: Herr Stevens<br>Telefon: 030 / 901822733<br>E-Mail: m.stevens@ba-mitte.berlin.de",
+	"cache": false,
+	"datasets" : [
+        {
+           "md_id" : "Metadaten_Ordnungsamt.xml",
+           "csw_url" : "resources/Metadaten/Metadaten_Ordnungsamt.xml",
+           "show_doc_url" : "resources/Metadaten/"
+        }
+     ]
+},
+{
+	"id": "Zone_83_T",
+	"name": "Zone_83_T",
+	"url": "/resources/geojson/Zone_83_T.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "Zone_83_L",
+	"name": "Zone_83_L",
+	"url": "/resources/geojson/Zone_83_L.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
 
 {
 	"id": "Parkschein",
