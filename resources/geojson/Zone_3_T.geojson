@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_3_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 3", "HOEHE": 79.97875544 }, "geometry": { "type": "Point", "coordinates": [ 392171.155712969368324, 5819888.894546658731997 ] } }
+]
+}

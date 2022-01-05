@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_78_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 78", "HOEHE": 79.9789602 }, "geometry": { "type": "Point", "coordinates": [ 387697.214536645915359, 5823708.805291626602411 ] } },
+{ "type": "Feature", "properties": { "STIFT": 12.0, "AUFSCHRIFT": "(ab 01.10.2022)", "HOEHE": 39.98938387 }, "geometry": { "type": "Point", "coordinates": [ 387695.707704543485306, 5823645.78588739130646 ] } }
+]
+}

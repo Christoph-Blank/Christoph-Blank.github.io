@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_36_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 36", "HOEHE": 79.9787441 }, "geometry": { "type": "Point", "coordinates": [ 392255.628975050407462, 5819061.659937835298479 ] } }
+]
+}

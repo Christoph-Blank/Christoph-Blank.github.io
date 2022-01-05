@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_20_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 20", "HOEHE": 79.97954446 }, "geometry": { "type": "Point", "coordinates": [ 387875.387204115104396, 5818733.392304130829871 ] } }
+]
+}

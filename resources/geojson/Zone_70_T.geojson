@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_70_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 70", "HOEHE": 79.97927454000001 }, "geometry": { "type": "Point", "coordinates": [ 388396.109737794322427, 5820345.787700900807977 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_76_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 76", "HOEHE": 79.9789602 }, "geometry": { "type": "Point", "coordinates": [ 389190.170972989057191, 5821478.966343227773905 ] } }
+]
+}

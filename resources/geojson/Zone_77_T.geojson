@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_77_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 77", "HOEHE": 79.9789602 }, "geometry": { "type": "Point", "coordinates": [ 388160.660641845781356, 5822905.772216388955712 ] } },
+{ "type": "Feature", "properties": { "STIFT": 12.0, "AUFSCHRIFT": "(ab 15.06.2022)", "HOEHE": 39.98938387 }, "geometry": { "type": "Point", "coordinates": [ 388159.153809743351303, 5822842.752812153659761 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_15_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 15", "HOEHE": 79.97910309 }, "geometry": { "type": "Point", "coordinates": [ 390292.459813064779155, 5819206.727548478171229 ] } }
+]
+}

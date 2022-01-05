@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_38_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 38", "HOEHE": 79.9789602 }, "geometry": { "type": "Point", "coordinates": [ 391072.612622806569561, 5821451.75665707141161 ] } }
+]
+}

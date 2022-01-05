@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_74_L",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387601.343799037567805, 5820868.353735843673348 ], [ 387453.501289943873417, 5820875.278095299378037 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387453.501289943873417, 5820875.278095299378037 ], [ 387325.143553030386101, 5820885.420370482839644 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387325.143553030386101, 5820885.420370482839644 ], [ 387326.954673598695081, 5820851.733527912758291 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387326.954673598695081, 5820851.733527912758291 ], [ 387335.648052326287143, 5820811.888875410892069 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387335.648052326287143, 5820811.888875410892069 ], [ 387124.471394067746587, 5820729.721957474946976 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387124.471394067746587, 5820729.721957474946976 ], [ 387016.528608199616428, 5820695.310666678473353 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387016.528608199616428, 5820695.310666678473353 ], [ 386863.307808125042357, 5820652.930445381440222 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 386863.307808125042357, 5820652.930445381440222 ], [ 386684.093805654963944, 5820607.493052566424012 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387655.452882431331091, 5821941.059435784816742 ], [ 387640.616182736179326, 5821818.656663300469518 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387640.616182736179326, 5821818.656663300469518 ], [ 387629.488657964859158, 5821659.162141577340662 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387629.488657964859158, 5821659.162141577340662 ], [ 387620.215720655396581, 5821478.339864043518901 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387620.215720655396581, 5821478.339864043518901 ], [ 387615.579252000607084, 5821277.117124428972602 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387615.579252000607084, 5821277.117124428972602 ], [ 387610.942783345875796, 5821061.984978849999607 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387610.942783345875796, 5821061.984978849999607 ], [ 387609.088195884018205, 5820931.236562786623836 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387609.088195884018205, 5820931.236562786623836 ], [ 387601.343799037567805, 5820868.353735843673348 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387655.452882431331091, 5821941.059435784816742 ], [ 386614.10944092925638, 5821758.582866232842207 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 386614.10944092925638, 5821758.582866232842207 ], [ 386619.673203314945567, 5821010.25682536046952 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 386619.673203314945567, 5821010.25682536046952 ], [ 386532.627098264056258, 5820675.974255354143679 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 386532.627098264056258, 5820675.974255354143679 ], [ 386684.093805654963944, 5820607.493052566424012 ] ] ] } }
+]
+}

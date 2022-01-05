@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_37_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 37", "HOEHE": 79.97863313000001 }, "geometry": { "type": "Point", "coordinates": [ 392861.741802196775097, 5818711.244662059471011 ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_82_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 82", "HOEHE": 79.9789602 }, "geometry": { "type": "Point", "coordinates": [ 390860.750119373784401, 5823700.278856934048235 ] } },
+{ "type": "Feature", "properties": { "STIFT": 12.0, "AUFSCHRIFT": "(ab 01.08.2022)", "HOEHE": 39.98938387 }, "geometry": { "type": "Point", "coordinates": [ 390859.243287271354347, 5823637.259452698752284 ] } }
+]
+}

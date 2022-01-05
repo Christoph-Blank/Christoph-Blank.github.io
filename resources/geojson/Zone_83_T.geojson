@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_83_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 83", "HOEHE": 79.9789602 }, "geometry": { "type": "Point", "coordinates": [ 390823.309823529736605, 5822625.918793296441436 ] } }
+]
+}

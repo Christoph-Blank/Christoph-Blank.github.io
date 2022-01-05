@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_34_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 34", "HOEHE": 79.97914822 }, "geometry": { "type": "Point", "coordinates": [ 390037.066801413835492, 5820380.116011398844421 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_29_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 29", "HOEHE": 79.97888224 }, "geometry": { "type": "Point", "coordinates": [ 391499.379538366571069, 5820700.020098863169551 ] } }
+]
+}

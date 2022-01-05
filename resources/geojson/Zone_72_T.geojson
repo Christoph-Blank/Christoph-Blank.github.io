@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_72_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 72", "HOEHE": 79.97927454000001 }, "geometry": { "type": "Point", "coordinates": [ 387018.645077491353732, 5820359.681938817724586 ] } }
+]
+}

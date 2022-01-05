@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_21_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 21", "HOEHE": 79.97933032 }, "geometry": { "type": "Point", "coordinates": [ 389050.701680776546709, 5818774.512398581020534 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Zone_14_T",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "STIFT": 13.0, "AUFSCHRIFT": "Zone 14", "HOEHE": 79.97861605 }, "geometry": { "type": "Point", "coordinates": [ 392953.599854475236498, 5820029.405705158598721 ] } }
+]
+}
