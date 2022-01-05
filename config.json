@@ -725,7 +725,7 @@
 								"styleId": "Parkzone_L_Style"
 							},
                    					{
-								"id": "PSA_Zone_70",
+								"id": "Parkschein",
 								"styleId": "Parkschein_P",                   					
 								"clusterDistance": 50,
 								"mouseHoverField": ["PSA-Nr."],
