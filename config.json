@@ -723,6 +723,13 @@
 							{
 								"id": "Zone_70_L",								
 								"styleId": "Parkzone_L_Style"
+							},
+                   					{
+								"id": "PSA_Zone_70",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
 							}
 
 
@@ -750,6 +757,13 @@
 							{
 								"id": "Zone_71_L",								
 								"styleId": "Parkzone_L_Style"
+							},
+							{
+								"id": "PSA_Zone_71",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
 							}
 
 
@@ -777,7 +791,14 @@
 							{
 								"id": "Zone_72_L",								
 								"styleId": "Parkzone_L_Style"
-							}
+							},
+							{
+								"id": "PSA_Zone_72",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
+							}	
 
 
 							]
@@ -804,7 +825,14 @@
 							{
 								"id": "Zone_73_L",								
 								"styleId": "Parkzone_L_Style"
-							}
+							},
+							{
+								"id": "PSA_Zone_72",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
+							}	
 
 
 							]
@@ -831,7 +859,15 @@
 							{
 								"id": "Zone_74_L",								
 								"styleId": "Parkzone_L_Style"
-							}
+							},
+							{
+								"id": "PSA_Zone_74",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
+							}					
+							
 
 
 							]
@@ -858,7 +894,15 @@
 							{
 								"id": "Zone_75_L",								
 								"styleId": "Parkzone_L_Style"
-							}
+							},
+							{
+								"id": "PSA_Zone_75",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
+							}					
+							
 
 
 							]
@@ -885,7 +929,15 @@
 							{
 								"id": "Zone_76_L",								
 								"styleId": "Parkzone_L_Style"
-							}
+							},
+							{
+								"id": "PSA_Zone_76",
+								"styleId": "Parkschein_P",                   					
+								"clusterDistance": 50,
+								"mouseHoverField": ["PSA-Nr."],
+								"nearbyTitle": "PSA-Nr."
+							}					
+							
 
 
 							]
@@ -1080,20 +1132,7 @@
 							]
 												
 					},
-					{
-						"id": "Parkschein",
-            	 					"name": "Parkscheinautomaten",
-							"visibility": false,
-							"children": [
-                   						{"id": "Parkschein",
-								"styleId": "Parkschein_P",                   					
-								"clusterDistance": 50,
-                   						"mouseHoverField": ["PSA-Nr."],
-		   						"nearbyTitle": "PSA-Nr."}
-							]
-		   
 					
-					},
 					{
                         			"id": "s_lades_standort",
 						"name": "Standorte der E-Ladesäulen",
