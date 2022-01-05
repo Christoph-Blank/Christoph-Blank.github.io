@@ -272,6 +272,60 @@
 												
 					},
 					{
+						"id": "Zone_2",
+						"name": "Zone 2",
+						"visibility": true,
+						"children": [
+							{
+								"id": "Zone_2_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_2_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_2_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_3",
+						"name": "Zone 3",
+						"visibility": true,
+						"children": [
+							{
+								"id": "Zone_3_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_3_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_3_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
 						"id": "Parkschein",
             	 					"name": "Parkscheinautomaten",
 							"visibility": false,
