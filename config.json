@@ -1131,17 +1131,7 @@
 
 							]
 												
-					},
-					
-					{
-                        			"id": "s_lades_standort",
-						"name": "Standorte der E-Ladesäulen",
-						"visibility": false,						
-                        			"minScale": "600",
-                        			"maxScale": "210000"
-                        			
-                                                
-                    			}
+					}
 
 							]
 			},
@@ -1278,13 +1268,13 @@
 		   "styleId": "Behindertenparkp_Style",
 		   "clusterDistance": 50,
 		   "mouseHoverField": ["STRASSE_"],
-		   "nearbyTitle": "STRASSE_"}
-
-
-
-
-                     
-            
+		   "nearbyTitle": "STRASSE_"},
+		
+	{"id": "s_lades_standort",
+		"name": "Standorte der E-Ladesäulen",
+		"visibility": false,						
+                "minScale": "600",
+                "maxScale": "210000"} 
   
 
   ]
