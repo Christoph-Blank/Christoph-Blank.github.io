@@ -726,7 +726,7 @@
 							},
                    					{
 								"id": "PSA_Zone_70",
-								"styleId": "Parkschein_P",                   					
+								                   					
 								"clusterDistance": 50,
 								"mouseHoverField": ["PSA-Nr."],
 								"nearbyTitle": "PSA-Nr."
