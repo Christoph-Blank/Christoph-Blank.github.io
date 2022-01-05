@@ -162,9 +162,9 @@
         ]
 },
 {
-	"id": "Gebührenzone_F",
-	"name": "Gebührenzone",
-	"url": "/resources/geojson/Gebührenzone_F.geojson",
+	"id": "Gebuehrenzone_F",
+	"name": "Gebuehrenzone",
+	"url": "/resources/geojson/Gebuehrenzone_F.geojson",
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": {
