@@ -245,25 +245,25 @@
 				"visibility": false,
 						"Layer":[
 					{
-						"id": "Parkraumbew",
-						"name": "Parkraumbewirtschaftung",
+						"id": "Zone_1",
+						"name": "Zone 1",
 						"visibility": true,
 						"children": [
 							{
-								"id": "Gebührenzone_F",
+								"id": "Zone_1_F",
 								"name": "Parkzone",
         					    		"styleId": "Gebührenzone_F_Style",                						
                 						"mouseHoverField": ["ZEITEN"],
 		  						"nearbyTitle": "ZEITEN"	
 							},
 							{
-								"id": "Parkzone_T",
+								"id": "Zone_1_T",
 								"minScale": "5000",
 								"maxScale": "210000",
 								"styleId": "Parkzone_T_Style"
 							},
 							{
-								"id": "Parkzone_L",								
+								"id": "Zone_1_L",								
 								"styleId": "Parkzone_L_Style"
 							}
 
