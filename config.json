@@ -245,6 +245,32 @@
 				"visibility": false,
 						"Layer":[
 					{
+							"id": "Parkraumbew",
+							"name": "Alle Zonen",
+							"visibility": true,
+							"children": [{
+									"id": "Gebuehrenzone_F",
+									"name": "Parkzone",
+									"styleId": "Gebuehrenzone_F_Style",
+									"mouseHoverField": ["ZEITEN"],
+									"nearbyTitle": "ZEITEN"
+								},
+								{
+									"id": "Parkzone_T",
+									"minScale": "5000",
+									"maxScale": "210000",
+									"styleId": "Parkzone_T_Style"
+								},
+								{
+									"id": "Parkzone_L",
+									"styleId": "Parkzone_L_Style"
+								}
+
+
+							]
+
+					},
+					{
 						"id": "Zone_1",
 						"name": "Zone 1",
 						"visibility": false,
