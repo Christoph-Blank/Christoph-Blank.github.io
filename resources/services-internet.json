@@ -1021,6 +1021,23 @@
 	"legendURL": "ignore",
 	"cache": false
 },
+{
+	"id": "PSA_Zone_70",
+	"name": "PSA_Zone_70",
+	"url": "/resources/geojson/PSA_Zone_70.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
+	"legendURL": "ignore",
+	"cache": false
+},
 
 {
 	"id": "Zone_71_F",
@@ -1066,6 +1083,23 @@
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "PSA_Zone_71",
+	"name": "PSA_Zone_71",
+	"url": "/resources/geojson/PSA_Zone_71.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
 	"legendURL": "ignore",
 	"cache": false
 },
@@ -1117,6 +1151,23 @@
 	"legendURL": "ignore",
 	"cache": false
 },
+{
+	"id": "PSA_Zone_72",
+	"name": "PSA_Zone_72",
+	"url": "/resources/geojson/PSA_Zone_72.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
+	"legendURL": "ignore",
+	"cache": false
+},
 
 {
 	"id": "Zone_73_F",
@@ -1162,6 +1213,23 @@
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "PSA_Zone_73",
+	"name": "PSA_Zone_73",
+	"url": "/resources/geojson/PSA_Zone_73.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
 	"legendURL": "ignore",
 	"cache": false
 },
@@ -1213,6 +1281,23 @@
 	"legendURL": "ignore",
 	"cache": false
 },
+{
+	"id": "PSA_Zone_74",
+	"name": "PSA_Zone_74",
+	"url": "/resources/geojson/PSA_Zone_74.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
+	"legendURL": "ignore",
+	"cache": false
+},
 
 {
 	"id": "Zone_75_F",
@@ -1261,6 +1346,23 @@
 	"legendURL": "ignore",
 	"cache": false
 },
+{
+	"id": "PSA_Zone_75",
+	"name": "PSA_Zone_75",
+	"url": "/resources/geojson/PSA_Zone_75.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
+	"legendURL": "ignore",
+	"cache": false
+},
 
 {
 	"id": "Zone_76_F",
@@ -1306,6 +1408,23 @@
 	"typ": "GeoJSON",
 	"gfiTheme": "default",
 	"gfiAttributes": "ignore",
+	"legendURL": "ignore",
+	"cache": false
+},
+{
+	"id": "PSA_Zone_76",
+	"name": "PSA_Zone_76",
+	"url": "/resources/geojson/PSA_Zone_76.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+	"gfiAttributes": {
+		"Standort": "Standort",
+		"PSA-Nr.": "PSA-Nr.",
+		"Parkzone": "Parkzone",
+		"gebührenp": "Bewirtschaftungszeit",
+		"Parkgebüh": "Gebühren"
+				
+	},
 	"legendURL": "ignore",
 	"cache": false
 },
@@ -1646,23 +1765,6 @@
 	"cache": false
 },
 
-{
-	"id": "Parkschein",
-	"name": "Parkscheinautomat",
-	"url": "/resources/geojson/Parkscheinautomaten.geojson",
-	"typ": "GeoJSON",
-	"gfiTheme": "default",
-	"gfiAttributes": {
-		"Standort": "Standort",
-		"PSA-Nr.": "PSA-Nr.",
-		"Parkzone": "Parkzone",
-		"gebührenp": "Bewirtschaftungszeit",
-		"Parkgebüh": "Gebühren"
-				
-	},
-	"legendURL": "ignore",
-	"cache": false
-},
 {
 	"id": "Parkschein_alt",
 	"name": "Parkscheinautomat_alt",
