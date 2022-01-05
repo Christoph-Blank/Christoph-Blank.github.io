@@ -677,6 +677,384 @@
 												
 					},
 					{
+						"id": "Zone_70",
+						"name": "Zone 70",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_70_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_70_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_70_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_71",
+						"name": "Zone 71",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_71_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_71_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_71_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_72",
+						"name": "Zone 72",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_72_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_72_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_72_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_73",
+						"name": "Zone 73",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_73_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_73_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_73_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_74",
+						"name": "Zone 74",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_74_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_74_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_74_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_75",
+						"name": "Zone 75",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_75_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_75_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_75_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_76",
+						"name": "Zone 76",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_76_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_76_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_76_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_77",
+						"name": "Zone 77",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_77_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_77_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_77_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_78",
+						"name": "Zone 78",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_78_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_78_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_78_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_79",
+						"name": "Zone 79",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_79_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_79_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_79_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_80",
+						"name": "Zone 80",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_80_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_80_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_80_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_81",
+						"name": "Zone 81",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_81_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_81_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_81_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_82",
+						"name": "Zone 82",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_82_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_82_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_82_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
+						"id": "Zone_83",
+						"name": "Zone 83",
+						"visibility": false,
+						"children": [
+							{
+								"id": "Zone_83_F",
+								"name": "Parkzone",
+        					    		"styleId": "Gebührenzone_F_Style",                						
+                						"mouseHoverField": ["ZEITEN"],
+		  						"nearbyTitle": "ZEITEN"	
+							},
+							{
+								"id": "Zone_83_T",
+								"minScale": "5000",
+								"maxScale": "210000",
+								"styleId": "Parkzone_T_Style"
+							},
+							{
+								"id": "Zone_83_L",								
+								"styleId": "Parkzone_L_Style"
+							}
+
+
+							]
+												
+					},
+					{
 						"id": "Parkschein",
             	 					"name": "Parkscheinautomaten",
 							"visibility": false,
