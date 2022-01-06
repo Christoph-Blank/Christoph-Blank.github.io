@@ -51,9 +51,9 @@
   },
    {
     "id": "mapfish",
-    "name": "Print Service",
-    "url": "/api/mapfish/print/",
-    "typ": "PrintService"
+  "name": "Print Service Prod",
+  "url": "https://tsb-mapfishprint.onrender.com/print/",
+  "typ": "Print"
   }, 
   {
     "id" : "11",
