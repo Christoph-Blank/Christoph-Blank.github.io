@@ -3,7 +3,7 @@
     "portalTitle": {
         "title": "Ordnungsamt Berlin Mitte",
         "logo": "../resources/img/Wappen.png",
-        "link": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/",
+        "link": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/ordnungsamt/",
         "tooltip": "Bezirksamt Mitte, FB Vermessung"
         },
     "treeType": "custom",
