@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^startseite/ /index.html
+RewriteRule ^impressum/ /Ordnungsamt.html
