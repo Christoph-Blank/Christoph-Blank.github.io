@@ -1,0 +1,6 @@
+<Files Ordnungsamt.php>
+  AuthName "Ordnungsamt Login-Bereich"
+  AuthType Basic
+  AuthUserFile Christoph-Blank.github.io/.htpasswd
+  require valid-user
+</Files>
