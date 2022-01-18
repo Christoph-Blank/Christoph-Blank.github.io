@@ -1,6 +1,0 @@
-<Files Ordnungsamt.html>
-  AuthName "Ordnungsamt Login-Bereich"
-  AuthType Basic
-  AuthUserFile https://github.com/Christoph-Blank/Christoph-Blank.github.io/blob/main/.htpasswd
-  require valid-user
-</Files>
