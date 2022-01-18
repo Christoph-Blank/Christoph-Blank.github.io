@@ -1,4 +1,4 @@
-<Files Ordnungsamt.php>
+<Files Ordnungsamt.html>
   AuthName "Ordnungsamt Login-Bereich"
   AuthType Basic
   AuthUserFile Christoph-Blank.github.io/.htpasswd
