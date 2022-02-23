@@ -49,8 +49,8 @@
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 388823.392827567178756, 5822088.15752446744591 ], [ 389178.514537425595336, 5821887.728983676061034 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389212.170821289997548, 5822611.670003296807408 ], [ 389354.524897954543121, 5822472.938167768530548 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389354.524897954543121, 5822472.938167768530548 ], [ 389765.92093503306387, 5822026.36111365351826 ] ] ] } },
-{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389212.170821289997548, 5822611.670003296807408 ], [ 389196.845146797772031, 5822627.527040248736739 ] ] ] } },
-{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389196.845146797772031, 5822627.527040248736739 ], [ 388640.714512770529836, 5822223.70714168343693 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389212.170821289997548, 5822611.670003296807408 ], [ 389196.869585808599368, 5822627.544786005280912 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389196.869585808599368, 5822627.544786005280912 ], [ 388640.714512770529836, 5822223.70714168343693 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 388640.714512770529836, 5822223.70714168343693 ], [ 388615.571833182766568, 5822205.450434177182615 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 390693.997756804747041, 5821390.499282240867615 ], [ 390732.998391593107954, 5821395.742604974657297 ] ] ] } }
 ]

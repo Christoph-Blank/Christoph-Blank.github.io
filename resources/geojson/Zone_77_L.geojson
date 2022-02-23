@@ -20,8 +20,8 @@
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 388691.324191078252625, 5823121.204442416317761 ], [ 388850.016336756234523, 5822966.135363830253482 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 388850.016336756234523, 5822966.135363830253482 ], [ 389050.043973579537123, 5822771.808862507343292 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389050.043973579537123, 5822771.808862507343292 ], [ 389166.650716469564941, 5822658.174660945311189 ] ] ] } },
-{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389166.650716469564941, 5822658.174660945311189 ], [ 389196.845146797772031, 5822627.527040248736739 ] ] ] } },
-{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389196.845146797772031, 5822627.527040248736739 ], [ 388640.714512770529836, 5822223.70714168343693 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389166.650716469564941, 5822658.174660945311189 ], [ 389196.869585808599368, 5822627.544786005280912 ] ] ] } },
+{ "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 389196.869585808599368, 5822627.544786005280912 ], [ 388640.714512770529836, 5822223.70714168343693 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387892.116068747418467, 5823237.906980899162591 ], [ 387693.49319471657509, 5823074.78966202866286 ] ] ] } },
 { "type": "Feature", "properties": { "STIFT": 13.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 387693.49319471657509, 5823074.78966202866286 ], [ 387654.258551839739084, 5823042.568550617434084 ] ] ] } }
 ]
