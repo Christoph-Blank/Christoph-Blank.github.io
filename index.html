@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.3" />
+    <title>Anmeldung</title>
+    <link rel="icon" type="image/png" href="./resources/img/Wappen_Amt_Biesenthal-Barnim.png">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+    <form id="pwort" name="pwort" method="get" action="javascript:passwort();">
+        <table>
+
+
+
+            <tr>
+                <td colspan=20>
+                    <center>
+                        <font size=6><sup>Anmeldung</sup></font>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td colspan=20>
+                    <center>
+                        <font size=4><b></b></font>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td>Passwort:</td>
+                <td><input type="Password" size=25 name="pw" id="pw" placeholder="Passwort"></td>
+                <td><input type="button" onclick="passwort( )" value="Login" id="Log"></td>
+            </tr>
+
+
+
+        </table>
+    </form>
+    <script type='text/javascript'> 
+
+
+	
+function testFileExists(src, successFunc, failFunc) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (this.readyState === this.DONE) {
+            if (xhr.status === 200) {
+                successFunc(xhr);
+            } else {
+                failFunc(xhr);
+            }
+        }
+    }
+    // xhr.error = function() {
+    //     failFunc(xhr);
+    // }
+    // xhr.onabort = function() {
+    //     failFunc(xhr);
+    // }
+    // xhr.timeout = function() {
+    //     failFunc(xhr);
+    // }
+    xhr.timeout = 5000;           // TIMEOUT SET TO PREFERENCE (5 SEC)
+    xhr.open('HEAD', src, true);
+    xhr.send(null);               // VERY IMPORTANT
+}
+function fileExists(xhr) {
+    location.href=document.pwort.pw.value + "/" + pwort.pw.value + ".html";
+}
+function fileNotFound(xhr) {
+    alert("Das Passwort ist leider Falsch");
+}
+
+	
+function passwort( ) { 
+testFileExists(pwort.pw.value + "/" + pwort.pw.value + ".html", fileExists, fileNotFound); 
+}
+
+
+function click (e) {
+  if (!e)
+    e = window.event;
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
+    if (window.opera)
+      window.alert("Sorry: Diese Funktion ist deaktiviert.");
+    return false;
+  }
+}
+if (document.layers)
+  document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = click;
+document.oncontextmenu = click;
+
+</script>
+
+</body>
+</html>
