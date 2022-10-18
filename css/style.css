@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image: url('../resources/img/logo_ph.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    font-family: 'Arial';
+}
+
+#pwort {
+    width: 360px;
+
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 50px;
+    border: 3px solid black;
+    position: absolute;
+    display: flex;
+    background: #aacf72;
+    border-radius: 10px;
+}
+
+
+
+#pw {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Log {
+    width: 70px;
+    height: 30px;
+    border: bold;
+    border-radius: 3px;
+    padding-left: 8px;
+}
