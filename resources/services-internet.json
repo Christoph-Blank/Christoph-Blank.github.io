@@ -706,25 +706,20 @@
     		}]
 },
 { 
-    "id": "bezirksgrenze-wfs",
-    "name": "ALKIS Bezirke",
-    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_bezirk",
+    "id": "gemeinden-wfs",
+    "name": "Gemeinden",
+    "url": "https://inspire.brandenburg.de/services/au_alkis_wfs",
     "typ": "WFS",
-    "version": "1.1.0",
-    "featureType": "s_wfs_alkis_bezirk",
-    "wfsFilter": "/karten/resources/filter/bezirk_filter.xml",
+    "version": "2.0.0",
+    "featureType": "au:AdministrativeUnit",
+    "wfsFilter": "",
     "minScale" : "0",
     "maxScale" : "2500000",
     "featureNS": "",
     "layerAttribution" : "nicht vorhanden",
     "gfiTheme": "default",
-    "gfiAttributes": "ignore",
-    "legendURL": "ignore",
-    "datasets": [{
-      "md_id": "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
-      "csw_url" : "https://fbinter.stadt-berlin.de/fb/csw",
-      "rs_id" : "https://registry.gdi-de.org/id/de.be.csw/cb2897d1-4258-3312-a3db-7ceb2ad86be7"
-    		}]
+    "gfiAttributes": "showall",
+    "legendURL": "ignore"
 },
 {
      "id" : "fnp-wms",
