@@ -431,10 +431,10 @@
 						"styleId": "ot-style"
 					},
 					{
-						"id": "bezirksgrenze-wfs",
+						"id": "gemeinden-wfs",
 						"visibility": true,
-						"name": "Bezirksgrenze",
-						"styleId": "bezirksgrenze-style"
+						"name": "Gemeinden",
+						"styleId": "gemeindegrenze-style"
 					},
 					{
 						"id": "bloecke-wfs",
