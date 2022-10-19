@@ -10,18 +10,14 @@
     "treeType": "custom",
 		"searchBar": {
 			"bkg": {
-				"minCharacters": 3,
-				"suggestServiceId": "4",
+            			"minChars": 3,
+            			"suggestServiceId": "4",
 				"geosearchServiceId": "5",
-               			"extent": [396425, 5838164, 424601, 5862099],
-				"suggestCount": 10,
-				"epsg": "EPSG:25833",
-                		"filter": "filter=(typ:*)",
-				"score": 0.6,
-				"zoomToResultOnHover": false,
-				"zoomToResultOnClick": true,
-				"zoomLevel": 6
-			},
+            			"extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
+            			"epsg": "EPSG:25833",
+            			"filter": "filter=(ort:Biesenthal, Sydower Fließ, Melchow, Rüdnitz, Marienwerder, Breydin)",
+            			"score": 0.6
+        			},
             
 
       "visibleVector": {},
