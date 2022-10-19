@@ -12,17 +12,18 @@
 	"typ": "URL"
 },
 {
-    "id" : "4",
-    "name" : "BKG Geokodierungsdienst Suggest",
-    "url" : "/bkg_suggest",
-    "typ" : "GDZ"
-  },
+        "id" : "4",
+        "name" : "BKG Suggest",
+        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/suggest",
+        "typ" : "WFS"
+},
 {
-    "id" : "5",
-    "name" : "BKG Geokodierungsdienst Geosearch",
-    "url" : "/bkg_geosearch",
-    "typ" : "GDZ"
-  },
+        "id" : "5",
+        "name" : "BKG Service",
+        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/geosearch",
+        "typ" : "WFS"
+},
+
 {
         "id" : "10",
         "name" : "OSM Suche",
