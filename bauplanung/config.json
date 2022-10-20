@@ -6,7 +6,7 @@
 			"link": "https://www.amt-biesenthal-barnim.de/startseite",
 			"toolTip": "Biesenthal-Barnim"
 		},
-    "singleBaselayer": true,
+    "singleBaselayer": false,
     "treeType": "custom",
 		"searchBar": {
 			"bkg": {
