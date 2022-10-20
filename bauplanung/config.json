@@ -161,6 +161,10 @@
 						{
 							"name": "GeoBroker des LGB",
 							"url": "https://geobroker.geobasis-bb.de/"
+						},
+						{
+							"name": "Geoportal Amt Biesenthal-Barnim",
+							"url": "https://www.geoportal-biesenthal-barnim.de/"
 						}
 					]
 				}
