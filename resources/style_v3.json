@@ -13,6 +13,23 @@
 		]
 },
 {
+	"styleId": "nicht_anzeigen",
+	"rules": [	
+		{			
+				"style": {
+				"polygonStrokeColor": [0, 0, 0, 0],
+				"polygonStrokeWidth": 1,
+				"polygonFillColor": [0, 0, 0, 0],
+                    		"lineStrokeColor": [0, 0, 0, 0],
+                    		"lineStrokeWidth": 1,
+                   		"lineStrokeDash": [1, 1]
+
+						  }
+		} 
+		]
+},
+
+{
         "styleId": "gemeindegrenze-style",
         "rules": [{
                 "conditions": {
@@ -54,7 +71,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "NAME": "Rüdnitz"
+                        "NAME": "RÃ¼dnitz"
                     }
                 },
                 "style": {
@@ -79,7 +96,7 @@
     {
                 "conditions": {
                     "properties": {
-                        "NAME": "Sydower Fließ"
+                        "NAME": "Sydower FlieÃŸ"
                     }
                 },
                 "style": {
@@ -148,7 +165,7 @@
 			"polygonStrokeColor": [255, 0, 0, 1],
 			"polygonStrokeWidth": 2,
 			"polygonFillColor": [255, 226, 77, 0.5],
-			"legendValue": "Festgesetzte Bebauungspläne"
+			"legendValue": "Festgesetzte BebauungsplÃ¤ne"
 		              }
 	} 
 	]
@@ -161,7 +178,7 @@
 			"polygonStrokeColor": [27, 127, 27, 1],
 			"polygonStrokeWidth": 2,
 			"polygonFillColor": [188, 255, 188, 0.5],
-			"legendValue": "Im Verfahren befindliche Bebauungspläne"
+			"legendValue": "Im Verfahren befindliche BebauungsplÃ¤ne"
 		              }
 	} 
 	]
@@ -226,7 +243,7 @@
 			"polygonStrokeColor": [217, 0, 0, 1],
 			"polygonStrokeWidth": 1,
 			"polygonFillColor": [255, 0, 0, 0.4],
-			"legendValue": "Erhaltungsgebiet nach städtebaulicher Eigenart"
+			"legendValue": "Erhaltungsgebiet nach stÃ¤dtebaulicher Eigenart"
 		              }
 	} 
 	]
@@ -239,7 +256,7 @@
 			"polygonStrokeColor": [0, 127, 0, 1],
 			"polygonStrokeWidth": 1,
 			"polygonFillColor": [0, 200, 0, 0.4],
-			"legendValue": "Erhaltungsgebiet nach Zusammensetzung der Wohnbevölkerung"
+			"legendValue": "Erhaltungsgebiet nach Zusammensetzung der WohnbevÃ¶lkerung"
 		              }
 	} 
 	]
@@ -257,7 +274,7 @@
 			"polygonStrokeColor": [141, 112, 0, 1],
 			"polygonStrokeWidth": 2,
 			"polygonFillColor": [248, 241, 214, 0.7],
-			"legendValue": "Blöcke"
+			"legendValue": "BlÃ¶cke"
 		              }
 },
 {	
@@ -270,7 +287,7 @@
 			"polygonStrokeColor": [110, 84, 39, 1],
 			"polygonStrokeWidth": 2,
 			"polygonFillColor": [173, 148, 108, 0.7],
-			"legendValue": "Bahnblöcke"
+			"legendValue": "BahnblÃ¶cke"
 		              }
 },
 {
@@ -283,7 +300,7 @@
 			"polygonStrokeColor": [0, 151, 199, 1],
 			"polygonStrokeWidth": 2,
 			"polygonFillColor": [189, 236, 251, 0.7],
-			"legendValue": "Wasserblöcke"
+			"legendValue": "WasserblÃ¶cke"
 		              }
 	} 
 	]
@@ -346,7 +363,7 @@
 		     "style": {
 			"lineStrokeColor": [26, 131, 0, 1],
 			"lineStrokeWidth": 7,
-			"legendValue": "Straßenfluchtlinie"
+			"legendValue": "StraÃŸenfluchtlinie"
 		              }
 	} 
 	]
@@ -358,7 +375,7 @@
 		     "style": {
 			"lineStrokeColor": [26, 131, 0, 1],
 			"lineStrokeWidth": 7,
-			"legendValue": "Straßen- und Baufluchtlinie (Straßenflucht)"
+			"legendValue": "StraÃŸen- und Baufluchtlinie (StraÃŸenflucht)"
 		              }
 	} 
 	]
@@ -370,7 +387,7 @@
 		     "style": {
 			"lineStrokeColor": [39, 228, 249, 1],
 			"lineStrokeWidth": 2,
-			"legendValue": "Straßen- und Baufluchtlinie (Bauflucht)"
+			"legendValue": "StraÃŸen- und Baufluchtlinie (Bauflucht)"
 		              }
 	} 
 	]
@@ -382,7 +399,7 @@
 		     "style": {
 			"lineStrokeColor": [247, 105, 247, 1],
 			"lineStrokeWidth": 3,
-			"legendValue": "Freiflächengrenze"
+			"legendValue": "FreiflÃ¤chengrenze"
 		              }
 	} 
 	]
@@ -394,7 +411,7 @@
 		     "style": {
 			"lineStrokeColor": [235, 52, 52, 1],
 			"lineStrokeWidth": 3,
-			"legendValue": "Straßengrenze"
+			"legendValue": "StraÃŸengrenze"
 		              }
 	} 
 	]
