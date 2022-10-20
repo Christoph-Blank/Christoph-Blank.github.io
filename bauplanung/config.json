@@ -212,16 +212,11 @@
 					{
 						"id": "alkis-sw-wms",
 						"visibility": false,
-						"name": "ALKIS (schwarz/weiß)"
-					},
+						"name": "ALKIS"
+					}			
 					{
-						"id": "alkis-farbe-wms",
-						"visibility": false,
-						"name": "ALKIS (farbig)"
-					},			
-					{
-						"id": "dop21",
-						"name": "DOP 2021",
+						"id": "dop16-18",
+						"name": "Luftbilder 2016-2018",
 						"visibility": false
 					}
 				  ]
