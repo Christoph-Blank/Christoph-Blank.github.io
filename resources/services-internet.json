@@ -275,7 +275,7 @@
 
 },
 {
-     "id" : "BPlan1_96",
+     "id" : "BPlan1_96_wms",
      "name" : "BPlan1_96",
      "url" : "https://www.geoportal-biesenthal-barnim.de/ows/107?",
      "typ" : "WMS",
@@ -298,8 +298,22 @@
      "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
      "cache" : true,
      "featureCount" : 1
-
-
+},
+{ 
+    "id": "BPlan1_96_wfs",
+    "name": "BPlan1_96",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp12?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan,ms:bp_baugebietsteilflaeche,ms:bp_ueberbaubaregrundstuecksflaeche,ms:bp_baugrenze",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": "showAll",
+    "legendURL": "ignore"
 },
 
 {
