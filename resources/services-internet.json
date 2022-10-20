@@ -312,7 +312,79 @@
     "maxScale" : "2500000",
     "featureNS": "",
     "gfiTheme": "default",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
     "legendURL": "ignore"
 },
 
