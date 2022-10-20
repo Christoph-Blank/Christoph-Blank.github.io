@@ -299,11 +299,23 @@
 						"name": "Gemeinden",
 						"styleId": "gemeindegrenze-style"
 					},
-					{
-						"id": "BPlan1_96",
-						"name": "Bebauungsplan 1-96",
-						"visibility": false
-					}
+					 {
+                            			"id": "BPlan1_96",
+                            			"visibility": false,
+                            			"name": "Bebauungsplan 1-96",
+                            			"children": [
+                                				{
+                                				"id": "BPlan1_96_wms",
+                                				"visibility": false
+                                				},
+                                				{
+                                				"id": "BPlan1_96_wfs",
+                                				"visibility": false
+                                				}
+    
+                            				   ]
+                        
+                    			}
 						]
 				},
 				{
