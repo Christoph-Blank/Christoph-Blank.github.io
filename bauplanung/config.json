@@ -15,7 +15,7 @@
 				"geosearchServiceId": "5",
             			"extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
             			"epsg": "EPSG:25833",
-            			"filter": "filter=(ort:Biesenthal, Sydower Fließ, Melchow, Rüdnitz, Marienwerder, Breydin)",
+            			"filter": "filter=(ort:Biesenthal, Sydower FlieÃŸ, Melchow, RÃ¼dnitz, Marienwerder, Breydin)",
             			"score": 0.6
         			},            
 
@@ -48,7 +48,7 @@
 						"name": "Koordinaten"
 					},
 					"measure": {
-						"name": "Strecke / Fläche messen"
+						"name": "Strecke / FlÃ¤che messen"
 					},
 					"draw": {
 						"name": "Zeichnen / Schreiben"
@@ -60,54 +60,46 @@
 						"name": "Auswahl speichern"
 					},
 					"scaleSwitcher": {
-						"name": "Maßstab umschalten"
+						"name": "MaÃŸstab umschalten"
 					},
 					"addWMS": {
-					"name": "WMS hinzufügen",
+					"name": "WMS hinzufÃ¼gen",
 					"onlyDesktop": false
 					},
               				"layerSlider": {
-                			"name": "translate#common:menu.tools.layerSlider",
+                			"name": "Digitale Orthophotos 1953-2018",
                 			"sliderType": "player",
                 			"glyphicon": "glyphicon-film",
                 			"timeInterval": 4500,
                 			"layerIds": [
 
                   					{
-                    					"title": "1928",
-                    					"layerId": "hist-dop1928"
-                  					},
-							{
                     					"title": "1953",
-                    					"layerId": "hist-dop1953"
+                    					"layerId": "dop53"
                   					},
                   					{
-                    					"title": "2007",
-                    					"layerId": "dop07"
+                    					"title": "1992-1997",
+                    					"layerId": "dop92-97"
                   					},
                   					{
-                    					"title": "2011",
-                    					"layerId": "dop11"
+                    					"title": "2001-2009",
+                    					"layerId": "dop01-09"
                   					},
                   					{
-                    					"title": "2014",
-                    					"layerId": "dop14"
-                  					},
-                  					{
-                    					"title": "2016",
-                    					"layerId": "dop16"
+                    					"title": "2005-2010",
+                    					"layerId": "dop05-10"
+                  					},                  					
+							{
+                    					"title": "2009-2012",
+                    					"layerId": "dop09-12"
                   					},
 							{
-                    					"title": "2018",
-                    					"layerId": "dop18"
+                    					"title": "2013-2015",
+                    					"layerId": "dop13-15"
                   					},
 							{
-                    					"title": "2020",
-                    					"layerId": "dop20"
-                  					},
-							{
-                    					"title": "2021",
-                    					"layerId": "dop21"
+                    					"title": "2016-2018",
+                    					"layerId": "dop16-18"
                   					}
 							]
               				},
@@ -167,8 +159,8 @@
 				"children": {
 					"staticlinks": [
 						{
-							"name": "Berliner Vermessungsämter",
-							"url": "https://www.berlin.de/vermessungsaemter/"
+							"name": "GeoBroker des LGB",
+							"url": "https://geobroker.geobasis-bb.de/"
 						}
 					]
 				}
@@ -197,7 +189,7 @@
 					"Layer": [				
 					{
 						"id": "sw",
-						"name": "Basiskarte (schwarz/weiß)",
+						"name": "Basiskarte (schwarz/weiÃŸ)",
 						"visibility": true,
 						"children": [							
 							{
@@ -220,7 +212,7 @@
 					{
 						"id": "alkis-sw-wms",
 						"visibility": false,
-						"name": "ALKIS (schwarz/weiß)"
+						"name": "ALKIS (schwarz/weiÃŸ)"
 					},
 					{
 						"id": "alkis-farbe-wms",
@@ -248,65 +240,11 @@
 							"Titel": "Historische Karten",
 							"isFolderSelectable": false,
 							"Layer": [
+									
 									{
-									"id": "K5-2020-wms",
+									"id": "schmettau-wms",
 									"visibility": false,
-									"name": "K5-Jahrgang 2020"
-									},
-									{
-									"id": "K5-2019-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2019"
-									},
-									{
-									"id": "K5-2018-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2018"
-									},
-									{
-									"id": "K5-2016-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2016"
-									},
-									{
-									"id": "K5-2014-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2014"
-									},
-									{
-									"id": "K5-2012-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2012"
-									},
-									{
-									"id": "K5-2010-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2010"
-									},
-									{
-									"id": "K5-2008-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2008"
-									},
-									{
-									"id": "K5-2006-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2006"
-									},
-									{
-									"id": "K5-2003-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2003"
-									},
-									{
-									"id": "K5-2001-wms",
-									"visibility": false,
-									"name": "K5-Jahrgang 2001"
-									},
-									{
-									"id": "straube-wms",
-									"visibility": false,
-									"name": "Straubes Übersichtsplan von Berlin"
+									"name": "Schmettausches Kartenwerk"
 									}
 						             ]
 							},
@@ -315,102 +253,38 @@
 							"isFolderSelectable": false,
 							"Layer": [
 									{
-									"id": "dop20",
-									"name": "DOP 2020",
+									"id": "dop16-18",
+									"name": "Luftbilder 2016-2018",
 									"visibility": false
 									},
 									{
-									"id": "dop19",
-									"name": "DOP 2019",
+									"id": "dop13-15",
+									"name": "Luftbilder 2013-2015",
 									"visibility": false
 									},
 									{
-									"id": "dop18",
-									"name": "DOP 2018",
+									"id": "dop09-12",
+									"name": "Luftbilder 2009-2012",
 									"visibility": false
 									},
 									{
-									"id": "dop17",
-									"name": "DOP 2017",
+									"id": "dop05-10",
+									"name": "Luftbilder 2005-2010",
 									"visibility": false
 									},
 									{
-									"id": "dop16",
-									"name": "DOP 2016",
+									"id": "dop01-09",
+									"name": "Luftbilder 2001-2009",
 									"visibility": false
 									},
 									{
-									"id": "dop15",
-									"name": "DOP 2015",
+									"id": "dop92-97",
+									"name": "Luftbilder 1992-1997",
 									"visibility": false
 									},
 									{
-									"id": "dop14",
-									"name": "DOP 2014",
-									"visibility": false
-									},
-									{
-									"id": "dop13",
-									"name": "DOP 2013",
-									"visibility": false
-									},
-									{
-									"id": "dop11",
-									"name": "DOP 2011",
-									"visibility": false
-									},
-									{
-									"id": "dop10",
-									"name": "DOP 2010",
-									"visibility": false
-									},
-									{
-									"id": "dop09",
-									"name": "DOP 2009",
-									"visibility": false
-									},
-									{
-									"id": "dop07",
-									"name": "DOP 2007",
-									"visibility": false
-									},
-									{
-									"id": "dop04",
-									"name": "DOP 2004",
-									"visibility": false
-									},
-									{
-									"id": "hist-dop1999",
-									"name": "DOP 1999",
-									"visibility": false,
-									"styleId": "hist-dop1999-style"
-									},
-									{
-									"id": "hist-dop1989",
-									"name": "DOP 1989",
-									"visibility": false,
-									"styleId": "hist-dop1989-style"
-									},
-									{
-									"id": "hist-dop1984",
-									"name": "DOP 1984",
-									"visibility": false,
-									"styleId": "hist-dop1984-style"
-									},
-									{
-									"id": "hist-dop1969",
-									"name": "DOP 1969",
-									"visibility": false,
-									"styleId": "hist-dop1969-style"
-									},
-									{
-									"id": "hist-dop1953",
-									"name": "DOP 1953",
-									"visibility": false
-									},
-									{
-									"id": "hist-dop1928",
-									"name": "DOP 1928",
+									"id": "dop53",
+									"name": "Luftbilder 1953",
 									"visibility": false
 									}
 						             ]
@@ -442,42 +316,42 @@
 					"isFolderSelectable": false,
 					"Ordner": [
 						{
-					"Titel": "Flächennutzungsplan (aktuelle Arbeitskarte)",
+					"Titel": "FlÃ¤chennutzungsplan (aktuelle Arbeitskarte)",
 					"isFolderSelectable": false,
 					"Layer": [
 						{
 						"id": "fnp",
 						"visibility": false,
-						"name": "Flächennutzungsplan (aktuelle Arbeitskarte)",
+						"name": "FlÃ¤chennutzungsplan (aktuelle Arbeitskarte)",
 						"children": [						
 							{
 							"id": "fnp-wfs",
 							"visibility": false,
-							"name": "Flächennutzungsplan"
+							"name": "FlÃ¤chennutzungsplan"
 							},
 							{
 							"id": "fnp-wms",
 							"visibility": false,
-							"name": "Flächennutzungsplan"
+							"name": "FlÃ¤chennutzungsplan"
 							}							
 						            ]
 						}
 						 ]
 					},
 					{
-					"Titel": "Bebauungsplanübersicht",
+					"Titel": "BebauungsplanÃ¼bersicht",
 					"isFolderSelectable": false,
 					"Layer": [						
 							{
 							"visibility": false,
-							"name": "Festgesetzte Bebauungspläne",
+							"name": "Festgesetzte BebauungsplÃ¤ne",
 							"id": "f-bplan1-wfs",
 							"styleId": "f-bplan-style",
 							"mouseHoverField": "PLANNAME"
 							},
 							{
 							"visibility": false,
-							"name": "Im Verfahren befindliche Bebauungspläne",
+							"name": "Im Verfahren befindliche BebauungsplÃ¤ne",
 							"id": "e-bplan-wfs",
 							"styleId": "e-bplan-style",
 							"mouseHoverField": "PLANNAME"
@@ -495,7 +369,7 @@
 						},
 						{
 						"visibility": false,
-						"name": "Festgesetzte Bebauungspläne",
+						"name": "Festgesetzte BebauungsplÃ¤ne",
 						"id": "f-bplan-wfs",
 						"styleId": "f-bplan-style",
 						"mouseHoverField": "PLANNAME"
@@ -568,20 +442,20 @@
 						 ]
 					},
 					{
-					"Titel": "Erhaltungsgebiete §172 BauGB",
+					"Titel": "Erhaltungsgebiete Â§172 BauGB",
 					"isFolderSelectable": false,
 					"Layer": [
 							{
 							"id": "erhalt-stadt-wfs",
 							"styleId": "erhalt-stadt-style",
 							"mouseHoverField": "gebietsnam",
-							"name": "Erhaltungsverordnungsgebiete-Erhaltung der städtebaulichen Eigenart"
+							"name": "Erhaltungsverordnungsgebiete-Erhaltung der stÃ¤dtebaulichen Eigenart"
 							},
 							{
 							"id": "erhalt-bev-wfs",
 							"styleId": "erhalt-bev-style",
 							"mouseHoverField": "gebietsname",
-							"name": "Erhaltungsverordnungsgebiete-Erhaltung der Zusammensetzung der Wohnbevölkerung"
+							"name": "Erhaltungsverordnungsgebiete-Erhaltung der Zusammensetzung der WohnbevÃ¶lkerung"
 							}
 						 ]
 					},
@@ -614,7 +488,7 @@
 							{
 							"id": "qmgebiete-aktion-wms",
 							"visibility": false,
-							"name": "Aktionsräume (Stand Juli 2010)"
+							"name": "AktionsrÃ¤ume (Stand Juli 2010)"
 							}
 						 ]
 					},
@@ -624,7 +498,7 @@
 						"Layer": [
 							{
 							"id": "stadtumbau-wfs",
-							"name": "Gebiete des Städtebauförderprogramms Nachhaltige Erneuerung",
+							"name": "Gebiete des StÃ¤dtebaufÃ¶rderprogramms Nachhaltige Erneuerung",
 							"visibility": false,
 							"styleId": "stadtumbau-style",
 							"mouseHoverField": "schluessel"
@@ -632,12 +506,12 @@
 							 ]
 						},
 						{
-							"Titel": "Städtebauförderprogramm",
+							"Titel": "StÃ¤dtebaufÃ¶rderprogramm",
 							"isFolderSelectable": false,
 							"Layer": [
 								{
 								"id": "foerder-wfs",
-								"name": "Förderkulisse Lebendige Zentren und Quartiere",
+								"name": "FÃ¶rderkulisse Lebendige Zentren und Quartiere",
 								"visibility": false,
 								"styleId": "foerder-style",
 								"mouseHoverField": "gebietsname"
@@ -645,12 +519,12 @@
 								]
 							},
 						{
-							"Titel": "Handlungsräume",
+							"Titel": "HandlungsrÃ¤ume",
 							"isFolderSelectable": false,
 							"Layer": [
 								{
 								"id": "ressort-wms",
-								"name": "Ressortübergreifende Gemeinschaftsinitiative zur Stärkung sozial benachteiligter Quartiere",
+								"name": "RessortÃ¼bergreifende Gemeinschaftsinitiative zur StÃ¤rkung sozial benachteiligter Quartiere",
 								"visibility": false
 								}
 								]
@@ -662,13 +536,13 @@
 						{
 						"id": "sanier1",
 						"styleId": "san1-style",
-						"name": "Förmlich festgelegte Sanierungsgebiete (umfassendes Verfahren)",
+						"name": "FÃ¶rmlich festgelegte Sanierungsgebiete (umfassendes Verfahren)",
 						"mouseHoverField": "gebietsname"
 						},
 						{
 						"id": "sanier2",
 						"styleId": "san2-style",
-						"name": "Förmlich festgelegte Sanierungsgebiete (vereinfachtes Verfahren)",
+						"name": "FÃ¶rmlich festgelegte Sanierungsgebiete (vereinfachtes Verfahren)",
 						"mouseHoverField": "gebietsname"
 						},
 						{
@@ -738,22 +612,22 @@
 									{
 									"id": "blatt-dop-wms",
 									"visibility": false,
-									"name": "Blattschnitte für die digitalen Orthophotos"
+									"name": "Blattschnitte fÃ¼r die digitalen Orthophotos"
 									},
 									{
-									"id": "blatt-dtk25-wms",
+									"id": "dk10farbe",
 									"visibility": false,
-									"name": "Blattschnitte für die Kartenwerke 1:25.000"
+									"name": "Digitale Topographische Karte 1 : 10 000 Farbe Brandenburg mit Berlin"
 									},
 									{
 									"id": "blatt-dtk50-wms",
 									"visibility": false,
-									"name": "Blattschnitte für die Kartenwerke 1:50.000"
+									"name": "Blattschnitte fÃ¼r die Kartenwerke 1:50.000"
 									},
 									{
 									"id": "blatt-dtk100-wms",
 									"visibility": false,
-									"name": "Blattschnitte für die Kartenwerke 1:100.000"
+									"name": "Blattschnitte fÃ¼r die Kartenwerke 1:100.000"
 									}
 							 	]
 					},
@@ -769,7 +643,7 @@
 									{
 									"id": "K5-2-sw",
 									"visibility": false,
-									"name": "K5 (schwarz/weiß)"
+									"name": "K5 (schwarz/weiÃŸ)"
 									}
 							 	]
 					},
