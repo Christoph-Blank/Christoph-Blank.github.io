@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:GetFeature service="WFS" version="1.1.0" xmlns:fis="http://www.berlin.de/broker" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc">
+    <wfs:Query typeName="fis:s_wfs_alkis_ortsteile">
+        <ogc:Filter>
+            <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+                    <ogc:Literal>110000010101</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+                    <ogc:Literal>110000010102</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+                    <ogc:Literal>110000010103</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+                    <ogc:Literal>110000010104</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+                    <ogc:Literal>110000010105</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+                    <ogc:Literal>110000010106</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+        </ogc:Filter>
+    </wfs:Query>
+</wfs:GetFeature>
