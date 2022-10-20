@@ -15,7 +15,7 @@
 				"geosearchServiceId": "5",
             			"extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
             			"epsg": "EPSG:25833",
-            			"filter": "filter=(ort:Biesenthal, Sydower FlieÃŸ, Melchow, RÃ¼dnitz, Marienwerder, Breydin)",
+            			"filter": "filter=(ort:Biesenthal, Sydower Fließ, Melchow, Rüdnitz, Marienwerder, Breydin)",
             			"score": 0.6
         			},            
 
@@ -48,7 +48,7 @@
 						"name": "Koordinaten"
 					},
 					"measure": {
-						"name": "Strecke / FlÃ¤che messen"
+						"name": "Strecke / Fläche messen"
 					},
 					"draw": {
 						"name": "Zeichnen / Schreiben"
@@ -60,10 +60,10 @@
 						"name": "Auswahl speichern"
 					},
 					"scaleSwitcher": {
-						"name": "MaÃŸstab umschalten"
+						"name": "Maßstab umschalten"
 					},
 					"addWMS": {
-					"name": "WMS hinzufÃ¼gen",
+					"name": "WMS hinzufügen",
 					"onlyDesktop": false
 					},
               				"layerSlider": {
@@ -189,7 +189,7 @@
 					"Layer": [				
 					{
 						"id": "sw",
-						"name": "Basiskarte (schwarz/weiÃŸ)",
+						"name": "Basiskarte (schwarz/weiß)",
 						"visibility": true,
 						"children": [							
 							{
@@ -212,7 +212,7 @@
 					{
 						"id": "alkis-sw-wms",
 						"visibility": false,
-						"name": "ALKIS (schwarz/weiÃŸ)"
+						"name": "ALKIS (schwarz/weiß)"
 					},
 					{
 						"id": "alkis-farbe-wms",
@@ -316,42 +316,42 @@
 					"isFolderSelectable": false,
 					"Ordner": [
 						{
-					"Titel": "FlÃ¤chennutzungsplan (aktuelle Arbeitskarte)",
+					"Titel": "Flächennutzungsplan (aktuelle Arbeitskarte)",
 					"isFolderSelectable": false,
 					"Layer": [
 						{
 						"id": "fnp",
 						"visibility": false,
-						"name": "FlÃ¤chennutzungsplan (aktuelle Arbeitskarte)",
+						"name": "Flächennutzungsplan (aktuelle Arbeitskarte)",
 						"children": [						
 							{
 							"id": "fnp-wfs",
 							"visibility": false,
-							"name": "FlÃ¤chennutzungsplan"
+							"name": "Flächennutzungsplan"
 							},
 							{
 							"id": "fnp-wms",
 							"visibility": false,
-							"name": "FlÃ¤chennutzungsplan"
+							"name": "Flächennutzungsplan"
 							}							
 						            ]
 						}
 						 ]
 					},
 					{
-					"Titel": "BebauungsplanÃ¼bersicht",
+					"Titel": "Bebauungsplanübersicht",
 					"isFolderSelectable": false,
 					"Layer": [						
 							{
 							"visibility": false,
-							"name": "Festgesetzte BebauungsplÃ¤ne",
+							"name": "Festgesetzte Bebauungspläne",
 							"id": "f-bplan1-wfs",
 							"styleId": "f-bplan-style",
 							"mouseHoverField": "PLANNAME"
 							},
 							{
 							"visibility": false,
-							"name": "Im Verfahren befindliche BebauungsplÃ¤ne",
+							"name": "Im Verfahren befindliche Bebauungspläne",
 							"id": "e-bplan-wfs",
 							"styleId": "e-bplan-style",
 							"mouseHoverField": "PLANNAME"
@@ -369,7 +369,7 @@
 						},
 						{
 						"visibility": false,
-						"name": "Festgesetzte BebauungsplÃ¤ne",
+						"name": "Festgesetzte Bebauungspläne",
 						"id": "f-bplan-wfs",
 						"styleId": "f-bplan-style",
 						"mouseHoverField": "PLANNAME"
@@ -442,20 +442,20 @@
 						 ]
 					},
 					{
-					"Titel": "Erhaltungsgebiete Â§172 BauGB",
+					"Titel": "Erhaltungsgebiete §172 BauGB",
 					"isFolderSelectable": false,
 					"Layer": [
 							{
 							"id": "erhalt-stadt-wfs",
 							"styleId": "erhalt-stadt-style",
 							"mouseHoverField": "gebietsnam",
-							"name": "Erhaltungsverordnungsgebiete-Erhaltung der stÃ¤dtebaulichen Eigenart"
+							"name": "Erhaltungsverordnungsgebiete-Erhaltung der städtebaulichen Eigenart"
 							},
 							{
 							"id": "erhalt-bev-wfs",
 							"styleId": "erhalt-bev-style",
 							"mouseHoverField": "gebietsname",
-							"name": "Erhaltungsverordnungsgebiete-Erhaltung der Zusammensetzung der WohnbevÃ¶lkerung"
+							"name": "Erhaltungsverordnungsgebiete-Erhaltung der Zusammensetzung der Wohnbevölkerung"
 							}
 						 ]
 					},
@@ -488,7 +488,7 @@
 							{
 							"id": "qmgebiete-aktion-wms",
 							"visibility": false,
-							"name": "AktionsrÃ¤ume (Stand Juli 2010)"
+							"name": "Aktionsräume (Stand Juli 2010)"
 							}
 						 ]
 					},
@@ -498,7 +498,7 @@
 						"Layer": [
 							{
 							"id": "stadtumbau-wfs",
-							"name": "Gebiete des StÃ¤dtebaufÃ¶rderprogramms Nachhaltige Erneuerung",
+							"name": "Gebiete des Städtebauförderprogramms Nachhaltige Erneuerung",
 							"visibility": false,
 							"styleId": "stadtumbau-style",
 							"mouseHoverField": "schluessel"
@@ -506,12 +506,12 @@
 							 ]
 						},
 						{
-							"Titel": "StÃ¤dtebaufÃ¶rderprogramm",
+							"Titel": "Städtebauförderprogramm",
 							"isFolderSelectable": false,
 							"Layer": [
 								{
 								"id": "foerder-wfs",
-								"name": "FÃ¶rderkulisse Lebendige Zentren und Quartiere",
+								"name": "Förderkulisse Lebendige Zentren und Quartiere",
 								"visibility": false,
 								"styleId": "foerder-style",
 								"mouseHoverField": "gebietsname"
@@ -519,12 +519,12 @@
 								]
 							},
 						{
-							"Titel": "HandlungsrÃ¤ume",
+							"Titel": "Handlungsräume",
 							"isFolderSelectable": false,
 							"Layer": [
 								{
 								"id": "ressort-wms",
-								"name": "RessortÃ¼bergreifende Gemeinschaftsinitiative zur StÃ¤rkung sozial benachteiligter Quartiere",
+								"name": "Ressortübergreifende Gemeinschaftsinitiative zur Stärkung sozial benachteiligter Quartiere",
 								"visibility": false
 								}
 								]
@@ -536,13 +536,13 @@
 						{
 						"id": "sanier1",
 						"styleId": "san1-style",
-						"name": "FÃ¶rmlich festgelegte Sanierungsgebiete (umfassendes Verfahren)",
+						"name": "Förmlich festgelegte Sanierungsgebiete (umfassendes Verfahren)",
 						"mouseHoverField": "gebietsname"
 						},
 						{
 						"id": "sanier2",
 						"styleId": "san2-style",
-						"name": "FÃ¶rmlich festgelegte Sanierungsgebiete (vereinfachtes Verfahren)",
+						"name": "Förmlich festgelegte Sanierungsgebiete (vereinfachtes Verfahren)",
 						"mouseHoverField": "gebietsname"
 						},
 						{
@@ -612,7 +612,7 @@
 									{
 									"id": "blatt-dop-wms",
 									"visibility": false,
-									"name": "Blattschnitte fÃ¼r die digitalen Orthophotos"
+									"name": "Blattschnitte für die digitalen Orthophotos"
 									},
 									{
 									"id": "dk10farbe",
@@ -622,12 +622,12 @@
 									{
 									"id": "blatt-dtk50-wms",
 									"visibility": false,
-									"name": "Blattschnitte fÃ¼r die Kartenwerke 1:50.000"
+									"name": "Blattschnitte für die Kartenwerke 1:50.000"
 									},
 									{
 									"id": "blatt-dtk100-wms",
 									"visibility": false,
-									"name": "Blattschnitte fÃ¼r die Kartenwerke 1:100.000"
+									"name": "Blattschnitte für die Kartenwerke 1:100.000"
 									}
 							 	]
 					},
@@ -643,7 +643,7 @@
 									{
 									"id": "K5-2-sw",
 									"visibility": false,
-									"name": "K5 (schwarz/weiÃŸ)"
+									"name": "K5 (schwarz/weiß)"
 									}
 							 	]
 					},
