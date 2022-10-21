@@ -276,10 +276,10 @@
 },
 {
      "id" : "BPlan1_96_wms",
-     "name" : "BPlan1_96",
-     "url" : "https://www.geoportal-biesenthal-barnim.de/ows/107?",
+     "name" : "Bebauungsplan 1-96",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp12?SERVICE=WMS&REQUEST=GetCapabilities",
      "typ" : "WMS",
-     "layers" : "bp_plan,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze",
+     "layers" : "bp_plan,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,raster",
      "format" : "image/png",
      "version" : "1.3.0",
      "singleTile" : false,
@@ -301,8 +301,1026 @@
 },
 { 
     "id": "BPlan1_96_wfs",
-    "name": "BPlan1_96",
+    "name": "Bebauungsplan 1-96",
     "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp12?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+
+{
+     "id" : "BPlan_Wohngeb-Am-Gruenen-Weg_wms",
+     "name" : "Bebauungsplan Wohngebiet am Grünen Weg",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp65?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_strassenverkehrsflaeche,bp_strassenbegrenzungslinie,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wfs",
+    "name": "Bebauungsplan Wohngebiet am Grünen Weg",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp65?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_Sonder_Photo_wms",
+     "name" : "Bebauungsplan Sondergebiet Photovoltaik",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp88?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_verentsorgung,bp_verkehrsflaechebesondererzweckbestimmung,bp_strassenbegrenzungslinie,bp_schutzpflegeentwicklungsmassnahme,bp_anpflanzungbindungerhaltung,bp_kennzeichnungsflaeche,bp_wegerecht,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Sonder_Photo_wfs",
+    "name": "Bebauungsplan Sondergebiet Photovoltaik",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp88?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_1/2001_Wind_Bre_wms",
+     "name" : "Bebauungsplan Nr. 1/2001 Windpark Breydin",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp58?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_waldflaeche,bp_gruenflaeche,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_strassenverkehrsflaeche,bp_verkehrsflaechebesondererzweckbestimmung,bp_strassenbegrenzungslinie,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_1/2001_Wind_Bre_wfs",
+    "name": "Bebauungsplan Nr. 1/2001 Windpark Breydin",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp58?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_Nr3_Alter_Sport_wms",
+     "name" : "Bebauungsplan Nr. 3 Alter Sportplatz",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp23?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_waldflaeche,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_strassenverkehrsflaeche,bp_verkehrsflaechebesondererzweckbestimmung,bp_strassenbegrenzungslinie,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Nr3_Alter_Sport_wfs",
+    "name": "Bebauungsplan Nr. 3 Alter Sportplatz",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp23?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_1/04_Wohn_Buch_Ruh_wms",
+     "name" : "Bebauungsplan Nr. 1/04 Wohngebiet Buchtenden Ruhlsdorf",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp28?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_gruenflaeche,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_1/04_Wohn_Buch_Ruh_wfs",
+    "name": "Bebauungsplan Nr. 1/04 Wohngebiet Buchtenden Ruhlsdorf",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp27?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_Nr1_Wild_Temp_wms",
+     "name" : "Bebauungsplan Nr. 1 Windpark Tempelfelde",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp52?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Nr1_Wild_Temp_wfs",
+    "name": "Bebauungsplan Nr. 1 Windpark Tempelfelde",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp52?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_Am_Blume_wms",
+     "name" : "Bebauungsplan Am Blumenweg",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp51?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_strassenverkehrsflaeche,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Am_Blume_wfs",
+    "name": "Bebauungsplan Am Blumenweg",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp51?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_Sechs_wms",
+     "name" : "Bebauungsplan Sechsrutenstücke",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp82?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_gruenflaeche,bp_baugebietsteilflaeche,bp_firstrichtungslinie,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_generischesobjekt,bp_strassenverkehrsflaeche,bp_verkehrsflaechebesondererzweckbestimmung,bp_strassenbegrenzungslinie,bp_schutzpflegeentwicklungsmassnahme,bp_kennzeichnungsflaeche,bp_nutzungsartengrenze,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Sechs_wfs",
+    "name": "Bebauungsplan Sechsrutenstücke",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp80?SERVICE=WFS&REQUEST=GetCapabilities",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:bp_plan",
+    "transparent" : true,
+    "transparency" : 100,
+    "minScale" : "0",
+    "maxScale" : "2500000",
+    "featureNS": "",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Nummer": "Nummer des Bebauungsplans",
+        "Name": "Name",
+        "Beschreibung": "Beschreibung",
+        "Kommentar": "Kommentar",
+ 	"TechnHerstellDatum": {
+       		    "name": "Herstellungsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"UntergangsDatum": {
+       		    "name": "Untergangsdatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"Aendert": {
+       		    "name": "geändert am",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+        "WurdeGeaendertVon": "geändert von",
+        "ErstellungsMassstab": "Maßstab",
+        "XPlanGMLVersion": "XPlanGMLVersion",
+        "Gkz": "Gkz",
+        "PlanArt": "PlanArt",
+        "SonstPlanArt": "SonstPlanArt",
+        "Stadt": "Stadt",
+        "Ortsteil": "Ortsteil",
+        "Rechtsstand": "Rechtsstand",
+        "Status": "Status",
+        "Hoehenbezug": "Hoehenbezug",
+ 	"AenderungenBisDatum": {
+       		    "name": "AenderungenBisDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+ 	"AufstellungsbeschlussDatum": {
+       		    "name": "AufstellungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"VeraenderungssperreDatum": {
+       		    "name": "VeraenderungssperreDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"AuslegungsDatum": {
+       		    "name": "AuslegungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"TraegerbeteiligungsDatum": {
+       		    "name": "TraegerbeteiligungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"SatzungsbeschlussDatum": {
+       		    "name": "SatzungsbeschlussDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"RechtsverordnungsDatum": {
+       		    "name": "RechtsverordnungsDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    },
+	"InkrafttretensDatum": {
+       		    "name": "InkrafttretensDatum",
+        	    "type": "date",
+        	    "format": "DD.MM.YYYY"
+      		    }
+
+    	             },
+    "legendURL": "ignore"
+},
+{
+     "id" : "BPlan_Alt_Wohn_Birk_wms",
+     "name" : "Bebauungsplan Altersgerechtes Wohnen am Birkenweg",
+     "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp80?SERVICE=WMS&REQUEST=GetCapabilities",
+     "typ" : "WMS",
+     "layers" : "bp_plan,bp_gruenflaeche,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_nebenanlagenausschlussflaeche,bp_strassenverkehrsflaeche,raster",
+     "format" : "image/png",
+     "version" : "1.3.0",
+     "singleTile" : false,
+     "transparent" : true,
+     "transparency" : 30,
+     "urlIsVisible" : true,
+     "tilesize" : 512,
+     "gutter" : 0,
+     "minScale" : "0",
+     "maxScale" : "2500000",
+     "infoFormat" : "text/xml",
+     "gfiAttributes" : "ignore",
+     "gfiTheme" : "default",
+    "layerAttribution" : "nicht vorhanden",
+     "gfiComplex" : "false",
+     "legendURL" : "/karten/resources/img/leg_fnp_ak.png",
+     "cache" : true,
+     "featureCount" : 1
+},
+{ 
+    "id": "BPlan_Alt_Wohn_Birk_wfs",
+    "name": "Bebauungsplan Altersgerechtes Wohnen am Birkenweg",
+    "url": "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp77?SERVICE=WFS&REQUEST=GetCapabilities",
     "typ": "WFS",
     "version": "1.1.0",
     "featureType": "ms:bp_plan",
