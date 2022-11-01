@@ -536,7 +536,7 @@
                                 },
                                 {
                                     "id": "schulen-wfs",
-                                    "styleId": "nicht_anzeigen",
+
                                     "visibility": false
                                 }
 
