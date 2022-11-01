@@ -522,34 +522,26 @@
                     ]
                 },
                 {
-                    "Titel": "Test",
+                    "Titel": "Bildung",
                     "isFolderSelectable": false,
-                    
                     "Layer": [
 
                         {
-                            "id": "gemeinden-wfs",
-                            "visibility": true,
-                            "name": "Gemeinden",
-                            "styleId": "gemeindegrenze-style"
-                        },
-                        {
-                            "id": "flur-wfs",
+                            "id": "schulen_brandenburg",
                             "visibility": false,
-                            "styleId": "flur-style",
-                            "name": "Fluren",
-                            "mouseHoverField": "FLN"
-                        },
-                        {
-                            "id": "plz-wfs",
-                            "visibility": false,
-                            "name": "Postleitzahlen",
-                            "styleId": "plz-style",
-                            "mouseHoverField": "plz"
-                        },
-                        {
-                            "id": "inspire_str_netz",
-                            "visibility": false
+                            "name": "Schulen in Brandenburg",
+                            "children": [{
+                                    "id": "schulen-wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schulen-wfs",
+                                    "styleId": "nicht_anzeigen",
+                                    "visibility": false
+                                }
+
+                            ]
+
                         }
 
 
@@ -569,8 +561,3 @@
     }
 
 }
-
-
-
-
-
