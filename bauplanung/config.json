@@ -520,29 +520,6 @@
 
 
                     ]
-                },
-                {
-                    "Titel": "Bildung",
-                    "isFolderSelectable": false,
-                    "Ordner": [{
-                        "Layer": {
-                            "id": "schulen_brandenburg",
-                            "visibility": false,
-                            "name": "Schulen in Brandenburg",
-                            "children": [{
-                                    "id": "schulen-wms",
-                                    "visibility": false
-                                },
-                                {
-                                    "id": "schulen-wfs",
-                                    "styleId": "nicht_anzeigen",
-                                    "visibility": false
-                                }
-
-                            ]
-
-                        }
-                    }]
                 }
 
             ],
@@ -558,3 +535,8 @@
     }
 
 }
+
+
+
+
+
