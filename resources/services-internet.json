@@ -1435,7 +1435,7 @@
     "name": "Schulen in Brandenburg",
     "url": "https://schullandschaft.brandenburg.de/edugis/wfs/schulen?",
     "typ": "WFS",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "featureType": "ms:Schul_Standorte",
     "featureNS": "",
     "layerAttribution" : "nicht vorhanden",
