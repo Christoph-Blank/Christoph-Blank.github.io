@@ -1,298 +1,287 @@
 {
     "Portalconfig": {
-            "portalTitle": {
-                "title": "Geoportal Amt Biesenthal-Barnim",
-                "logo": "../resources/img/Wappen_Amt_Biesenthal-Barnim.png",
-                "link": "https://www.amt-biesenthal-barnim.de/startseite",
-                "toolTip": "Biesenthal-Barnim"
-            },
+        "portalTitle": {
+            "title": "Geoportal Amt Biesenthal-Barnim",
+            "logo": "../resources/img/Wappen_Amt_Biesenthal-Barnim.png",
+            "link": "https://www.amt-biesenthal-barnim.de/startseite",
+            "toolTip": "Biesenthal-Barnim"
+        },
         "singleBaselayer": false,
         "treeType": "custom",
-            "searchBar": {
-                "bkg": {
-                            "minChars": 3,
-                            "suggestServiceId": "4",
-                    "geosearchServiceId": "5",
-                            "extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
-                            "epsg": "EPSG:25833",
-                            "filter": "filter=(ort:Biesenthal, Sydower Fließ, Melchow, Rüdnitz, Marienwerder, Breydin)",
-                            "score": 0.6
-                        },            
-    
-          "visibleVector": {},
-          "tree": {},
-                "startZoomLevel": 5,
-                "placeholder": "Suche nach: - Adresse oder Thema"
-            },
-            "mapView": {
-                "backgroundImage": "../resources/img/backgroundCanvas.jpeg",
-                "startCenter": [410410.15, 5849239.27],
-                "epsg": "EPSG:25833",
+        "searchBar": {
+            "bkg": {
+                "minChars": 3,
+                "suggestServiceId": "4",
+                "geosearchServiceId": "5",
                 "extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
-                "startZoomLevel": 1
+                "epsg": "EPSG:25833",
+                "filter": "filter=(ort:Biesenthal, Sydower Fließ, Melchow, Rüdnitz, Marienwerder, Breydin)",
+                "score": 0.6
             },
-            "menu": {
-                "tree": {
-                    "name": "Themen"
-                },
-                "tools": {
-                    "name": "Werkzeuge",
-                            "glyphicon": "glyphicon-wrench",
-                    "children": {
-                        "gfi": {
-                                "name": "Informationen abfragen",
+
+            "visibleVector": {},
+            "tree": {},
+            "startZoomLevel": 5,
+            "placeholder": "Suche nach: - Adresse oder Thema"
+        },
+        "mapView": {
+            "backgroundImage": "../resources/img/backgroundCanvas.jpeg",
+            "startCenter": [410410.15, 5849239.27],
+            "epsg": "EPSG:25833",
+            "extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
+            "startZoomLevel": 1
+        },
+        "menu": {
+            "tree": {
+                "name": "Themen"
+            },
+            "tools": {
+                "name": "Werkzeuge",
+                "glyphicon": "glyphicon-wrench",
+                "children": {
+                    "gfi": {
+                        "name": "Informationen abfragen",
                         "active": true,
                         "desktopType": "attached"
-                        },
-                        "coordToolkit": {
-                            "name": "Koordinaten"
-                        },
-                        "measure": {
-                            "name": "Strecke / Fläche messen"
-                        },
-                        "draw": {
-                            "name": "Zeichnen / Schreiben"
-                        },
-                        "fileImport": {
-                                "name": "Datei Import"
-                        },
-                        "saveSelection": {
-                            "name": "Auswahl speichern"
-                        },
-                        "scaleSwitcher": {
-                            "name": "Maßstab umschalten"
-                        },
-                        "addWMS": {
+                    },
+                    "coordToolkit": {
+                        "name": "Koordinaten"
+                    },
+                    "measure": {
+                        "name": "Strecke / Fläche messen"
+                    },
+                    "draw": {
+                        "name": "Zeichnen / Schreiben"
+                    },
+                    "fileImport": {
+                        "name": "Datei Import"
+                    },
+                    "saveSelection": {
+                        "name": "Auswahl speichern"
+                    },
+                    "scaleSwitcher": {
+                        "name": "Maßstab umschalten"
+                    },
+                    "addWMS": {
                         "name": "WMS hinzufügen",
                         "onlyDesktop": false
-                        },
-                                  "layerSlider": {
-                                "name": "Digitale Orthophotos 1953-2018",
-                                "sliderType": "player",
-                                "glyphicon": "glyphicon-film",
-                                "timeInterval": 4500,
-                                "layerIds": [
-    
-                                          {
-                                            "title": "1953",
-                                            "layerId": "dop53"
-                                          },
-                                          {
-                                            "title": "1992-1997",
-                                            "layerId": "dop92-97"
-                                          },
-                                          {
-                                            "title": "2001-2009",
-                                            "layerId": "dop01-09"
-                                          },
-                                          {
-                                            "title": "2005-2010",
-                                            "layerId": "dop05-10"
-                                          },                  					
-                                {
-                                            "title": "2009-2012",
-                                            "layerId": "dop09-12"
-                                          },
-                                {
-                                            "title": "2013-2015",
-                                            "layerId": "dop13-15"
-                                          },
-                                {
-                                            "title": "2016-2018",
-                                            "layerId": "dop16-18"
-                                          }
-                                ]
-                                  },
-                       "print": {
-                              "name": "Karte drucken",
-                              "glyphicon": "glyphicon-print",
-                              "printServiceId": "mapfish_printservice_id",
-                              "filename": "Print",
-                              "title": "Mein Titel",
-                        "printAppId": "mapfish-print",
-                              "version": "mapfish_print_3",
-                              "isLegendSelected": false,
-                              "gfi": false,
-                              "legendText": "Legende",
-                              "dpiForPdf": 90
-                        },
-                           "routing": {
-                    "name": "Routing",
-                            "renderToWindow": false,
-                            "active": false,
-                            "geosearch": {
-                              "type": "BKG",
-                              "serviceId": "5"
-                                     },
-                                "geosearchReverse": {
-                              "type": "BKG",
-                              "serviceId": "5"
-                                        },
-                            "directionsSettings": {
-                              "type": "ORS",
-                              "serviceId": "6",
-                              "speedProfile": "CAR",
-                              "batchProcessing": {
-                            "enabled": false,
-                            "active": false
-                                         }
-                                          },
-                            "isochronesSettings": {
-                              "type": "ORS",
-                              "serviceId": "6",
-                              "speedProfile": "CAR",
-                              "batchProcessing": {
-                            "enabled": false,
-                            "active": false
-                                         }
-                                          }
-                              }
-                    }
-                },
-                "legend": {
-                    "name": "Legende",
-                            "glyphicon": "glyphicon-list-alt"
-                },
-                "info": {
-                    "name": "Informationen",
-                            "glyphicon": "glyphicon-globe",
-                    "children": {
-                        "staticlinks": [
+                    },
+                    "layerSlider": {
+                        "name": "Digitale Orthophotos 1953-2018",
+                        "sliderType": "player",
+                        "glyphicon": "glyphicon-film",
+                        "timeInterval": 4500,
+                        "layerIds": [
+
                             {
-                                "name": "GeoBroker des LGB",
-                                "url": "https://geobroker.geobasis-bb.de/"
+                                "title": "1953",
+                                "layerId": "dop53"
                             },
                             {
-                                "name": "Geoportal Amt Biesenthal-Barnim",
-                                "url": "https://www.geoportal-biesenthal-barnim.de/"
+                                "title": "1992-1997",
+                                "layerId": "dop92-97"
+                            },
+                            {
+                                "title": "2001-2009",
+                                "layerId": "dop01-09"
+                            },
+                            {
+                                "title": "2005-2010",
+                                "layerId": "dop05-10"
+                            },
+                            {
+                                "title": "2009-2012",
+                                "layerId": "dop09-12"
+                            },
+                            {
+                                "title": "2013-2015",
+                                "layerId": "dop13-15"
+                            },
+                            {
+                                "title": "2016-2018",
+                                "layerId": "dop16-18"
                             }
                         ]
+                    },
+                    "print": {
+                        "name": "Karte drucken",
+                        "glyphicon": "glyphicon-print",
+                        "printServiceId": "mapfish_printservice_id",
+                        "filename": "Print",
+                        "title": "Mein Titel",
+                        "printAppId": "mapfish-print",
+                        "version": "mapfish_print_3",
+                        "isLegendSelected": false,
+                        "gfi": false,
+                        "legendText": "Legende",
+                        "dpiForPdf": 90
+                    },
+                    "routing": {
+                        "name": "Routing",
+                        "renderToWindow": false,
+                        "active": false,
+                        "geosearch": {
+                            "type": "BKG",
+                            "serviceId": "5"
+                        },
+                        "geosearchReverse": {
+                            "type": "BKG",
+                            "serviceId": "5"
+                        },
+                        "directionsSettings": {
+                            "type": "ORS",
+                            "serviceId": "6",
+                            "speedProfile": "CAR",
+                            "batchProcessing": {
+                                "enabled": false,
+                                "active": false
+                            }
+                        },
+                        "isochronesSettings": {
+                            "type": "ORS",
+                            "serviceId": "6",
+                            "speedProfile": "CAR",
+                            "batchProcessing": {
+                                "enabled": false,
+                                "active": false
+                            }
+                        }
                     }
                 }
             },
-            "controls": {
-                "zoom": true,
-                    "attributions": {
-                            "isInitOpenDesktop": false,
-                            "isInitOpenMobile": false
-                            },
-                "mousePosition": true,
-                "overviewMap": {
-                        "layerId": "minimap",
-                        "isInitOpen": true
+            "legend": {
+                "name": "Legende",
+                "glyphicon": "glyphicon-list-alt"
+            },
+            "info": {
+                "name": "Informationen",
+                "glyphicon": "glyphicon-globe",
+                "children": {
+                    "staticlinks": [{
+                            "name": "GeoBroker des LGB",
+                            "url": "https://geobroker.geobasis-bb.de/"
                         },
-                "totalView" : {
-                        "icon": "bi-skip-forward-fill",
-                        "tableIcon": "bi-skip-forward-fill"
+                        {
+                            "name": "Geoportal Amt Biesenthal-Barnim",
+                            "url": "https://www.geoportal-biesenthal-barnim.de/"
                         }
+                    ]
+                }
             }
         },
-        "Themenconfig": {
-            "Hintergrundkarten": {
-             
-                        "Layer": [				
-                        {
-                            "id": "sw",
-                            "name": "Basiskarte (schwarz/weiß)",
-                            "visibility": true,
-                            "children": [							
-                                {
-                                    "id": "Basemap-sw",								
-                                    "maxScale": "250000"
-                                }
-                                       ]
-                        },
-                        {
-                            "id": "farbe",
-                            "name": "Basiskarte (farbig)",
-                            "visibility": false,
-                            "children": [							
-                                {
-                                    "id": "Basemap-farbe",								
-                                    "maxScale": "250000"
-                                }
-                                          ]
-                        },
-                        {
-                            "id": "alkis-sw-wms",
-                            "visibility": false,
-                            "name": "ALKIS"
-                        },			
-                        {
-                            "id": "dop16-18",
-                            "name": "Luftbilder 2016-2018",
-                            "visibility": false
-                        }
-                      ]
-                        },
-            "Fachdaten": {
-                "Ordner": [
-                    {
-                "Titel": "Allgemeines",
-                "isFolderSelectable": false, 
-                "Ordner": [
-                        {
+        "controls": {
+            "zoom": true,
+            "attributions": {
+                "isInitOpenDesktop": false,
+                "isInitOpenMobile": false
+            },
+            "mousePosition": true,
+            "overviewMap": {
+                "layerId": "minimap",
+                "isInitOpen": true
+            },
+            "totalView": {
+                "icon": "bi-skip-forward-fill",
+                "tableIcon": "bi-skip-forward-fill"
+            }
+        }
+    },
+    "Themenconfig": {
+        "Hintergrundkarten": {
+
+            "Layer": [{
+                    "id": "sw",
+                    "name": "Basiskarte (schwarz/weiß)",
+                    "visibility": true,
+                    "children": [{
+                        "id": "Basemap-sw",
+                        "maxScale": "250000"
+                    }]
+                },
+                {
+                    "id": "farbe",
+                    "name": "Basiskarte (farbig)",
+                    "visibility": false,
+                    "children": [{
+                        "id": "Basemap-farbe",
+                        "maxScale": "250000"
+                    }]
+                },
+                {
+                    "id": "alkis-sw-wms",
+                    "visibility": false,
+                    "name": "ALKIS"
+                },
+                {
+                    "id": "dop16-18",
+                    "name": "Luftbilder 2016-2018",
+                    "visibility": false
+                }
+            ]
+        },
+        "Fachdaten": {
+            "Ordner": [{
+                    "Titel": "Allgemeines",
+                    "isFolderSelectable": false,
+                    "Ordner": [{
                         "Titel": "Historische Karten und Luftbilder",
                         "isFolderSelectable": false,
-                        "Ordner": [
-                                {
+                        "Ordner": [{
                                 "Titel": "Historische Karten",
                                 "isFolderSelectable": false,
                                 "Layer": [
-                                        
-                                        {
+
+                                    {
                                         "id": "schmettau-wms",
                                         "visibility": false,
                                         "name": "Schmettausches Kartenwerk"
-                                        }
-                                         ]
-                                },
-                                {
+                                    }
+                                ]
+                            },
+                            {
                                 "Titel": "Historische Luftbilder",
                                 "isFolderSelectable": false,
-                                "Layer": [
-                                        {
+                                "Layer": [{
                                         "id": "dop16-18",
                                         "name": "Luftbilder 2016-2018",
                                         "visibility": false
-                                        },
-                                        {
+                                    },
+                                    {
                                         "id": "dop13-15",
                                         "name": "Luftbilder 2013-2015",
                                         "visibility": false
-                                        },
-                                        {
+                                    },
+                                    {
                                         "id": "dop09-12",
                                         "name": "Luftbilder 2009-2012",
                                         "visibility": false
-                                        },
-                                        {
+                                    },
+                                    {
                                         "id": "dop05-10",
                                         "name": "Luftbilder 2005-2010",
                                         "visibility": false
-                                        },
-                                        {
+                                    },
+                                    {
                                         "id": "dop01-09",
                                         "name": "Luftbilder 2001-2009",
                                         "visibility": false
-                                        },
-                                        {
+                                    },
+                                    {
                                         "id": "dop92-97",
                                         "name": "Luftbilder 1992-1997",
                                         "visibility": false
-                                        },
-                                        {
+                                    },
+                                    {
                                         "id": "dop53",
                                         "name": "Luftbilder 1953",
                                         "visibility": false
-                                        }
-                                         ]
-                                }									
+                                    }
                                 ]
-                        }
-                            ],
-                   "Layer": [				
-                        
+                            }
+                        ]
+                    }],
+                    "Layer": [
+
                         {
                             "id": "gemeinden-wfs",
                             "visibility": true,
@@ -305,7 +294,7 @@
                             "styleId": "flur-style",
                             "name": "Fluren",
                             "mouseHoverField": "FLN"
-                        },						
+                        },
                         {
                             "id": "plz-wfs",
                             "visibility": false,
@@ -313,272 +302,259 @@
                             "styleId": "plz-style",
                             "mouseHoverField": "plz"
                         },
-                       {
+                        {
                             "id": "inspire_str_netz",
                             "visibility": false
-                       }
-    
-    
+                        }
+
+
+                    ]
+                },
+                {
+                    "Titel": "Planung Amt Biesenthal-Barnim",
+                    "isFolderSelectable": false,
+                    "Ordner": [{
+                            "Titel": "Planung Stadt Biesenthal",
+                            "isFolderSelectable": false,
+                            "Layer": [{
+                                    "id": "BPlan1_96",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan 1-96",
+                                    "children": [{
+                                            "id": "BPlan1_96_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan1_96_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                },
+                                {
+                                    "id": "BPlan_Wohngeb-Am-Gruenen-Weg",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Wohngebiet am Grünen Weg",
+                                    "children": [{
+                                            "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                }
                             ]
-                    },
-                    {
-                "Titel": "Planung Amt Biesenthal-Barnim",
-                "isFolderSelectable": false, 
-                        "Ordner": [
+                        },
+
+
                         {
-                        "Titel": "Planung Stadt Biesenthal",
-                        "isFolderSelectable": false,
-                        "Layer": [
-   					{
-                                            "id": "BPlan1_96",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan 1-96",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan1_96_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan1_96_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    },
-    					{
-                                            "id": "BPlan_Wohngeb-Am-Gruenen-Weg",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Wohngebiet am Grünen Weg",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    }
-                                ]
-                    },
-                
-                        
-                    {
-                        "Titel": "Planung Gemeinde Breydin",
-                        "isFolderSelectable": false,
-                        "Layer": [
-   					{
-                                            "id": "BPlan_Sonder_Photo",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Sondergebiet Photovoltaik",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Sonder_Photo_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Sonder_Photo_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    },
-    					{
-                                            "id": "BPlan_1/2001_Wind_Bre",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Nr. 1/2001 Windpark Breydin",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_1/2001_Wind_Bre_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_1/2001_Wind_Bre_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    }
-                                ]
-                    },
-{
-                        "Titel": "Planung Gemeinde Marienwerder",
-                        "isFolderSelectable": false,
-                        "Layer": [
-   					{
-                                            "id": "BPlan_Nr3_Alter_Sport",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Nr. 3 Alter Sportplatz",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Nr3_Alter_Sport_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Nr3_Alter_Sport_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    },
-    					{
-                                            "id": "BPlan_1/04_Wohn_Buch_Ruh",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Nr. 1/04 Wohngebiet Buchtenden Ruhlsdorf",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_1/04_Wohn_Buch_Ruh_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_1/04_Wohn_Buch_Ruh_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    }
-                                ]
-                    },
-{
-                        "Titel": "Planung Gemeinde Sydower Fließ",
-                        "isFolderSelectable": false,
-                        "Layer": [
-   					{
-                                            "id": "BPlan_Am_Blume",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Am Blumenweg",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Am_Blume_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Am_Blume_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    },
-    					{
-                                            "id": "BPlan_Nr1_Wild_Temp",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Nr. 1 Windpark Tempelfelde",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Nr1_Wild_Temp_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Nr1_Wild_Temp_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    }
-                                ]
-                    },
-{
-                        "Titel": "Planung Gemeinde Rüdnitz",
-                        "isFolderSelectable": false,
-                        "Layer": [
-   					{
-                                            "id": "BPlan_Sechs",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Sechsrutenstücke",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Sechs_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Sechs_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    },
-    					{
-                                            "id": "BPlan_Alt_Wohn_Birk",
-                                            "visibility": false,
-                                            "name": "Bebauungsplan Altersgerechtes Wohnen am Birkenweg",
-                                            "children": [
-                                                    {
-                                                    "id": "BPlan_Alt_Wohn_Birk_wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "BPlan_Alt_Wohn_Birk_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    }
-                                ]
-                    },
-{
-                        "Titel": "Planung Gemeinde Melchow",
-                        "isFolderSelectable": false,
-                        "Layer": [
-   				
-                                ]
-                    }
-                            
-                
-                             ]
-                            },
-                "Titel": "Bildung",
-                "isFolderSelectable": false, 
-                        "Layer": [{
-                                            "id": "schulen_brandenburg",
-                                            "visibility": false,
-                                            "name": "Schulen in Brandenburg",
-                                            "children": [
-                                                    {
-                                                    "id": "schulen-wms",
-                                                    "visibility": false
-                                                    },
-                                                    {
-                                                    "id": "schulen-wfs",
-                                                    "styleId": "nicht_anzeigen",
-                                                    "visibility": false
-                                                    }
-        
-                                                   ]
-                            
-                                    }
-                    
-                        ],
-                        "Layer": [									
-                            
+                            "Titel": "Planung Gemeinde Breydin",
+                            "isFolderSelectable": false,
+                            "Layer": [{
+                                    "id": "BPlan_Sonder_Photo",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Sondergebiet Photovoltaik",
+                                    "children": [{
+                                            "id": "BPlan_Sonder_Photo_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Sonder_Photo_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                },
+                                {
+                                    "id": "BPlan_1/2001_Wind_Bre",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Nr. 1/2001 Windpark Breydin",
+                                    "children": [{
+                                            "id": "BPlan_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_1/2001_Wind_Bre_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                }
                             ]
-                    
-                    
-                
-                    
-            }				
+                        },
+                        {
+                            "Titel": "Planung Gemeinde Marienwerder",
+                            "isFolderSelectable": false,
+                            "Layer": [{
+                                    "id": "BPlan_Nr3_Alter_Sport",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Nr. 3 Alter Sportplatz",
+                                    "children": [{
+                                            "id": "BPlan_Nr3_Alter_Sport_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Nr3_Alter_Sport_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                },
+                                {
+                                    "id": "BPlan_1/04_Wohn_Buch_Ruh",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Nr. 1/04 Wohngebiet Buchtenden Ruhlsdorf",
+                                    "children": [{
+                                            "id": "BPlan_1/04_Wohn_Buch_Ruh_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_1/04_Wohn_Buch_Ruh_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                }
+                            ]
+                        },
+                        {
+                            "Titel": "Planung Gemeinde Sydower Fließ",
+                            "isFolderSelectable": false,
+                            "Layer": [{
+                                    "id": "BPlan_Am_Blume",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Am Blumenweg",
+                                    "children": [{
+                                            "id": "BPlan_Am_Blume_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Am_Blume_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                },
+                                {
+                                    "id": "BPlan_Nr1_Wild_Temp",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Nr. 1 Windpark Tempelfelde",
+                                    "children": [{
+                                            "id": "BPlan_Nr1_Wild_Temp_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Nr1_Wild_Temp_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                }
+                            ]
+                        },
+                        {
+                            "Titel": "Planung Gemeinde Rüdnitz",
+                            "isFolderSelectable": false,
+                            "Layer": [{
+                                    "id": "BPlan_Sechs",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Sechsrutenstücke",
+                                    "children": [{
+                                            "id": "BPlan_Sechs_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Sechs_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                },
+                                {
+                                    "id": "BPlan_Alt_Wohn_Birk",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Altersgerechtes Wohnen am Birkenweg",
+                                    "children": [{
+                                            "id": "BPlan_Alt_Wohn_Birk_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Alt_Wohn_Birk_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                }
+                            ]
+                        },
+                        {
+                            "Titel": "Planung Gemeinde Melchow",
+                            "isFolderSelectable": false,
+                            "Layer": [
+
+                            ]
+                        }
+
+
+                    ]
+                },
+                {
+                    "Titel": "Bildung",
+                    "isFolderSelectable": false,
+                    "Ordner": [{
+                        "Layer": {
+                            "id": "schulen_brandenburg",
+                            "visibility": false,
+                            "name": "Schulen in Brandenburg",
+                            "children": [{
+                                    "id": "schulen-wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schulen-wfs",
+                                    "styleId": "nicht_anzeigen",
+                                    "visibility": false
+                                }
+
+                            ]
+
+                        }
+                    }]
+                }
+
+            ],
+
+            "Layer": [
+
+            ]
+
+
+
+
         }
-        
     }
-    
+
+}
