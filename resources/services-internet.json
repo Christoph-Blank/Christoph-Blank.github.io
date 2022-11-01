@@ -1446,7 +1446,7 @@
 {
      "id" : "schulen_wms",
      "name" : "Schulen in Brandenburg",
-     "url" : "https://schullandschaft.brandenburg.de/edugis/wms/schulen/schulformen?",
+     "url" : "https://schullandschaft.brandenburg.de/edugis/wms/schulen/schulformen?language=ger&request=GetCapabilities&service=WMS",
      "typ" : "WMS",
      "layers" : "Foerderschule,Grundschule,Oberschule,Gesamtschule,Gymnasium,Zweiter_Bildungsweg",
      "format" : "image/png",
