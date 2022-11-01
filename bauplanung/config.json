@@ -531,7 +531,7 @@
                             "visibility": false,
                             "name": "Schulen in Brandenburg",
                             "children": [{
-                                    "id": "schulen-wms",
+                                    "id": "schulen_wms",
                                     "visibility": false
                                 },
                                 {
