@@ -24,7 +24,7 @@
                     		"lineStrokeWidth": 1,
                    		"lineStrokeDash": [1, 1],
 				"circleRadius": 5,
-                    		"circleStrokeColor": [0, 0, 0, 1],
+                    		"circleStrokeColor": [0, 0, 0, 0],
                     		"circleStrokeWidth": 3,
                     		"circleFillColor": [0, 0, 0, 0]
 
