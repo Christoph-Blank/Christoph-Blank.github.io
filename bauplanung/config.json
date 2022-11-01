@@ -305,14 +305,18 @@
                             "styleId": "flur-style",
                             "name": "Fluren",
                             "mouseHoverField": "FLN"
-                            },						
-                            {
+                        },						
+                        {
                             "id": "plz-wfs",
                             "visibility": false,
                             "name": "Postleitzahlen",
                             "styleId": "plz-style",
                             "mouseHoverField": "plz"
-                            }			 
+                        },
+                       {
+                            "id": "inspire_str_netz",
+                            "visibility": false
+                       }
     
     
                             ]
