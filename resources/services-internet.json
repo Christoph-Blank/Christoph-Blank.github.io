@@ -1430,6 +1430,19 @@
     	             },
     "legendURL": "ignore"
 },
+	{ 
+    "id": "schulen-wfs",
+    "name": "Schulen in Brandenburg",
+    "url": "https://schullandschaft.brandenburg.de/edugis/wfs/schulen?",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "ms:Schul_Standorte",
+    "featureNS": "",
+    "layerAttribution" : "nicht vorhanden",
+    "gfiAttributes" : "showAll",
+    "gfiTheme": "default"
+
+},
 
 {
      "id" : "fnp-wms",
