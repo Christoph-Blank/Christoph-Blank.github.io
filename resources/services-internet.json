@@ -3820,24 +3820,24 @@
 { 
     "id": "plz-wfs",
     "name": "Postleitzahlen",
-    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_plz",
-    "typ": "WFS",
-    "version": "1.1.0",
-    "featureType": "s_plz",
-    "featureNS": "",
+    "url": "https://isk.geobasis-bb.de/ows/plz_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+    "typ" : "WMS",
+    "layers" : "0",
+    "format" : "image/png",
+    "version" : "1.3.0",
+    "singleTile" : false,
     "transparent" : true,
     "transparency" : 0,
-    "gfiTheme": "default",
-    "gfiAttributes": {
- 	"plz": "Postleitzahl"
-    	             },
-    "legendURL": "",
-    "wfsFilter": "/karten/resources/filter/plz_filter.xml",
-    "datasets": [{
-      	"md_id": "dac87968-d6a6-37de-9dcc-9d1f59dbeb88",
-      	"csw_url" : "https://fbinter.stadt-berlin.de/fb/csw",
-      	"rs_id" : "https://registry.gdi-de.org/id/de.be.csw/ce6093e9-29bf-399c-b75a-5328205f30cc"
-    		}]
+    "urlIsVisible" : true,
+    "tilesize" : 512,
+    "gutter" : 0,
+    "infoFormat" : "text/xml",
+    "gfiAttributes" : "ignore",
+    "gfiTheme" : "default",
+    "gfiComplex" : "false",
+    "layerAttribution" : "nicht vorhanden",
+    "cache" : true,
+    "featureCount" : 1
 },
 { 
     "id": "erhalt-stadt-wfs",
