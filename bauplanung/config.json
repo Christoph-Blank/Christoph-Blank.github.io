@@ -607,7 +607,71 @@
                     "isFolderSelectable": false,
                     "Layer": [{
                             "id": "inspire_str_netz",
-                            "visibility": false
+                            "visibility": false,
+                            "name": "Straßennetz",
+                            "children": [{
+                                    "id": "inspire_str_netz_copyright",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_nbabas",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_am_ds",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_sm_ds",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_am",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_sm",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_grenzuebergaenge",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_kilometrierung",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_stationierung",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_netzknoten",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_kstr",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_lstr",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_bstr",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_bab",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "inspire_str_netz_estr",
+                                    "visibility": false
+                                }
+
+                            ]
+
                         },
                         {
                             "id": "plz-wms",
