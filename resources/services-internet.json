@@ -3822,7 +3822,7 @@
     "name": "Postleitzahlen",
     "url": "https://isk.geobasis-bb.de/ows/plz_wms?SERVICE=WMS&REQUEST=GetCapabilities",
     "typ" : "WMS",
-    "layers" : "0",
+    "layers" : "WMS-PLZ-BEBB",
     "format" : "image/png",
     "version" : "1.3.0",
     "singleTile" : false,
