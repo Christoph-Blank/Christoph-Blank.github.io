@@ -1996,7 +1996,7 @@
     {
          "id" : "BPlan_bp_plan_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_plan",
          "format" : "image/png",
@@ -2022,7 +2022,7 @@
     {
          "id" : "BPlan_bp_gruenflaeche_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_gruenflaeche",
          "format" : "image/png",
@@ -2048,7 +2048,7 @@
     {
          "id" : "BPlan_bp_baugebietsteilflaeche_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "hhttps://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_baugebietsteilflaeche",
          "format" : "image/png",
@@ -2074,7 +2074,7 @@
     {
          "id" : "BPlan_bp_baugrenze_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_baugrenze",
          "format" : "image/png",
@@ -2099,7 +2099,7 @@
     {
          "id" : "BPlan_bp_verentsorgung_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_verentsorgung",
          "format" : "image/png",
@@ -2124,7 +2124,7 @@
     {
          "id" : "BPlan_bp_strassenverkehrsflaeche_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_strassenverkehrsflaeche",
          "format" : "image/png",
@@ -2149,7 +2149,7 @@
     {
          "id" : "BPlan_bp_strassenbegrenzungslinie_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_strassenbegrenzungslinie",
          "format" : "image/png",
@@ -2174,7 +2174,7 @@
     {
          "id" : "BPlan_bp_schutzpflegeentwicklungsflaeche_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_schutzpflegeentwicklungsflaeche",
          "format" : "image/png",
@@ -2199,7 +2199,7 @@
     {
          "id" : "BPlan_bp_immissionsschutz_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "bp_immissionsschutz",
          "format" : "image/png",
@@ -2224,7 +2224,7 @@
     {
          "id" : "BPlan_raster_Am_Rueg_wms",
          "name" : "Bebauungsplan Am Rüggen",
-         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
+         "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp83?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
          "layers" : "raster",
          "format" : "image/png",
