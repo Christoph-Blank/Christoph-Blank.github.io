@@ -513,7 +513,23 @@
                         {
                             "Titel": "Planung Gemeinde Melchow",
                             "isFolderSelectable": false,
-                            "Layer": [
+                            "Layer": [{
+                                    "id": "BPlan_Maerki_Gr",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Märkisch Grün",
+                                    "children": [{
+                                            "id": "BPlan_Maerki_Gr_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_Maerki_Gr_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
+                                }
 
                             ]
                         }
