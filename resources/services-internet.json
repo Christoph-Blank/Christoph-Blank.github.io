@@ -329,7 +329,7 @@
      "name" : "Bebauungsplan 1-96",
      "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp12?SERVICE=WMS&REQUEST=GetCapabilities",
      "typ" : "WMS",
-     "layers" : "bp_baugebietsteilflaecher",
+     "layers" : "bp_baugebietsteilflaeche",
      "format" : "image/png",
      "version" : "1.3.0",
      "singleTile" : false,
