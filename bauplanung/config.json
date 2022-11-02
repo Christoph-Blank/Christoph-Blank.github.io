@@ -301,11 +301,8 @@
                             "name": "Postleitzahlen",
                             "styleId": "plz-style",
                             "mouseHoverField": "plz"
-                        },
-                        {
-                            "id": "inspire_str_netz",
-                            "visibility": false
                         }
+                        
 
 
                     ]
@@ -621,7 +618,10 @@
                 {
                     "Titel": "Infrastruktur",
                     "isFolderSelectable": false,
-                    "Layer": [
+                    "Layer": [{
+                            "id": "inspire_str_netz",
+                            "visibility": false
+                        }
 
 
                     ]
