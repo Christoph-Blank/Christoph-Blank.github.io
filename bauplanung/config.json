@@ -623,20 +623,67 @@
                     "Titel": "Bodenrichtwerte",
                     "isFolderSelectable": false,
                     "Layer": [ {
-                            "id": "Bodenrichtwerte_2022",
-                            "visibility": false,
-                            "name": "Bodenrichtwerte 2022",
-                            "children": [{
-                                    "id": "Bodenrichtwerte_2022_wms",
-                                    "visibility": false
-                                },
-                                {
-                                    "id": "Bodenrichtwerte_2022_wfs",
-                                    "styleId": "nicht_anzeigen",
-                                    "visibility": false
-                                }
+                            "id": "Bodenrichtwerte_2022_wms",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2021_wms",
+                            "visibility": false
 
-                            ]
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2020_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2019_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2018_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2017_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2016_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2015_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2014_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2013_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2012_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2011_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2010_wms",
+                            "visibility": false
 
                         }
 
