@@ -1535,7 +1535,7 @@
      "name" : "Bebauungsplan Märkisch Grün",
      "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp85?SERVICE=WMS&REQUEST=GetCapabilities",
      "typ" : "WMS",
-     "layers" : "bp_plan,bp_gruenflaeche,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_generischesobjekt,bp_strassenbegrenzungslinie,bp_einfahrtsbereichlinie,bp_anpflanzungbindungerhaltung,p_nutzungsartengrenze,xp_pto,raster",
+     "layers" : "bp_plan,bp_gruenflaeche,bp_baugebietsteilflaeche,bp_ueberbaubaregrundstuecksflaeche,bp_baugrenze,bp_generischesobjekt,bp_strassenbegrenzungslinie,bp_einfahrtsbereichlinie,bp_anpflanzungbindungerhaltung,bp_nutzungsartengrenze,xp_pto,raster",
      "format" : "image/png",
      "version" : "1.3.0",
      "singleTile" : false,
