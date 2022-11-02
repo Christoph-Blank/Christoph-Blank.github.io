@@ -288,8 +288,8 @@
                             "name": "Gemeinden",
                             "styleId": "gemeindegrenze-style"
                         }
-                        
-                        
+
+
 
 
                     ]
@@ -304,8 +304,7 @@
                                     "id": "BPlan1_96",
                                     "visibility": false,
                                     "name": "Bebauungsplan 1-96",
-                                    "children": [                              
-                                        {
+                                    "children": [{
                                             "id": "BPlan_raster_1_96_wms",
                                             "visibility": false
                                         },
@@ -530,6 +529,59 @@
 
                                     ]
 
+                                },
+                                {
+                                    "id": "BPlan_raster_Am_Rueg",
+                                    "visibility": false,
+                                    "name": "Bebauungsplan Am Rüggen",
+                                    "children": [{
+                                            "id": "BPlan_raster_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_immissionsschutz_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_schutzpflegeentwicklungsflaeche_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_strassenbegrenzungslinie_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_strassenverkehrsflaeche_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_verentsorgung_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_baugrenze_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_baugebietsteilflaeche_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_gruenflaeche_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_plan_Am_Rueg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan1_96_wfs",
+                                            "styleId": "nicht_anzeigen",
+                                            "visibility": false
+                                        }
+
+                                    ]
+
                                 }
 
                             ]
@@ -547,8 +599,7 @@
                             "id": "schulen_brandenburg",
                             "visibility": false,
                             "name": "Schulen in Brandenburg",
-                            "children": [
-                                {
+                            "children": [{
                                     "id": "Foerderschule_wms",
                                     "visibility": false
                                 },
@@ -686,7 +737,7 @@
                 {
                     "Titel": "Bodenrichtwerte",
                     "isFolderSelectable": false,
-                    "Layer": [ {
+                    "Layer": [{
                             "id": "Bodenrichtwerte_2022_wms",
                             "visibility": false
                         },
@@ -754,7 +805,7 @@
 
                     ]
                 }
-                       
+
 
             ],
 
