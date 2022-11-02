@@ -287,21 +287,8 @@
                             "visibility": true,
                             "name": "Gemeinden",
                             "styleId": "gemeindegrenze-style"
-                        },
-                        {
-                            "id": "flur-wfs",
-                            "visibility": false,
-                            "styleId": "flur-style",
-                            "name": "Fluren",
-                            "mouseHoverField": "FLN"
-                        },
-                        {
-                            "id": "plz-wfs",
-                            "visibility": false,
-                            "name": "Postleitzahlen",
-                            "styleId": "plz-style",
-                            "mouseHoverField": "plz"
                         }
+                        
                         
 
 
@@ -621,6 +608,12 @@
                     "Layer": [{
                             "id": "inspire_str_netz",
                             "visibility": false
+                        },
+                        {
+                            "id": "plz-wms",
+                            "visibility": false,
+                            "name": "Postleitzahlen",
+
                         }
 
 
