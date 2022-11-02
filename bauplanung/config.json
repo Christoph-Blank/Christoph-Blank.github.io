@@ -826,7 +826,7 @@
                                 },
                                 {
                                     "id": "wind_in_brand_wfs",
-                                    "styleId": "nicht_anzeigen",
+                                    "styleId": "wind",
                                     "visibility": false
                                 }
 
