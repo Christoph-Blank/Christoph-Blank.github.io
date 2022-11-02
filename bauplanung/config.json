@@ -618,7 +618,32 @@
 
 
                     ]
+                },
+                {
+                    "Titel": "Bodenrichtwerte",
+                    "isFolderSelectable": false,
+                    "Layer": [ {
+                            "id": "Bodenrichtwerte_2022",
+                            "visibility": false,
+                            "name": "Bodenrichtwerte 2022",
+                            "children": [{
+                                    "id": "Bodenrichtwerte_2022_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Bodenrichtwerte_2022_wfs",
+                                    "styleId": "nicht_anzeigen",
+                                    "visibility": false
+                                }
+
+                            ]
+
+                        }
+
+
+                    ]
                 }
+                       
 
             ],
 
