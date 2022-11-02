@@ -420,7 +420,7 @@
      "gfiTheme" : "default",
     "layerAttribution" : "nicht vorhanden",
      "gfiComplex" : "false",
-     "legendURL" : https://www.geoportal-biesenthal-barnim.de/docs/bies_bp12/Legende.pdf",
+     "legendURL" : "https://www.geoportal-biesenthal-barnim.de/docs/bies_bp12/Legende.pdf",
      "cache" : true,
      "featureCount" : 1
 },
