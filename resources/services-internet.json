@@ -1875,7 +1875,7 @@
     "url": "https://isk.geobasis-bb.de/ows/brw_wfs?SERVICE=WFS&REQUEST=GetCapabilities",
     "typ": "WFS",
     "version": "1.1.0",
-    "featureType": "s_fnp_ak",
+    "featureType": "Bauland zonal 2022,Landwirtschaft zonal 2022,Verfahrensgebiete 2022",
     "transparent" : true,
     "transparency" : 100,
     "featureNS": "",
