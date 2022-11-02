@@ -596,10 +596,15 @@
 
                             ]
 
-                        }
+                        },
+                        {
+                    "Titel": "Infrastruktur",
+                    "isFolderSelectable": false,
+                    "Layer": [
 
+                       
 
-                    ]
+                            ]
                 }
 
             ],
