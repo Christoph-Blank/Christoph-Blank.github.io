@@ -808,7 +808,31 @@
                 {
                     "Titel": "Umweltdaten",
                     "isFolderSelectable": false,
-                    "Layer": [
+                    "Layer": [{
+                            "id": "wind_in_brand",
+                            "visibility": false,
+                            "name": "Windkraftanlagen im Land Brandenburg",
+                            "children": [{
+                                    "id": "wind_in_brand_geplant_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "wind_in_brand_genehmigt_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "wind_in_brand_betrieb_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "wind_in_brand_wfs",
+                                    "styleId": "nicht_anzeigen",
+                                    "visibility": false
+                                }
+
+                            ]
+
+                        }
 
 
                     ]
