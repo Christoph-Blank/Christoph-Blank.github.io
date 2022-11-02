@@ -32,6 +32,20 @@
 		} 
 		]
 },
+	{
+	"styleId": "wind",
+	"rules": [	
+		{			
+				"style": {				
+				"circleRadius": 10,
+                    		"circleStrokeColor": [0, 0, 0, 1],
+                    		"circleStrokeWidth": 3,
+                    		"circleFillColor": [0, 0, 0, 0]
+
+						  }
+		} 
+		]
+},
 
 {
         "styleId": "gemeindegrenze-style",
