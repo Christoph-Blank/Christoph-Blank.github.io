@@ -542,6 +542,23 @@
 
                             ]
 
+                        },
+                        {
+                            "id": "kitas_brandenburg",
+                            "visibility": false,
+                            "name": "Kindertagesstätten in Brandenburg",
+                            "children": [{
+                                    "id": "kitas_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "kitas-wfs",
+                                    "styleId": "nicht_anzeigen",
+                                    "visibility": false
+                                }
+
+                            ]
+
                         }
 
 
