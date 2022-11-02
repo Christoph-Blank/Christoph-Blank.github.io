@@ -612,7 +612,7 @@
                         {
                             "id": "plz-wms",
                             "visibility": false,
-                            "name": "Postleitzahlen",
+                            "name": "Postleitzahlen"
 
                         }
 
