@@ -2907,10 +2907,10 @@
     { 
         "id": "wind_in_brand_wfs",
         "name": "Windkraftanlagen im Land Brandenburg",
-        "url": "https://inspire.brandenburg.de/services/wka_wfs",
+        "url": "https://inspire.brandenburg.de/services/wka_wfs?",
         "typ": "WFS",
         "version": "1.1.0",
-        "featureType": "wka",
+        "featureType": "app:wka",
         "featureNS": "",
         "gfiTheme": "default",
         "gfiAttributes": "showAll",
