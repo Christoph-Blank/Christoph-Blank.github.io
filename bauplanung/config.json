@@ -530,8 +530,29 @@
                             "id": "schulen_brandenburg",
                             "visibility": false,
                             "name": "Schulen in Brandenburg",
-                            "children": [{
-                                    "id": "schulen_wms",
+                            "children": [
+                                {
+                                    "id": "Foerderschule_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Grundschule_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Oberschule_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Gesamtschule_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Gymnasium_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Zweiter_Bildungsweg_wms",
                                     "visibility": false
                                 },
                                 {
