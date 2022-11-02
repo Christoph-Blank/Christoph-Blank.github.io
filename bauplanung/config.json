@@ -301,11 +301,8 @@
                             "name": "Postleitzahlen",
                             "styleId": "plz-style",
                             "mouseHoverField": "plz"
-                        },
-                        {
-                            "id": "inspire_str_netz",
-                            "visibility": false
                         }
+                        
 
 
                     ]
@@ -321,9 +318,25 @@
                                     "visibility": false,
                                     "name": "Bebauungsplan 1-96",
                                     "children": [{
-                                            "id": "BPlan1_96_wms",
+                                            "id": "BPlan_bp_plan_1_96_wms",
                                             "visibility": false
                                         },
+                                        {
+                                            "id": "BPlan_bp_baugebietsteilflaeche_1_96_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_ueberbaubaregrundstuecksflaeche_1_96_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_baugrenze_1_96_wm",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_raster_1_96_wms",
+                                            "visibility": false
+                                        },                                        
                                         {
                                             "id": "BPlan1_96_wfs",
                                             "styleId": "nicht_anzeigen",
@@ -602,7 +615,10 @@
                     "isFolderSelectable": false,
                     "Layer": [
 
-                       
+                                {
+                            "id": "inspire_str_netz",
+                            "visibility": false
+                                }
 
                             ]
                 }
