@@ -2534,7 +2534,9 @@
          "cache" : true,
          "featureCount" : 1,
         "datasets": [{
-          "rs_id" : "https://isk.geobasis-bb.de/ows/brw_wms?request=GetMetadata&layer=bbv_pg_verf_2022"
+           "md_id": "bbv_pg_verf_2022",
+          "https://isk.geobasis-bb.de/ows/brw_wms",             
+          "rs_id" : " https://geobroker.geobasis-bb.de/gbss.php?MODE=GetProductPreview&PRODUCTID=0ce05f0b-ea0d-4ee8-a35b-d2430f43ed28"
                 }]
         
     },
