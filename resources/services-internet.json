@@ -2948,7 +2948,7 @@
          "featureCount" : 1,
          "datasets": [{
           "md_id": "99ef007c-fb63-4a3d-971c-9e83b8ddeae4",
-          "csw_url" : "https://geoportal.brandenburg.de/csw-gdi-bb/",             
+          "csw_url" : "https://geoportal.brandenburg.de/csw-gdi-bb",             
           "rs_id" : "https://geoportal.brandenburg.de/csw-gdi-bb/service?REQUEST=GetRecordById&service=CSW&version=2.0.2&resultType=results&typeNames=csw:Record&elementSetName=full&ID=99ef007c-fb63-4a3d-971c-9e83b8ddeae4"
                 }]
        
