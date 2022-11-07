@@ -2923,6 +2923,36 @@
         "gfiAttributes": "showAll",
         "legendURL": "ignore"
     },
+     {
+         "id" : "schmettau-wms",
+         "name" : "Digitales Schmettausches Kartenwerk Brandenburg",
+         "url" : "https://isk.geobasis-bb.de/mapproxy/schmettau/service/wms?",
+         "typ" : "WMS",
+         "layers" : "schmettau",
+         "format" : "image/png",
+         "version" : "1.3.0",
+         "singleTile" : false,
+         "transparent" : true,
+         "transparency" : 0,
+         "urlIsVisible" : true,
+         "tilesize" : 512,
+         "gutter" : 0,
+         "minScale" : "0",
+         "maxScale" : "2500000",
+         "infoFormat" : "text/xml",
+         "gfiAttributes" : "ignore",
+         "gfiTheme" : "default",
+         "gfiComplex" : "false",
+         "layerAttribution" : "nicht vorhanden",
+         "cache" : true,
+         "featureCount" : 1,
+         "datasets": [{
+          "md_id": "99ef007c-fb63-4a3d-971c-9e83b8ddeae4",
+          "csw_url" : "https://geoportal.brandenburg.de/csw-gdi-bb/service?REQUEST=GetRecordById&service=CSW&version=2.0.2&resultType=results&typeNames=csw",             
+          "rs_id" : "https://geoportal.brandenburg.de/csw-gdi-bb/service?REQUEST=GetRecordById&service=CSW&version=2.0.2&resultType=results&typeNames=csw:Record&elementSetName=full&ID=99ef007c-fb63-4a3d-971c-9e83b8ddeae4"
+                }]
+       
+    },
     { 
         "id": "f-bplan-wfs",
         "name": "festgesetzte Bebauungspläne (WFS)",
@@ -4407,30 +4437,7 @@
           "rs_id" : "https://registry.gdi-de.org/id/de.be.csw/23a37921-61b0-35f0-a756-78b3dcefdfe9"
                 }]
     },
-    {
-         "id" : "schmettau-wms",
-         "name" : "Digitales Schmettausches Kartenwerk Brandenburg",
-         "url" : "https://isk.geobasis-bb.de/mapproxy/schmettau/service/wms?",
-         "typ" : "WMS",
-         "layers" : "schmettau",
-         "format" : "image/png",
-         "version" : "1.3.0",
-         "singleTile" : false,
-         "transparent" : true,
-         "transparency" : 0,
-         "urlIsVisible" : true,
-         "tilesize" : 512,
-         "gutter" : 0,
-         "minScale" : "0",
-         "maxScale" : "2500000",
-         "infoFormat" : "text/xml",
-         "gfiAttributes" : "ignore",
-         "gfiTheme" : "default",
-         "gfiComplex" : "false",
-         "layerAttribution" : "nicht vorhanden",
-         "cache" : true,
-         "featureCount" : 1
-    },
+   
     {
         "id" : "K5-2020-wms",
         "name" : "Karte von Berlin 1:5000 (Jahrgang 2020)",
