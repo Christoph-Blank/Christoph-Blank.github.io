@@ -11,6 +11,18 @@ const Config = {
                 "url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/stadtentwicklungsamt/kataster-und-vermessung/",
                 "alias": "Amt Biesenthal",
                 "alias_mobil": "Amt Biesenthal"
+            },
+            {
+                "bezeichnung": "",
+                "url": "https://www.amt-biesenthal-barnim.de/impressum",
+                "alias": "Impressum",
+                "alias_mobil": "Impressum"
+            },
+            {
+                "bezeichnung": "",
+                "url": "https://www.amt-biesenthal-barnim.de/datenschutz",
+                "alias": "Datenschutzerklärung",
+                "alias_mobil": "Datenschutz"
             }
         ],
         showVersion: true
