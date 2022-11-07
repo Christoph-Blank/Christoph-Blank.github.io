@@ -2533,11 +2533,7 @@
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
          "featureCount" : 1,
-        "datasets": [{
-          "md_id": "bbv_pg_verf_2022",
-          "csw_url" : "https://isk.geobasis-bb.de/ows/brw_wms?",             
-          "rs_id" : " https://isk.geobasis-bb.de/ows/brw_wms?request=GetMetadata&layer=bbv_pg_verf_2022"
-                }]
+        "datasets": "https://isk.geobasis-bb.de/ows/brw_wms?request=GetMetadata&layer=bbv_pg_verf_2022"
         
     },
     {
