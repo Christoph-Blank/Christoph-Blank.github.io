@@ -2858,7 +2858,7 @@
          "cache" : true,
          "featureCount" : 1,
          "datasets": [{
-          "md_id": "5C506E5-3E9D-4DE2-9073-C3DB636CE7CF",
+          
           "csw_url" : "https://www.metaver.de/csw",
           "rs_id" : "https://www.metaver.de/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=45C506E5-3E9D-4DE2-9073-C3DB636CE7CF"
                 }]
