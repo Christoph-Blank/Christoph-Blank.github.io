@@ -2532,7 +2532,11 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": [{
+          "rs_id" : "https://isk.geobasis-bb.de/ows/brw_wms?request=GetMetadata&layer=bbv_pg_verf_2022"
+                }]
+        
     },
     {
          "id" : "Bodenrichtwerte_2021_wms",
