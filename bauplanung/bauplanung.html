@@ -11,7 +11,28 @@
     <title>Geoviewer Amt Biesenthal</title> <!-- enter your own Portal Title for the website at this -->
     <link rel="stylesheet" href="../mastercode/2_20_1/css/masterportal.css">
     <link rel="stylesheet" href=""> <!-- Here you can configure your own fonts as url -->
-
+    <script type="text/javascript">
+	const observer = new MutationObserver(function() {
+		var container=document.querySelector('#masterportal-container')
+		if (container){
+			var sessionurl="https://sg.geodatenzentrum.de/gdz_getSession";
+			var appid="d054dbe6-fab0-27fa-3c60-5af92cfa13d6";
+			var domain="gdi.berlin.de";
+			var restserviceid="bkg_ors";
+			var url=sessionurl+"?bkg_appid="+appid+"&domain="+domain;
+			fetch(url).then(response => response.text()).then( sessionid => {
+				var restconf=container.__vue__.$store.state.restConf;
+				restconf.forEach(item => {
+					if (item.id==restserviceid){
+				   item.url="https://sg.geodatenzentrum.de/web_ors__"+sessionid;
+					}
+				});
+			});
+			observer.disconnect();
+		}
+	});
+    observer.observe(document.documentElement , { subtree: true, childList: true});
+   </script>
 </head>
 <body>
     <div id="masterportal-root"></div>
