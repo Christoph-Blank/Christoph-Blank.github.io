@@ -14,13 +14,13 @@
 {
         "id" : "4",
         "name" : "BKG Suggest",
-        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/suggest",
+        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d054dbe6-fab0-27fa-3c60-5af92cfa13d6/suggest",
         "typ" : "WFS"
 },
 {
         "id" : "5",
         "name" : "BKG Service",
-        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/geosearch",
+        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d054dbe6-fab0-27fa-3c60-5af92cfa13d6/geosearch",
         "typ" : "WFS"
 },
 {
@@ -44,7 +44,7 @@
 {
 	"id" : "6",
 	"name" : "BKG OpenRoute",
-	"url" : "https://sg.geodatenzentrum.de/web_ors__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6",
+	"url" : "https://sg.geodatenzentrum.de/web_ors__d054dbe6-fab0-27fa-3c60-5af92cfa13d6",
 	"typ" : "GDZ"
 },
     {
