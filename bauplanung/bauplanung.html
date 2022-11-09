@@ -18,7 +18,7 @@
 			var sessionurl="https://sg.geodatenzentrum.de/gdz_getSession";
 			var appid="d054dbe6-fab0-27fa-3c60-5af92cfa13d6";
 			var domain="gdi.berlin.de";
-			var restserviceid="bkg_ors";
+			var restserviceid="6";
 			var url=sessionurl+"?bkg_appid="+appid+"&domain="+domain;
 			fetch(url).then(response => response.text()).then( sessionid => {
 				var restconf=container.__vue__.$store.state.restConf;
