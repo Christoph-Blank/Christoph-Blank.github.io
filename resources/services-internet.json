@@ -4273,8 +4273,7 @@
          "gfiComplex" : "false",
          "legendURL" : "https://isk.geobasis-bb.de/ows/legends/WMS-ALKIS_SW.png",
          "cache" : true,
-         "featureCount" : 1,
-         "styles": "Farbe"
+         "featureCount" : 1
     },
     {
          "id" : "alkis-farbe-wms",
