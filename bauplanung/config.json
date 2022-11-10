@@ -307,17 +307,17 @@
                                     "children": [{
                                             "id": "BPlan_raster_1_96_wms",
                                             "visibility": false
-                                        },
-                                        {
-                                            "id": "BPlan_bp_baugrenze_1_96_wms",
-                                            "visibility": false
-                                        },
+                                        },                                        
                                         {
                                             "id": "BPlan_bp_ueberbaubaregrundstuecksflaeche_1_96_wms",
                                             "visibility": false
                                         },
                                         {
                                             "id": "BPlan_bp_baugebietsteilflaeche_1_96_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "BPlan_bp_baugrenze_1_96_wms",
                                             "visibility": false
                                         },
                                         {
@@ -340,25 +340,25 @@
                                     "children": [{
                                             "id" : "BPlan_raster_Wohngeb-Am-Gruenen-Weg_wms",
                                             "visibility": false
-                                        },
-                                        {
-                                            "id" : "BPlan_bp_strassenbegrenzungslinie_Wohngeb-Am-Gruenen-Weg_wms",
-                                            "visibility": false
-                                        },
+                                        },                                        
                                         {
                                             "id" : "BPlan_bp_strassenverkehrsflaeche_Wohngeb-Am-Gruenen-Weg_wms",
                                             "visibility": false
                                         },
                                         {
-                                            "id" : "BPlan_bp_baugrenze_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "id" : "BPlan_bp_strassenbegrenzungslinie_Wohngeb-Am-Gruenen-Weg_wms",
                                             "visibility": false
-                                        },
+                                        },                                        
                                         {
                                             "id" : "BPlan_bp_ueberbaubaregrundstuecksflaeche_Wohngeb-Am-Gruenen-Weg_wms",
                                             "visibility": false
                                         },
                                         {
                                             "id" : "BPlan_bp_baugebietsteilflaeche_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_baugrenze_Wohngeb-Am-Gruenen-Weg_wms",
                                             "visibility": false
                                         },
                                         {
