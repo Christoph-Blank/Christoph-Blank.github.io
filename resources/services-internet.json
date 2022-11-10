@@ -668,7 +668,7 @@
          "infoFormat" : "text/xml",
          "gfiAttributes" : "ignore",
          "gfiTheme" : "default",
-        "layerAttribution" : "nicht vorhanden",
+         "layerAttribution": "<p> Bebauungsplan Nr. 1/96 - Amt Biesenthal-Barnim Stadt Biesenthal <br>&nbsp<br>Stand: 16.07.1997 <br>Quelle: Ordnungsamt <br>&nbsp<br>Ansprechpartener: Rick Bergner<br>Telefon: +49 3337 4599 35<br> <a target='_blank' href='mailto:bergener@amt-biesenthal-barnim.de'>E-Mail</a><br>&nbsp<br>Kosten: entgeltfrei<br>Zugriffsbeschränkungen: Keine Zugriffsbeschränkungen. Bereitgestellte Daten dienen ausschließlich der Information und besitzen keine Rechtsverbindlichkeit.<br>Dokumente: <a target='_blank' href='https://www.geoportal-biesenthal-barnim.de/docs/bies_bp12/Legende.pdf'>Legende</a>",
          "gfiComplex" : "false",
          "legendURL" : "https://www.geoportal-biesenthal-barnim.de/docs/xp_legende/bp_plan.png",
          "cache" : true,
