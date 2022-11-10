@@ -338,9 +338,33 @@
                                     "visibility": false,
                                     "name": "Bebauungsplan Wohngebiet am Grünen Weg",
                                     "children": [{
-                                            "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "id" : "BPlan_raster_Wohngeb-Am-Gruenen-Weg_wms",
                                             "visibility": false
                                         },
+                                        {
+                                            "id" : "BPlan_bp_strassenbegrenzungslinie_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_strassenbegrenzungslinie_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_baugrenze_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_ueberbaubaregrundstuecksflaeche_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_baugebietsteilflaeche_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_plan_Wohngeb-Am-Gruenen-Weg_wms",
+                                            "visibility": false
+                                        },         
                                         {
                                             "id": "BPlan_Wohngeb-Am-Gruenen-Weg_wfs",
                                             "styleId": "nicht_anzeigen",
