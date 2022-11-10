@@ -4272,7 +4272,7 @@
          "gfiTheme" : "default",
          "gfiComplex" : "false",
          "stylename" : "Farbe",
-         "legendURL" : "https://isk.geobasis-bb.de/ows/legends/WMS-ALKIS_Farbe.png",
+         "legendURL" : "https://isk.geobasis-bb.de/ows/legends/WMS-ALKIS_SW.png",
          "cache" : true,
          "featureCount" : 1
     },
