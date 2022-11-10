@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wfs:GetFeature service="WFS" version="1.1.0" xmlns:fis="https://isk.geobasis-bb.de/" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/gml">
+<wfs:GetFeature service="WFS" version="1.1.0" xmlns:fis="https://isk.geobasis-bb.de/" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc">
     <wfs:Query typeName="ave:VerwaltungsEinheit">
-        <gml:Filter>
-            <gml:And>
-                <gml:PropertyIsEqualTo>
-                    <gml:PropertyName>name</gml:PropertyName>
-                    <gml:Literal>Biesenthal</gml:Literal>
-                </gml:PropertyIsEqualTo>
-            </gml:And>
-        </gml:Filter>>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>name</ogc:PropertyName>
+                    <ogc:Literal>Biesenthal</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
     </wfs:Query>
 </wfs:GetFeature>
