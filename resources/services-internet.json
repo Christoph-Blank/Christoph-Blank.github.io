@@ -672,7 +672,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.geoportal-biesenthal-barnim.de/docs/xp_legende/bp_plan.png",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "BPlan_bp_baugebietsteilflaeche_1_96_wms",
@@ -2559,7 +2560,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2020_wms",
@@ -2584,7 +2586,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2019_wms",
@@ -2634,7 +2637,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2017_wms",
@@ -2659,7 +2663,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2016_wms",
@@ -2684,7 +2689,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2015_wms",
@@ -2709,7 +2715,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2014_wms",
@@ -2734,7 +2741,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2013_wms",
@@ -2759,7 +2767,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2012_wms",
@@ -2784,7 +2793,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2011_wms",
@@ -2809,7 +2819,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "Bodenrichtwerte_2010_wms",
@@ -2834,7 +2845,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.gutachterausschuss-bb.de/xtechnik/pdf/Legende_Bodenrichtwertkarte.pdf",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     
     {
