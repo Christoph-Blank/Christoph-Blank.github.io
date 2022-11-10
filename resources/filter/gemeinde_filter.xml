@@ -4,7 +4,7 @@
         <ogc:Filter>
             <ogc:And>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>NAME</ogc:PropertyName>
+                    <ogc:PropertyName>name</ogc:PropertyName>
                     <ogc:Literal>Biesenthal</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:And>
