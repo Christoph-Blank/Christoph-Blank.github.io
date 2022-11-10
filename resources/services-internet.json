@@ -4269,7 +4269,7 @@
          "maxScale" : "20000",
          "infoFormat" : "text/xml",
          "gfiAttributes" : "ignore",
-         "gfiTheme" : "Farbe",
+         "gfiTheme" : "default",
          "gfiComplex" : "false",
          "legendURL" : "https://isk.geobasis-bb.de/ows/legends/WMS-ALKIS_SW.png",
          "cache" : true,
