@@ -401,16 +401,17 @@
                                             "id" : "BPlan_bp_verentsorgung_Sonder_Photo_wms",
                                             "visibility": false
                                         },
-                                        {
-                                            "id" : "BPlan_bp_baugrenze_Sonder_Photo_wms",
-                                            "visibility": false
-                                        },
+                                       
                                         {
                                             "id" : "BPlan_bp_ueberbaubaregrundstuecksflaeche_Sonder_Photo_wms",
                                             "visibility": false
                                         },
                                         {
                                             "id" : "BPlan_bp_baugebietsteilflaeche_Sonder_Photo_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_baugrenze_Sonder_Photo_wms",
                                             "visibility": false
                                         },
                                         {
