@@ -1151,7 +1151,8 @@
          "gfiComplex" : "false",
          "legendURL" : "https://www.geoportal-biesenthal-barnim.de/docs/xp_legende/bp_plan.png",
          "cache" : true,
-         "featureCount" : 1
+         "featureCount" : 1,
+        "datasets": []
     },
     {
          "id" : "BPlan_bp_gruenflaeche_Sonder_Photo_wms",
