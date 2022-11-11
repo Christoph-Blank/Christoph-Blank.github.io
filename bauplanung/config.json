@@ -389,7 +389,10 @@
                                             "id" : "BPlan_raster_Sonder_Photo_wms",
                                             "visibility": false
                                         },                                        
-                                        
+                                        {
+                                            "id" : "BPlan_bp_kennzeichnungsflaeche_Sonder_Photo_wms",
+                                            "visibility": false
+                                        },  
                                         {
                                             "id" : "BPlan_bp_verkehrsflaechebesondererzweckbestimmung_Sonder_Photo_wms",
                                             "visibility": false
@@ -421,11 +424,7 @@
                                         {
                                             "id" : "BPlan_bp_wegerecht_Sonder_Photo_wms",
                                             "visibility": false
-                                        },
-                                        {
-                                            "id" : "BPlan_bp_kennzeichnungsflaeche_Sonder_Photo_wms",
-                                            "visibility": false
-                                        },                                        
+                                        },                                                                             
                                         {
                                             "id" : "BPlan_bp_anpflanzungbindungerhaltung_Sonder_Photo_wms",
                                             "visibility": false
