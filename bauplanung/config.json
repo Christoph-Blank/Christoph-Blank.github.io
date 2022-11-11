@@ -452,7 +452,47 @@
                                     "visibility": false,
                                     "name": "Bebauungsplan Nr. 1/2001 Windpark Breydin",
                                     "children": [{
-                                            "id": "BPlan_1/2001_Wind_Bre_wms",
+                                            "id" : "BPlan_raster_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        }, 
+                                        {
+                                            "id" : "BPlan_bp_verkehrsflaechebesondererzweckbestimmung_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_strassenverkehrsflaeche_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },                                                                               
+                                        {
+                                            "id" : "BPlan_bp_strassenbegrenzungslinie_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        }, 
+                                        {
+                                            "id" : "BPlan_bp_baugrenze_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_ueberbaubaregrundstuecksflaeche_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_baugebietsteilflaeche_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },                                         
+                                        {
+                                            "id" : "BPlan_bp_baugrenze_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_gruenflaeche_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_waldflaeche_1/2001_Wind_Bre_wms",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id" : "BPlan_bp_plan_1/2001_Wind_Bre_wms",
                                             "visibility": false
                                         },
                                         {
