@@ -1354,7 +1354,7 @@
          "featureCount" : 1
     },
     {
-         "id" : "BPlan_Sonder_bp_anpflanzungbindungerhaltung_Photo_wms",
+         "id" : "BPlan_bp_anpflanzungbindungerhaltung_Sonder_Photo_wms",
          "name" : "Bebauungsplan Sondergebiet Photovoltaik",
          "url" : "https://www.geoportal-biesenthal-barnim.de/isk/bies_bp88?SERVICE=WMS&REQUEST=GetCapabilities",
          "typ" : "WMS",
