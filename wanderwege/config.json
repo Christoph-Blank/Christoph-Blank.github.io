@@ -279,6 +279,19 @@
                                 ]
                             }
                         ]
+                    }], 
+                            "Titel": "Wanderwege Breydin",
+                            "isFolderSelectable": false,
+                            "Layer": [
+                                    {
+                                        "id": "Wanderweg_Froschmuehle_L",
+                                        "visibility": false,
+                                        "name": "Wanderweg Froschmühle"
+                                    }
+                                ]
+                            
+                            
+                        
                     }],
                     "Layer": [
 
