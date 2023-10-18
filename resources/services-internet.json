@@ -2,7 +2,7 @@
     {
         "id": "Wanderweg_Froschmuehle_L",
         "name": "Wanderweg_Froschmuehle_L",
-        "url": "/ressources/GeoJson/Wanderweg_Froschmuehle.geojson",
+        "url": "/resources/GeoJson/Wanderweg_Froschmuehle.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
