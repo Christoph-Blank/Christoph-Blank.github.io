@@ -1,5 +1,15 @@
 [
     {
+        "id": "Wanderweg_Froschmuehle_L",
+        "name": "Wanderweg_Froschmuehle_L",
+        "url": "/ressources/GeoJson/Wanderweg_Froschmuehle.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+    {
          "id" : "minimap",
          "name" : "Webatlas Deutschland",
          "url" : "https://sgx.geodatenzentrum.de/wms_webatlasde.light",
