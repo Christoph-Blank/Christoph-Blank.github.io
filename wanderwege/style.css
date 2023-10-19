@@ -1,0 +1,79 @@
+.list-group-item.disabled {
+    display: none !important;
+}
+
+.mouse-position {
+    background-color: #646262;
+}
+
+.controls-view .glyphicon {
+    background-color: #91bd4a;
+}
+
+.attributions-view dt {
+    color: #333333;
+    font-size: 10px;
+}
+
+.attributions-div {
+    font-size: 10px;
+}
+
+#title-text {
+    font-size: 20px;
+    color: #333333;
+}
+
+ul#tree.light {
+    overflow: visible;
+
+}
+
+/*Farbänderung icons & infoboxen*/
+
+.control-icon[data-v-88407a44] {
+    background-color: #347732;
+}
+
+.control-icon[data-v-88407a44]:hover {
+    background-color: #fed976;
+}
+
+.control-icon[data-v-88407a44]:focus {
+    background-color: #fed976;
+}
+
+.control-icon[data-v-88407a44]:active {
+    background-color: #fed976;
+}
+
+.mouse-position[data-v-67b2a13e] {
+    background-color: #347732;
+}
+
+.attributions-wrapper .attributions-view dt[data-v-4fd678ba] {
+    color: #347732;
+}
+
+.tool-window-vue.is-minified .win-heading[data-v-2a3dd68d] {
+    background-color: #347732;
+}
+
+.tool-window>.header-min {
+    background-color: #347732;
+}
+
+.legend {
+    position: relative;
+    top: 400px;
+    right: 10px;
+
+}
+
+
+#layerinformation-desktop {
+    position: absolute;
+    top: 400px;
+    right: 10px;
+
+}
