@@ -7,6 +7,11 @@
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
         "legendURL": "ignore",
+         "gfiAttributes": {
+            "Start": "Start",
+            "Ziel": "Ziel",
+            "Bemerkungen": "Bemerkungen"
+        },
         "cache": false
     },
     {
@@ -17,6 +22,11 @@
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
         "legendURL": "ignore",
+        "gfiAttributes": {
+            "Start": "Start",
+            "Ziel": "Ziel",
+            "Bemerkungen": "Bemerkungen"
+        },
         "cache": false
     },
     {
@@ -27,6 +37,11 @@
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
         "legendURL": "ignore",
+        "gfiAttributes": {
+            "Start": "Start",
+            "Ziel": "Ziel",
+            "Bemerkungen": "Bemerkungen"
+        },
         "cache": false
     },
     {
@@ -37,6 +52,11 @@
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
         "legendURL": "ignore",
+        "gfiAttributes": {
+            "Start": "Start",
+            "Ziel": "Ziel",
+            "Bemerkungen": "Bemerkungen"
+        },
         "cache": false
     },
     {
@@ -47,6 +67,11 @@
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
         "legendURL": "ignore",
+        "gfiAttributes": {
+            "Start": "Start",
+            "Ziel": "Ziel",
+            "Bemerkungen": "Bemerkungen"
+        },
         "cache": false
     },
     {
