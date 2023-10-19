@@ -1,5 +1,17 @@
 [
 {
+        "styleId": "Wanderweg.LI",
+        "rules": [
+                "style": {
+                    "lineStrokeColor": [255, 133, 133, 1],
+                    "lineStrokeWidth": 1.5,
+                    "lineStrokeDash": [5, 3]
+                }
+            }
+
+        ]
+},
+{
 	"styleId": "ot-style",
 	"rules": [	
 		{			
