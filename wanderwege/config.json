@@ -26,10 +26,10 @@
         },
         "mapView": {
             "backgroundImage": "../resources/img/backgroundCanvas.jpeg",
-            "startCenter": [410410.15, 5849239.27],
+            "startCenter": [419881.00, 5846631.00],
             "epsg": "EPSG:25833",
-            "extent": [396425.2, 5838164.4, 424601.3, 5862099.4],
-            "startZoomLevel": 1
+            "extent": [413728.00, 5843215.00, 426265.00, 5850117.00],            
+            "startZoomLevel": 5
         },
         "menu": {
             "tree": {
