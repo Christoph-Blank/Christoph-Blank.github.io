@@ -178,18 +178,7 @@
                 "layerId": "Basemap-sw",
                 "isInitOpen": true
             },
-            "totalView": {
-
-    
-        
-          
-    
-
-        
-        Expand All
-    
-    @@ -192,12 +192,14 @@
-  
+            "totalView": {  
                 "icon": "bi-skip-forward-fill",
                 "tableIcon": "bi-skip-forward-fill"
             }
@@ -211,17 +200,6 @@
 
                 },
                 {
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
-  
                     "id": "alkis-sw-wms",
                     "visibility": false,
                     "name": "ALKIS"
