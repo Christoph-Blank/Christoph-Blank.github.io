@@ -177,7 +177,7 @@
             },
             "mousePosition": true,
             "overviewMap": {
-                "layerId": "minimap",
+                "layerId": "Basemap-sw",
                 "isInitOpen": true
             },
             "totalView": {
@@ -192,12 +192,14 @@
             "Layer": [{                    
                     "id": "Basemap-sw",
                     "name": "Basiskarte (schwarz/weiß)",
-                    "maxScale": "250000"                  
+                    "maxScale": "250000",
+                    "visibility": true,
                 },
                 {
                     "id": "Basemap-farbe",
                     "name": "Basiskarte (farbig)",
-                    "maxScale": "250000"
+                    "maxScale": "250000",
+                    "visibility": false
                     
                 },
                 {
