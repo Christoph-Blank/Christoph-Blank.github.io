@@ -205,13 +205,13 @@
                 },
                 {
                     "id": "alkis-sw-wms",
-                    "visibility": true,
+                    "visibility": false,
                     "name": "ALKIS"
                 },
                 {
                     "id": "dop19-20",
                     "name": "Luftbilder 2019-2020",
-                    "visibility": false
+                    "visibility": true
                 }
             ]
         },
@@ -255,7 +255,7 @@
                                 "Layer": [{
                                         "id": "dop19-20",
                                         "name": "Luftbilder 2019-2020",
-                                        "visibility": true
+                                        "visibility": false
                                     },
                                     {
                                         "id": "dop16-18",
