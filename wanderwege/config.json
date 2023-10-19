@@ -298,26 +298,31 @@
                                     {
                                         "id": "Wanderweg_Froschmuehle_L",
                                         "visibility": false,
+                                        "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Froschmühle"
                                     },
                                     {
                                         "id": "Wanderweg_an_der_Muellkute_L",
                                         "visibility": false,
+                                        "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg an der Müllkute"
                                     },
                                     {
                                         "id": "Wanderweg_Querfeldein_L",
                                         "visibility": false,
+                                        "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Querfeldein"
                                     },
                                     {
                                         "id": "Wanderweg_Schloss-Trampe_L",
                                         "visibility": false,
+                                        "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Schloss-Trampe"
                                     },
                                     {
                                         "id": "Wanderweg_Trampe-Kruge_L",
                                         "visibility": false,
+                                        "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Trampe-Kruge"
                                     }
                                 ]               
