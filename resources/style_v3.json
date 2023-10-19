@@ -4,7 +4,7 @@
         "rules": [{
                 "style": {
                     "lineStrokeColor": [255, 133, 133, 1],
-                    "lineStrokeWidth": 1.5,
+                    "lineStrokeWidth": 3,
                     "lineStrokeDash": [5, 3]
                 }
 	}
