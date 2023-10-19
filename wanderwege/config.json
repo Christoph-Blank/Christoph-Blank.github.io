@@ -189,23 +189,16 @@
     "Themenconfig": {
         "Hintergrundkarten": {
 
-            "Layer": [{
-                    "id": "sw",
+            "Layer": [{                    
+                    "id": "Basemap-sw",
                     "name": "Basiskarte (schwarz/weiß)",
-                    "visibility": true,
-                    "children": [{
-                        "id": "Basemap-sw",
-                        "maxScale": "250000"
-                    }]
+                    "maxScale": "250000"                  
                 },
                 {
-                    "id": "farbe",
+                    "id": "Basemap-farbe",
                     "name": "Basiskarte (farbig)",
-                    "visibility": false,
-                    "children": [{
-                        "id": "Basemap-farbe",
-                        "maxScale": "250000"
-                    }]
+                    "maxScale": "250000"
+                    
                 },
                 {
                     "id": "alkis-sw-wms",
@@ -316,6 +309,7 @@
                         {
                             "id": "gemeinden-wfs",
                             "visibility": true,
+                            "isVisibleInTree": false,
                             "name": "Gemeinden",
                             "styleId": "gemeindegrenze-style"
                         }
