@@ -12,17 +12,7 @@
             "Ziel": "Ziel",
             "Bemerkung": "Bemerkungen",
              
-            "key1": {
-                "name": "key shown in the portal 1",
-                 "type": "html",
-                     "html": {
-                      "tag": "img",
-                      "properties": {
-                        "src": "%value%",
-                        "max-width": "150px"
-                        }
-                    }
-                  }
+            "key1": "Bild"
    
         },
         "cache": false
