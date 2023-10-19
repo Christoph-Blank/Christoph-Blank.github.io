@@ -10,6 +10,46 @@
         "cache": false
     },
     {
+        "id": "Wanderweg_an_der_Muellkute_L",
+        "name": "Wanderweg_an_der_Muellkute_L",
+        "url": "/resources/GeoJson/Wanderweg_an_der_Muellkute.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+    {
+        "id": "Wanderweg_Querfeldein_L",
+        "name": "Wanderweg_Querfeldein_L",
+        "url": "/resources/GeoJson/Wanderweg_Querfeldein.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+    {
+        "id": "Wanderweg_Schloss-Trampe_L",
+        "name": "Wanderweg_Schloss-Trampe_L",
+        "url": "/resources/GeoJson/Wanderweg_Schloss-Trampe.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+    {
+        "id": "Wanderweg_Trampe-Kruge_L",
+        "name": "Wanderweg_Trampe-Kruge_L",
+        "url": "/resources/GeoJson/Wanderweg_Trampe-Kruge.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+    {
          "id" : "minimap",
          "name" : "Webatlas Deutschland",
          "url" : "https://sgx.geodatenzentrum.de/wms_webatlasde.light",
