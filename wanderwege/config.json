@@ -216,16 +216,32 @@
             ]
         },
         "Fachdaten": {
-            "Ordner": 
+            "Ordner": [{
                     "Titel": "Allgemeines",
                     "isFolderSelectable": false,
-                    "Ordner": [{
+                    "Layer": [
+
+                        {
+                            "id": "gemeinden-wfs",
+                            "visibility": true,
+                            "name": "Gemeinden",
+                            "styleId": "gemeindegrenze-style"
+                        }
+
+
+
+
+                    ]
+                },
+                
+                {
                         "Titel": "Historische Karten und Luftbilder",
                         "isFolderSelectable": false,
                         "Ordner": [{
                                 "Titel": "Historische Karten",
                                 "isFolderSelectable": false,
                                 "Layer": [
+
                                     {
                                         "id": "schmettau-wms",
                                         "visibility": false,
@@ -237,11 +253,6 @@
                                 "Titel": "Historische Luftbilder",
                                 "isFolderSelectable": false,
                                 "Layer": [{
-                                        "id": "dop19-20",
-                                        "name": "Luftbilder 2019-2020",
-                                        "visibility": false
-                                    },
-                                    {
                                         "id": "dop16-18",
                                         "name": "Luftbilder 2016-2018",
                                         "visibility": false
@@ -279,8 +290,8 @@
                                 ]
                             }
                         ]
-                    }, 
-                    {        
+                },
+                {        
                             "Titel": "Wanderwege Breydin",
                             "isFolderSelectable": false,
                             "Layer": [
@@ -311,19 +322,121 @@
                                     }
                                 ]               
                     },
-                    "Layer": [
+                {
+                    "Titel": "Bodenrichtwerte",
+                    "isFolderSelectable": false,
+                    "Layer": [{
+                            "id": "Bodenrichtwerte_2022_wms",
+                            "visibility": false
+                        },
                         {
-                            "id": "gemeinden-wfs",
-                            "visibility": true,
-                            "isVisibleInTree": false,
-                            "name": "Gemeinden",
-                            "styleId": "gemeindegrenze-style"
+                            "id": "Bodenrichtwerte_2021_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2020_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2019_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2018_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2017_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2016_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2015_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2014_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2013_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2012_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2011_wms",
+                            "visibility": false
+
+                        },
+                        {
+                            "id": "Bodenrichtwerte_2010_wms",
+                            "visibility": false
+
                         }
+
+
                     ]
-                
+                },
+                {
+                    "Titel": "Umweltdaten",
+                    "isFolderSelectable": false,
+                    "Layer": [{
+                            "id": "wind_in_brand",
+                            "visibility": false,
+                            "name": "Windkraftanlagen im Land Brandenburg",
+                            "children": [{
+                                    "id": "wind_in_brand_geplant_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "wind_in_brand_genehmigt_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "wind_in_brand_betrieb_wms",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "wind_in_brand_wfs",
+                                    "styleId": "wind",
+                                    "visibility": false
+                                }
+
+                            ]
+
+                        }
+
+
+                    ]
+                }
+
+
             ],
+
             "Layer": [
+
             ]
+
+
+
+
         }
     }
+
 }
