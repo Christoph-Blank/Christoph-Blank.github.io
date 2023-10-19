@@ -194,7 +194,7 @@
                     "id": "Basemap-sw",
                     "name": "Basiskarte (schwarz/weiß)",
                     "maxScale": "250000",
-                    "visibility": true
+                    "visibility": false
                 },
                 {
                     "id": "Basemap-farbe",
@@ -205,7 +205,7 @@
                 },
                 {
                     "id": "alkis-sw-wms",
-                    "visibility": false,
+                    "visibility": true,
                     "name": "ALKIS"
                 },
                 {
@@ -285,7 +285,7 @@
                                     {
                                         "id": "dop53",
                                         "name": "Luftbilder 1953",
-                                        "visibility": false
+                                        "visibility": true
                                     }
                                 ]
                             }
@@ -297,31 +297,31 @@
                             "Layer": [
                                     {
                                         "id": "Wanderweg_Froschmuehle_L",
-                                        "visibility": false,
+                                        "visibility": true,
                                         "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Froschmühle"
                                     },
                                     {
                                         "id": "Wanderweg_an_der_Muellkute_L",
-                                        "visibility": false,
+                                        "visibility": true,
                                         "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg an der Müllkute"
                                     },
                                     {
                                         "id": "Wanderweg_Querfeldein_L",
-                                        "visibility": false,
+                                        "visibility": true,
                                         "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Querfeldein"
                                     },
                                     {
                                         "id": "Wanderweg_Schloss-Trampe_L",
-                                        "visibility": false,
+                                        "visibility": true,
                                         "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Schloss-Trampe"
                                     },
                                     {
                                         "id": "Wanderweg_Trampe-Kruge_L",
-                                        "visibility": false,
+                                        "visibility": true,
                                         "styleId": "Wanderweg.LI",
                                         "name": "Wanderweg Trampe-Kruge"
                                     }
