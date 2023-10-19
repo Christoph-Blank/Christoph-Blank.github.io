@@ -58,7 +58,7 @@
                 "style": {
 			"polygonStrokeColor": [69, 139, 116, 1],
 			"polygonStrokeWidth": 4,
-			"polygonFillColor": [0, 255, 0, 0.03]
+			"polygonFillColor": [0, 255, 0, 0]
 		              }
             },
             {
@@ -70,7 +70,7 @@
                "style": {
 			"polygonStrokeColor": [69, 139, 116, 1],
 			"polygonStrokeWidth": 4,
-			"polygonFillColor": [0, 255, 0, 0.03]
+			"polygonFillColor": [0, 255, 0, 0]
 		              }
             },
             {
@@ -82,7 +82,7 @@
                 "style": {
 			"polygonStrokeColor": [69, 139, 116, 1],
 			"polygonStrokeWidth": 4,
-			"polygonFillColor": [0, 255, 0, 0.03]
+			"polygonFillColor": [0, 255, 0, 0]
 		              }
             },
 
@@ -95,7 +95,7 @@
                 "style": {
 			"polygonStrokeColor": [69, 139, 116, 1],
 			"polygonStrokeWidth": 4,
-			"polygonFillColor": [0, 255, 0, 0.03]
+			"polygonFillColor": [0, 255, 0, 0]
 		              }
             },
 
@@ -108,7 +108,7 @@
                 "style": {
 			"polygonStrokeColor": [69, 139, 116, 1],
 			"polygonStrokeWidth": 4,
-			"polygonFillColor": [0, 255, 0, 0.03]
+			"polygonFillColor": [0, 255, 0, 0]
 		              }
             },
     {
@@ -120,7 +120,7 @@
                 "style": {
 			"polygonStrokeColor": [69, 139, 116, 1],
 			"polygonStrokeWidth": 4,
-			"polygonFillColor": [0, 255, 0, 0.03]
+			"polygonFillColor": [0, 255, 0, 0]
 		              }
             },
 
