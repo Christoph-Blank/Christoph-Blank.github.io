@@ -190,7 +190,7 @@
                     "id": "Basemap-sw",
                     "name": "Basiskarte (schwarz/weiß)",
                     "maxScale": "250000",
-                    "visibility": true,
+                    "visibility": true
                 },
                 {
                     "id": "Basemap-farbe",
