@@ -253,6 +253,11 @@
                                 "Titel": "Historische Luftbilder",
                                 "isFolderSelectable": false,
                                 "Layer": [{
+                                        "id": "dop19-20",
+                                        "name": "Luftbilder 2019-2020",
+                                        "visibility": true
+                                    },
+                                    {
                                         "id": "dop16-18",
                                         "name": "Luftbilder 2016-2018",
                                         "visibility": false
@@ -285,7 +290,7 @@
                                     {
                                         "id": "dop53",
                                         "name": "Luftbilder 1953",
-                                        "visibility": true
+                                        "visibility": false
                                     }
                                 ]
                             }
