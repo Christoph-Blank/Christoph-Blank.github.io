@@ -177,7 +177,7 @@
             },
             "mousePosition": true,
             "overviewMap": {
-                "layerId": "Basemap-sw",
+                "layerId": "Basemap-farbe",
                 "isInitOpen": true
             },
             "totalView": {
@@ -193,7 +193,7 @@
                     "id": "Basemap-sw",
                     "name": "Basiskarte (schwarz/weiß)",
                     "maxScale": "250000",
-                    "visibility": true,
+                    "visibility": true
                 },
                 {
                     "id": "Basemap-farbe",
@@ -216,9 +216,7 @@
         },
         "Fachdaten": {
             "Ordner": [{
-                    "Titel": "Allgemeines",
-                    "isFolderSelectable": false,
-                    "Ordner": [{
+                    
                         "Titel": "Historische Karten und Luftbilder",
                         "isFolderSelectable": false,
                         "Ordner": [{
@@ -271,9 +269,7 @@
                                         "name": "Luftbilder 1953",
                                         "visibility": false
                                     }
-                                ]
-                            }
-                        ]
+                                ]                          
                     }, 
                     {        
                             "Titel": "Wanderwege Breydin",
