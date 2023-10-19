@@ -18,7 +18,6 @@
                 "filter": "filter=(ort:Biesenthal, Sydower Fließ, Melchow, Rüdnitz, Marienwerder, Breydin)",
                 "score": 0.6
             },
-
             "visibleVector": {},
             "tree": {},
             "startZoomLevel": 5,
@@ -72,7 +71,6 @@
                         "glyphicon": "glyphicon-film",
                         "timeInterval": 4500,
                         "layerIds": [
-
                             {
                                 "title": "1953",
                                 "layerId": "dop53"
@@ -177,10 +175,21 @@
             },
             "mousePosition": true,
             "overviewMap": {
-                "layerId": "Basemap-farbe",
+                "layerId": "Basemap-sw",
                 "isInitOpen": true
             },
             "totalView": {
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -192,12 +192,14 @@
+  
                 "icon": "bi-skip-forward-fill",
                 "tableIcon": "bi-skip-forward-fill"
             }
@@ -188,21 +197,31 @@
     },
     "Themenconfig": {
         "Hintergrundkarten": {
-
             "Layer": [{                    
                     "id": "Basemap-sw",
                     "name": "Basiskarte (schwarz/weiß)",
                     "maxScale": "250000",
-                    "visibility": true
+                    "visibility": true,
                 },
                 {
                     "id": "Basemap-farbe",
                     "name": "Basiskarte (farbig)",
                     "maxScale": "250000",
                     "visibility": false
-                    
+
                 },
                 {
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
                     "id": "alkis-sw-wms",
                     "visibility": false,
                     "name": "ALKIS"
@@ -216,12 +235,15 @@
         },
         "Fachdaten": {
             "Ordner": [{
-                    
-                        
+                    "Titel": "Allgemeines",
+                    "isFolderSelectable": false,
+                    "Ordner": [{
+                        "Titel": "Historische Karten und Luftbilder",
+                        "isFolderSelectable": false,
+                        "Ordner": [{
                                 "Titel": "Historische Karten",
                                 "isFolderSelectable": false,
                                 "Layer": [
-
                                     {
                                         "id": "schmettau-wms",
                                         "visibility": false,
@@ -267,7 +289,9 @@
                                         "name": "Luftbilder 1953",
                                         "visibility": false
                                     }
-                                ]                          
+                                ]
+                            }
+                        ]
                     }, 
                     {        
                             "Titel": "Wanderwege Breydin",
@@ -299,10 +323,8 @@
                                         "name": "Wanderweg Trampe-Kruge"
                                     }
                                 ]               
-                    },
-                    {
+                    }],
                     "Layer": [
-
                         {
                             "id": "gemeinden-wfs",
                             "visibility": true,
@@ -312,17 +334,9 @@
                         }
                     ]
                 }
-
             ],
-
             "Layer": [
-
             ]
-
-
-
-
         }
     }
-
 }
