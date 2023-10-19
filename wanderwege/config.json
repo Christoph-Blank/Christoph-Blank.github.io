@@ -217,9 +217,7 @@
         "Fachdaten": {
             "Ordner": [{
                     
-                        "Titel": "Historische Karten und Luftbilder",
-                        "isFolderSelectable": false,
-                        "Ordner": [{
+                        
                                 "Titel": "Historische Karten",
                                 "isFolderSelectable": false,
                                 "Layer": [
@@ -301,7 +299,7 @@
                                         "name": "Wanderweg Trampe-Kruge"
                                     }
                                 ]               
-                    }],
+                    ,
                     "Layer": [
 
                         {
