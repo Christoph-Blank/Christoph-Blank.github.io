@@ -98,6 +98,10 @@
                             {
                                 "title": "2016-2018",
                                 "layerId": "dop16-18"
+                            },
+                            {
+                                "title": "2019-2020",
+                                "layerId": "dop19-20"
                             }
                         ]
                     },
@@ -205,8 +209,8 @@
                     "name": "ALKIS"
                 },
                 {
-                    "id": "dop16-18",
-                    "name": "Luftbilder 2016-2018",
+                    "id": "dop19-20",
+                    "name": "Luftbilder 2019-2020",
                     "visibility": false
                 }
             ]
