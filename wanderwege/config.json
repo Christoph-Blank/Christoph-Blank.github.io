@@ -300,6 +300,7 @@
                                     }
                                 ]               
                     },
+                    {
                     "Layer": [
 
                         {
@@ -309,14 +310,10 @@
                             "name": "Gemeinden",
                             "styleId": "gemeindegrenze-style"
                         }
-
-
-
-
                     ]
                 }
 
-            ]},
+            ],
 
             "Layer": [
 
