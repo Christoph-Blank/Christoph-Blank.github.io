@@ -10,7 +10,7 @@
          "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkungen": "Bemerkungen"
+            "Bemerkung": "Bemerkungen"
         },
         "cache": false
     },
@@ -25,7 +25,7 @@
         "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkungen": "Bemerkungen"
+            "Bemerkung": "Bemerkungen"
         },
         "cache": false
     },
@@ -40,7 +40,7 @@
         "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkungen": "Bemerkungen"
+            "Bemerkung": "Bemerkungen"
         },
         "cache": false
     },
@@ -55,7 +55,7 @@
         "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkungen": "Bemerkungen"
+            "Bemerkung": "Bemerkungen"
         },
         "cache": false
     },
@@ -70,7 +70,7 @@
         "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkungen": "Bemerkungen"
+            "Bemerkung": "Bemerkungen"
         },
         "cache": false
     },
