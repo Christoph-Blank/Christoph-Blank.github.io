@@ -8,7 +8,7 @@ const Config = {
         urls: [
             {
                 "bezeichnung": "Geodatenservice",
-                "url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/stadtentwicklungsamt/kataster-und-vermessung/",
+                "url": "https://www.amt-biesenthal-barnim.de/startseite",
                 "alias": "Amt Biesenthal",
                 "alias_mobil": "Amt Biesenthal"
             },
