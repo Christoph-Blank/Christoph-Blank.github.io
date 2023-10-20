@@ -331,7 +331,30 @@
                                         "name": "Wanderweg Trampe-Kruge"
                                     }
                                 ]               
-                    }                
+                    },
+                    {
+                            "id": "inspire_str_netz",                            
+                            "name": "Straßennetz",
+                            "children": [{
+                                    "id": "inspire_str_netz_kstr",
+                                    "visibility": true
+                                },
+                                {
+                                    "id": "inspire_str_netz_lstr",
+                                    "visibility": true
+                                },
+                                {
+                                    "id": "inspire_str_netz_bstr",
+                                    "visibility": true
+                                },
+                                {
+                                    "id": "inspire_str_netz_bab",
+                                    "visibility": true
+                                }
+
+                            ]
+
+                        }
                 
 
 
