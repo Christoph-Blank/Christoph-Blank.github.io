@@ -3,9 +3,9 @@
         "styleId": "Wanderweg.LI",
         "rules": [{
                 "style": {
-                    "lineStrokeColor": [255, 133, 133, 1],
+                    "lineStrokeColor": [183, 72, 247, 1],
                     "lineStrokeWidth": 3,
-                    "lineStrokeDash": [5, 3]
+                    "lineStrokeDash": [5, 5]
                 }
 	}
 
