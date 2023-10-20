@@ -341,6 +341,7 @@
             "Layer": [{
                             "id": "inspire_str_netz",                            
                             "name": "Straßennetz",
+                            "visibility": true,
                             "children": [{
                                     "id": "inspire_str_netz_kstr",
                                     "visibility": true
