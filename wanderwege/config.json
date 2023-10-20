@@ -331,8 +331,14 @@
                                         "name": "Wanderweg Trampe-Kruge"
                                     }
                                 ]               
-                    },
-                    {
+                    }
+                    
+                
+
+
+            ],
+
+            "Layer": [{
                             "id": "inspire_str_netz",                            
                             "name": "Straßennetz",
                             "children": [{
@@ -355,12 +361,6 @@
                             ]
 
                         }
-                
-
-
-            ],
-
-            "Layer": [
 
             ]
 
