@@ -10,10 +10,7 @@
          "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkung": "Bemerkungen",
-             
-            "key1": "Bild"
-   
+            "Bemerkung": "Bemerkungen"   
         },
         "cache": false
     },
