@@ -304,31 +304,31 @@
                                         "id": "Wanderweg_Froschmuehle_L",
                                         "visibility": true,
                                         "styleId": "Wanderweg.LI",
-                                        "name": "Wanderweg Froschmühle"
+                                        "name": "Wanderweg 01"
                                     },
                                     {
                                         "id": "Wanderweg_an_der_Muellkute_L",
                                         "visibility": true,
                                         "styleId": "Wanderweg.LI",
-                                        "name": "Wanderweg an der Müllkute"
+                                        "name": "Wanderweg 03"
                                     },
                                     {
                                         "id": "Wanderweg_Querfeldein_L",
                                         "visibility": true,
                                         "styleId": "Wanderweg.LI",
-                                        "name": "Wanderweg Querfeldein"
+                                        "name": "Wanderweg 02"
                                     },
                                     {
                                         "id": "Wanderweg_Schloss-Trampe_L",
                                         "visibility": true,
                                         "styleId": "Wanderweg.LI",
-                                        "name": "Wanderweg Schloss-Trampe"
+                                        "name": "Wanderweg 05"
                                     },
                                     {
                                         "id": "Wanderweg_Trampe-Kruge_L",
                                         "visibility": true,
                                         "styleId": "Wanderweg.LI",
-                                        "name": "Wanderweg Trampe-Kruge"
+                                        "name": "Wanderweg 04"
                                     }
                                 ]               
                     }
