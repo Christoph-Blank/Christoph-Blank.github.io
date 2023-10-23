@@ -10,7 +10,8 @@
          "gfiAttributes": {
             "Start": "Start",
             "Ziel": "Ziel",
-            "Bemerkung": "Bemerkungen"   
+            "Bemerkung": "Bemerkungen",
+            "Meldung": "Maerker"            
         },
         "cache": false
     },
