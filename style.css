@@ -119,3 +119,19 @@ input, select {
     font-size: 15px;
   }
 }
+
+#legend {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+#legend span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
