@@ -3,6 +3,7 @@ const repo = "Christoph-Blank.github.io";
 const token = "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";
 const filePath = "events.json";
 
+
 let currentEvents = [];
 let selectedDate = null;
 let selectedEvent = null;
@@ -18,18 +19,19 @@ const categories = {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-
   const calendarEl = document.getElementById('calendar');
   const createBtn = document.getElementById("createEventBtn");
 
   loadEvents().then(events => {
 
-    // Fallback: jeder Termin bekommt eine ID
+    // Jeder Termin bekommt eine ID
     currentEvents = currentEvents.map(e => {
       if (!e.id) e.id = crypto.randomUUID();
       return e;
     });
     saveEvents(currentEvents);
+
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
@@ -37,37 +39,37 @@ document.addEventListener('DOMContentLoaded', function () {
       firstDay: 1,
       selectable: false,
       events: currentEvents,
-      eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false, meridiem: false },
-
-      dateClick: function(info) {
-        selectedDate = info.dateStr;
-        selectedEvent = null;
-        openCreateModal();
+      eventTimeFormat: {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
       },
-
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
-      },
-
-      // Stabilisierte Zeitanzeige
-      eventContent: function(arg) {
-        let date = arg.event.start;
-        let timeText = "";
-        if (date) {
-          const hours = String(date.getHours()).padStart(2, '0');
-          const minutes = String(date.getMinutes()).padStart(2, '0');
-          timeText = `<b>${hours}:${minutes} Uhr</b> `;
-        }
-        return { html: `${timeText}${arg.event.title}` };
       }
     });
+
+    // Nur Desktop: dateClick aktivieren
+    if (!isMobile) {
+      calendar.setOption('dateClick', function(info) {
+        selectedDate = info.dateStr;
+        selectedEvent = null;
+        openCreateModal();
+      });
+    }
 
     calendar.render();
   });
 
+  // Button für neuen Termin (immer aktiv)
   createBtn.addEventListener("click", function() {
-    if (selectedDate) openCreateModal();
+    if (selectedDate || isMobile) {
+      // Desktop: selectedDate wird beim Klick auf eine Zelle gesetzt
+      // Mobile: wir setzen heute als default
+      if (!selectedDate) selectedDate = new Date().toISOString().split("T")[0];
+      openCreateModal();
+    }
   });
 
   document.getElementById("saveEventBtn")
@@ -114,6 +116,12 @@ function closeModal() {
   document.getElementById("eventModal").style.display = "none";
 }
 
+// ---------------- HELPER ----------------
+
+function formatDateTime(dateStr, timeStr) {
+  return dateStr + "T" + timeStr;
+}
+
 // ---------------- SPEICHERN ----------------
 
 function saveEvent() {
@@ -128,7 +136,7 @@ function saveEvent() {
 
   if (selectedEvent) {
     // Bearbeiten
-    const newDateTime = selectedEvent.startStr.split("T")[0] + "T" + time;
+    const newDateTime = formatDateTime(selectedEvent.startStr.split("T")[0], time);
     const newTitle = title + " (" + person + ")";
     const index = currentEvents.findIndex(e => e.id === selectedEvent.id);
 
@@ -149,7 +157,7 @@ function saveEvent() {
 
   } else {
     // Neuer Termin
-    const dateTime = selectedDate + "T" + time;
+    const dateTime = formatDateTime(selectedDate, time);
     const newEvent = {
       id: crypto.randomUUID(),
       title: title + " (" + person + ")",
