@@ -139,4 +139,8 @@ input, select {
   border-radius: 4px;
 }
 
-
+.fc-event {
+  white-space: normal !important;
+  word-break: break-word;
+  line-height: 1.2;
+}
