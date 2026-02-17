@@ -135,7 +135,7 @@ function saveEvent() {
   const allDay = document.getElementById("modalAllDay").checked;
 
   if (!title || (!allDay && !time)) {
-    alert("Bitte Titel und Uhrzeit eingeben oder Ganztag aktivieren.");
+    alert("Bitte Beschreibung und Uhrzeit eingeben oder Ganztag aktivieren.");
     return;
   }
 
