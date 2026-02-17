@@ -15,20 +15,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
   loadEvents().then(events => {
 
-    // ID für jeden bestehenden Termin sicherstellen
+    // Fallback: jeder Termin bekommt eine ID, falls noch nicht vorhanden
     currentEvents = currentEvents.map(e => {
       if (!e.id) e.id = crypto.randomUUID();
       return e;
     });
-    saveEvents(currentEvents);
+    saveEvents(currentEvents); // speichert ggf. neue IDs
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
-      selectable: false, // Kein Drag nötig
+      selectable: false,
       events: currentEvents,
       eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false, meridiem: false },
 
-      // Mobile: Tap auf Datum öffnet Modal
+      // Mobile Tap: öffnet Modal
       dateClick: function(info) {
         selectedDate = info.dateStr;
         selectedEvent = null;
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
       },
 
       eventDidMount: function(info) {
-        // Uhrzeit mit "Uhr" anzeigen
+        // Uhrzeit mit "Uhr"
         if (info.event.start) {
           const timeCell = info.el.querySelector('.fc-event-time');
           if (timeCell) {
@@ -56,9 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   createBtn.addEventListener("click", function() {
-    if (selectedDate) {
-      openCreateModal();
-    }
+    if (selectedDate) openCreateModal();
   });
 
   document.getElementById("saveEventBtn")
@@ -159,9 +157,15 @@ function deleteEvent() {
   if (!confirm("Termin wirklich löschen?")) return;
 
   const eventId = selectedEvent.id;
+  const eventTitle = selectedEvent.title;
+  const eventStart = selectedEvent.startStr;
+
   selectedEvent.remove();
 
-  currentEvents = currentEvents.filter(e => e.id !== eventId);
+  currentEvents = currentEvents.filter(e => 
+    e.id ? e.id !== eventId : !(e.title === eventTitle && e.start === eventStart)
+  );
+
   saveEvents(currentEvents);
   closeModal();
 }
