@@ -17,13 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
-      selectable: true,
+      selectable: false,
       events: events,
 
-      select: function(info) {
-        selectedDate = info.startStr;
-        selectedEvent = null;
-        createBtn.disabled = false;
+      dateClick: function(info) {
+        selectedDate = info.dateStr;
+        openCreateModal();
       },
 
       eventClick: function(info) {
