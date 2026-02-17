@@ -68,5 +68,13 @@
     "allDay": true,
     "backgroundColor": "#87CEFA",
     "borderColor": "#87CEFA"
+  },
+  {
+    "id": "2efbadc9-e949-4ff9-844a-a9a618f4280c",
+    "title": "Eingebunden test (Familie)",
+    "start": "2026-02-28T00:25",
+    "allDay": false,
+    "backgroundColor": "#FFA500",
+    "borderColor": "#FFA500"
   }
 ]
