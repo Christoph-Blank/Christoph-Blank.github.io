@@ -12,5 +12,12 @@
     "start": "2026-02-19T12:00",
     "backgroundColor": "#FFB6C1",
     "borderColor": "#FFB6C1"
+  },
+  {
+    "id": "defd3381-e8d8-4213-846b-6a79623b9a35",
+    "title": "Training (Kind_O)",
+    "start": "2026-02-19T16:00",
+    "backgroundColor": "#FFD700",
+    "borderColor": "#FFD700"
   }
 ]
