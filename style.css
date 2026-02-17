@@ -73,23 +73,26 @@ button:hover {
 
 .modal-content {
   background: white;
-  padding: 25px;
+  padding: 25px 30px;       /* Innenabstand: oben/unten 25px, links/rechts 30px */
   border-radius: 20px;
   width: 90%;
   max-width: 400px;
   margin: 15% auto;
+  box-sizing: border-box;   /* damit Padding in die Breite einbezogen wird */
   animation: slideUp 0.3s ease;
 }
 
 input, select {
   width: 100%;
-  padding: 12px;
+  padding: 12px 15px;       /* Innenabstand links/rechts */
   margin-top: 8px;
   margin-bottom: 15px;
   border-radius: 10px;
   border: 1px solid #ddd;
   font-size: 16px;
+  box-sizing: border-box;   /* wichtig, damit padding + border die Breite nicht sprengt */
 }
+
 
 @keyframes slideUp {
   from { transform: translateY(40px); opacity: 0; }
