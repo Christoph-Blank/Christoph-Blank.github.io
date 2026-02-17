@@ -1,0 +1,33 @@
+name: Build ICS
+
+on:
+  push:
+    paths:
+      - 'events.json'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node installieren
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: ICS generieren
+        run: node generate-ics.js
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add familienkalender.ics
+          git commit -m "Auto-update ICS" || echo "Keine Änderungen"
+          git push
