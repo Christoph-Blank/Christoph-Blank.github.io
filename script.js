@@ -3,6 +3,7 @@ const repo = "Christoph-Blank.github.io";
 const token = "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";
 const filePath = "events.json";
 
+
 let currentEvents = [];
 let selectedDate = null;
 let selectedEvent = null;
@@ -30,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     saveEvents(currentEvents);
 
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
       locale: 'de',
@@ -41,24 +44,32 @@ document.addEventListener('DOMContentLoaded', function () {
         minute: '2-digit',
         hour12: false
       },
-
-      dateClick: function(info) {
-        selectedDate = info.dateStr;
-        selectedEvent = null;
-        openCreateModal();
-      },
-
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
       }
     });
 
+    // Nur Desktop: dateClick aktivieren
+    if (!isMobile) {
+      calendar.setOption('dateClick', function(info) {
+        selectedDate = info.dateStr;
+        selectedEvent = null;
+        openCreateModal();
+      });
+    }
+
     calendar.render();
   });
 
+  // Button für neuen Termin (immer aktiv)
   createBtn.addEventListener("click", function() {
-    if (selectedDate) openCreateModal();
+    if (selectedDate || isMobile) {
+      // Desktop: selectedDate wird beim Klick auf eine Zelle gesetzt
+      // Mobile: wir setzen heute als default
+      if (!selectedDate) selectedDate = new Date().toISOString().split("T")[0];
+      openCreateModal();
+    }
   });
 
   document.getElementById("saveEventBtn")
@@ -246,4 +257,5 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
+
 
