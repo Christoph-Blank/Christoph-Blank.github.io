@@ -8,6 +8,15 @@ let selectedDate = null;
 let selectedEvent = null;
 let calendar;
 
+// Kategorie-Farben
+const categories = {
+  "Mama": "#FFB6C1",    // rosa
+  "Papa": "#87CEFA",    // blau
+  "Kind1": "#FFD700",   // gold
+  "Kind2": "#90EE90",   // grün
+  "Familie": "#FFA500"  // orange
+};
+
 document.addEventListener('DOMContentLoaded', function () {
 
   const calendarEl = document.getElementById('calendar');
@@ -15,12 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   loadEvents().then(events => {
 
-    // Fallback: jeder Termin bekommt eine ID, falls noch nicht vorhanden
+    // Fallback: jeder Termin bekommt eine ID
     currentEvents = currentEvents.map(e => {
       if (!e.id) e.id = crypto.randomUUID();
       return e;
     });
-    saveEvents(currentEvents); // speichert ggf. neue IDs
+    saveEvents(currentEvents);
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
@@ -28,14 +37,13 @@ document.addEventListener('DOMContentLoaded', function () {
       events: currentEvents,
       eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false, meridiem: false },
 
-      // Mobile Tap: öffnet Modal
+      // Mobile Tap
       dateClick: function(info) {
         selectedDate = info.dateStr;
         selectedEvent = null;
         openCreateModal();
       },
 
-      // EventClick für Bearbeiten
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
@@ -65,7 +73,6 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("deleteEventBtn")
     .addEventListener("click", deleteEvent);
 });
-
 
 // ---------------- MODAL ----------------
 
@@ -120,18 +127,22 @@ function saveEvent() {
     // Bearbeiten
     const newDateTime = selectedEvent.startStr.split("T")[0] + "T" + time;
     const newTitle = title + " (" + person + ")";
-
     const index = currentEvents.findIndex(e => e.id === selectedEvent.id);
+
     if (index !== -1) {
       currentEvents[index] = {
         id: currentEvents[index].id,
         title: newTitle,
-        start: newDateTime
+        start: newDateTime,
+        backgroundColor: categories[person],
+        borderColor: categories[person]
       };
     }
 
     selectedEvent.setProp("title", newTitle);
     selectedEvent.setStart(newDateTime);
+    selectedEvent.setProp("backgroundColor", categories[person]);
+    selectedEvent.setProp("borderColor", categories[person]);
 
   } else {
     // Neuer Termin
@@ -139,7 +150,9 @@ function saveEvent() {
     const newEvent = {
       id: crypto.randomUUID(),
       title: title + " (" + person + ")",
-      start: dateTime
+      start: dateTime,
+      backgroundColor: categories[person],
+      borderColor: categories[person]
     };
 
     currentEvents.push(newEvent);
@@ -233,4 +246,5 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
+
 
