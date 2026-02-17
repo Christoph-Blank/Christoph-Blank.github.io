@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
+      locale: 'de',        // Kalender auf Deutsch
+      firstDay: 1,         // Wochenstart Montag
       selectable: false,
       events: currentEvents,
       eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false, meridiem: false },
@@ -44,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
         openCreateModal();
       },
 
+      // EventClick für Bearbeiten
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
