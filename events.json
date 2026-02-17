@@ -19,5 +19,12 @@
     "start": "2026-02-19T16:00",
     "backgroundColor": "#FFD700",
     "borderColor": "#FFD700"
+  },
+  {
+    "id": "434f6901-9bd4-48f4-a06a-aeaee9f89a39",
+    "title": "Musikschule (Kind_I)",
+    "start": "2026-02-19T15:00",
+    "backgroundColor": "#90EE90",
+    "borderColor": "#90EE90"
   }
 ]
