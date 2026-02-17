@@ -60,5 +60,13 @@
     "allDay": true,
     "backgroundColor": "#FFA500",
     "borderColor": "#FFA500"
+  },
+  {
+    "id": "9af3dbc5-45d2-4991-850e-47d67aefc1a1",
+    "title": "automatisch (Papa)",
+    "start": "2026-02-27",
+    "allDay": true,
+    "backgroundColor": "#87CEFA",
+    "borderColor": "#87CEFA"
   }
 ]
