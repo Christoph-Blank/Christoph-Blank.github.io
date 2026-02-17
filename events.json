@@ -54,5 +54,12 @@
     "start": "2026-02-11T20:30",
     "backgroundColor": "#FFB6C1",
     "borderColor": "#FFB6C1"
+  },
+  {
+    "id": "fb20534a-a2a8-401f-b76b-6a173a9877c1",
+    "title": "test (Papa)",
+    "start": "2026-02-26T12:15",
+    "backgroundColor": "#87CEFA",
+    "borderColor": "#87CEFA"
   }
 ]
