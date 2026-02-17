@@ -1,4 +1,4 @@
-const username = "DEIN_GITHUB_USERNAME";
+const username = "Christoph-Blank";
 const repo = "familienkalender";
 const token = "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";
 const filePath = "events.json";
