@@ -233,19 +233,26 @@ function exportICS() {
   let ics = "BEGIN:VCALENDAR\nVERSION:2.0\n";
 
   currentEvents.forEach(event => {
-    let start = event.start.replace(/[-:]/g, "");
-    
-    // Endzeit 1 Stunde nach Start
-    let dt = new Date(event.start);
-    dt.setHours(dt.getHours() + 1);
-    let end = dt.toISOString().replace(/[-:]/g, "").split(".")[0];
+    const dtStart = event.start.split("T")[0].replace(/-/g, ""); // YYYYMMDD
+    const dtEndObj = new Date(event.start);
+    dtEndObj.setHours(dtEndObj.getHours() + 1); // Endzeit +1 Stunde
+    const dtEnd = dtEndObj.toISOString().split("T")[0].replace(/-/g, ""); // YYYYMMDD
 
     ics += "BEGIN:VEVENT\n";
-    ics += "UID:" + event.id + "\n";
+    ics += "X-GWITEM-TYPE:APPOINTMENT\n";
+    ics += "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z\n";
     ics += "SUMMARY:" + event.title + "\n";
-    ics += "DTSTART:" + start + "\n";
-    ics += "DTEND:" + end + "\n";
-    ics += "STATUS:CONFIRMED\n";
+    ics += "TRANSP:TRANSPARENT\n";
+    ics += "X-GWSHOW-AS:FREE\n";
+    ics += "X-MICROSOFT-CDO-INTENDEDSTATUS:FREE\n";
+    ics += "X-GWALLDAYEVENT:TRUE\n";
+    ics += "DESCRIPTION:" + event.title + "\n";
+    ics += "DTSTART;VALUE=DATE:" + dtStart + "\n";
+    ics += "DTEND;VALUE=DATE:" + dtEnd + "\n";
+    ics += "UID:" + event.id + "@familienkalender\n";
+    ics += "PRIORITY:5\n";
+    ics += "CLASS:PUBLIC\n";
+    ics += "X-GWCLASS:NORMAL\n";
     ics += "END:VEVENT\n";
   });
 
@@ -257,4 +264,5 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
+
 
