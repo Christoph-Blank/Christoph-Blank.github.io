@@ -88,8 +88,8 @@
   {
     "id": "ef6e81ee-3159-4632-ac00-d4dfe1e1c3b6",
     "title": "Groﬂ (Mama)",
-    "start": "2026-02-26",
-    "allDay": true,
+    "start": "2026-02-26T23:55",
+    "allDay": false,
     "backgroundColor": "#FFB6C1",
     "borderColor": "#FFB6C1"
   }
