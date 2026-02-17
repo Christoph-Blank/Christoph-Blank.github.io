@@ -62,9 +62,21 @@ async function loadEvents() {
 
 async function saveEvents(events) {
 
+  const response = await fetch(
+    `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`,
+    {
+      headers: {
+        Authorization: "token " + token
+      }
+    }
+  );
+
+  const data = await response.json();
+  const currentSha = data.sha;
+
   const content = btoa(JSON.stringify(events, null, 2));
 
-  await fetch(
+  const updateResponse = await fetch(
     `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`,
     {
       method: "PUT",
@@ -75,11 +87,15 @@ async function saveEvents(events) {
       body: JSON.stringify({
         message: "Update events",
         content: content,
-        sha: sha
+        sha: currentSha
       })
     }
   );
+
+  const updateData = await updateResponse.json();
+  sha = updateData.content.sha;
 }
+
 
 function exportICS() {
 
