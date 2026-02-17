@@ -145,4 +145,14 @@ input, select {
   line-height: 1.2;
 }
 
+.allday-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
 
+.allday-label input[type="checkbox"] {
+  margin: 0;
+  transform: translateY(1px); /* minimaler optischer Feinschliff */
+}
