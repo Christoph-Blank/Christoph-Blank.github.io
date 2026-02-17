@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   loadEvents().then(events => {
 
-    // Nur IDs im Speicher erzeugen, **nicht speichern**
+    // IDs nur lokal erzeugen (kein Speichern!)
     currentEvents = currentEvents.map(e => {
       if (!e.id) e.id = crypto.randomUUID();
       return e;
@@ -51,10 +51,10 @@ document.addEventListener('DOMContentLoaded', function () {
         openEditModal(info.event);
       },
 
-      // Zeilenumbruch in den Terminen erzwingen
+      // Zeilenumbruch für lange Titel
       eventDidMount: function(info) {
-        info.el.style.whiteSpace = "normal";    // Zeilenumbruch erlauben
-        info.el.style.wordBreak = "break-word"; // Lange Wörter umbrechen
+        info.el.style.whiteSpace = "normal";
+        info.el.style.wordBreak = "break-word";
       }
     });
 
@@ -66,22 +66,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.getElementById("deleteEventBtn")
     .addEventListener("click", deleteEvent);
+
+  // Checkbox-Logik Ganztag
+  document.getElementById("modalAllDay")
+    .addEventListener("change", function() {
+      document.getElementById("modalTime").disabled = this.checked;
+    });
 });
 
 // ---------------- MODAL ----------------
 
 function openCreateModal() {
   selectedEvent = null;
+
   document.getElementById("modalHeadline").innerText = "Neuer Termin";
   document.getElementById("modalTitle").value = "";
   document.getElementById("modalTime").value = "";
   document.getElementById("modalPerson").value = "Mama";
+  document.getElementById("modalAllDay").checked = false;
+  document.getElementById("modalTime").disabled = false;
+
   document.getElementById("deleteEventBtn").style.display = "none";
   document.getElementById("eventModal").style.display = "block";
 }
 
 function openEditModal(event) {
   selectedEvent = event;
+
   document.getElementById("modalHeadline").innerText = "Termin bearbeiten";
 
   const [titlePart, personPart] = event.title.split(" (");
@@ -90,11 +101,15 @@ function openEditModal(event) {
   document.getElementById("modalTitle").value = titlePart;
   document.getElementById("modalPerson").value = person;
 
-  if (event.startStr.includes("T")) {
+  if (event.allDay) {
+    document.getElementById("modalAllDay").checked = true;
+    document.getElementById("modalTime").value = "";
+    document.getElementById("modalTime").disabled = true;
+  } else {
+    document.getElementById("modalAllDay").checked = false;
+    document.getElementById("modalTime").disabled = false;
     document.getElementById("modalTime").value =
       event.startStr.split("T")[1].substring(0,5);
-  } else {
-    document.getElementById("modalTime").value = "12:00";
   }
 
   document.getElementById("deleteEventBtn").style.display = "inline-block";
@@ -117,40 +132,54 @@ function saveEvent() {
   const person = document.getElementById("modalPerson").value;
   const title = document.getElementById("modalTitle").value;
   const time = document.getElementById("modalTime").value;
+  const allDay = document.getElementById("modalAllDay").checked;
 
-  if (!title || !time) {
-    alert("Bitte Titel und Uhrzeit eingeben");
+  if (!title || (!allDay && !time)) {
+    alert("Bitte Titel und Uhrzeit eingeben oder Ganztag aktivieren.");
     return;
   }
 
+  let startValue;
+
+  if (allDay) {
+    startValue = selectedEvent
+      ? selectedEvent.startStr.split("T")[0]
+      : selectedDate;
+  } else {
+    const baseDate = selectedEvent
+      ? selectedEvent.startStr.split("T")[0]
+      : selectedDate;
+    startValue = formatDateTime(baseDate, time);
+  }
+
+  const newTitle = title + " (" + person + ")";
+
   if (selectedEvent) {
-    // Bearbeiten
-    const newDateTime = formatDateTime(selectedEvent.startStr.split("T")[0], time);
-    const newTitle = title + " (" + person + ")";
+
     const index = currentEvents.findIndex(e => e.id === selectedEvent.id);
 
-    if (index !== -1) {
-      currentEvents[index] = {
-        id: currentEvents[index].id,
-        title: newTitle,
-        start: newDateTime,
-        backgroundColor: categories[person],
-        borderColor: categories[person]
-      };
-    }
+    currentEvents[index] = {
+      id: selectedEvent.id,
+      title: newTitle,
+      start: startValue,
+      allDay: allDay,
+      backgroundColor: categories[person],
+      borderColor: categories[person]
+    };
 
     selectedEvent.setProp("title", newTitle);
-    selectedEvent.setStart(newDateTime);
+    selectedEvent.setStart(startValue);
+    selectedEvent.setAllDay(allDay);
     selectedEvent.setProp("backgroundColor", categories[person]);
     selectedEvent.setProp("borderColor", categories[person]);
 
   } else {
-    // Neuer Termin
-    const dateTime = formatDateTime(selectedDate, time);
+
     const newEvent = {
       id: crypto.randomUUID(),
-      title: title + " (" + person + ")",
-      start: dateTime,
+      title: newTitle,
+      start: startValue,
+      allDay: allDay,
       backgroundColor: categories[person],
       borderColor: categories[person]
     };
@@ -159,7 +188,6 @@ function saveEvent() {
     calendar.addEvent(newEvent);
   }
 
-  // Speichern nur bei echten Änderungen
   saveEvents(currentEvents);
   closeModal();
 }
@@ -171,14 +199,9 @@ function deleteEvent() {
   if (!confirm("Termin wirklich löschen?")) return;
 
   const eventId = selectedEvent.id;
-  const eventTitle = selectedEvent.title;
-  const eventStart = selectedEvent.startStr;
-
   selectedEvent.remove();
 
-  currentEvents = currentEvents.filter(e => 
-    e.id ? e.id !== eventId : !(e.title === eventTitle && e.start === eventStart)
-  );
+  currentEvents = currentEvents.filter(e => e.id !== eventId);
 
   saveEvents(currentEvents);
   closeModal();
@@ -233,23 +256,10 @@ function exportICS() {
   let ics = "BEGIN:VCALENDAR\nVERSION:2.0\n";
 
   currentEvents.forEach(event => {
+
     const startObj = new Date(event.start);
     const endObj = new Date(startObj);
-    endObj.setHours(endObj.getHours() + 1); // Standarddauer 1 Stunde
-
-    let dtStart, dtEnd, isAllDay = false;
-
-    // Prüfen, ob Uhrzeit gesetzt ist
-    if (event.start.includes("T")) {
-      // Termin mit Uhrzeit → DATE-TIME UTC
-      dtStart = startObj.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-      dtEnd = endObj.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-    } else {
-      // Ganztägig → VALUE=DATE
-      dtStart = event.start.replace(/-/g, "");
-      dtEnd = endObj.toISOString().split("T")[0].replace(/-/g, "");
-      isAllDay = true;
-    }
+    endObj.setHours(endObj.getHours() + 1);
 
     ics += "BEGIN:VEVENT\n";
     ics += "X-GWITEM-TYPE:APPOINTMENT\n";
@@ -260,11 +270,14 @@ function exportICS() {
     ics += "X-MICROSOFT-CDO-INTENDEDSTATUS:FREE\n";
     ics += "DESCRIPTION:" + event.title + "\n";
 
-    if (isAllDay) {
-      ics += "DTSTART;VALUE=DATE:" + dtStart + "\n";
-      ics += "DTEND;VALUE=DATE:" + dtEnd + "\n";
+    if (event.allDay) {
+      const dateOnly = event.start.replace(/-/g, "");
+      ics += "DTSTART;VALUE=DATE:" + dateOnly + "\n";
+      ics += "DTEND;VALUE=DATE:" + dateOnly + "\n";
       ics += "X-GWALLDAYEVENT:TRUE\n";
     } else {
+      const dtStart = startObj.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+      const dtEnd = endObj.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
       ics += "DTSTART:" + dtStart + "\n";
       ics += "DTEND:" + dtEnd + "\n";
     }
@@ -284,6 +297,3 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
-
-
-
