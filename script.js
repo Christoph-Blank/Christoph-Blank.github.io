@@ -233,10 +233,23 @@ function exportICS() {
   let ics = "BEGIN:VCALENDAR\nVERSION:2.0\n";
 
   currentEvents.forEach(event => {
-    const dtStart = event.start.split("T")[0].replace(/-/g, ""); // YYYYMMDD
-    const dtEndObj = new Date(event.start);
-    dtEndObj.setHours(dtEndObj.getHours() + 1); // Endzeit +1 Stunde
-    const dtEnd = dtEndObj.toISOString().split("T")[0].replace(/-/g, ""); // YYYYMMDD
+    const startObj = new Date(event.start);
+    const endObj = new Date(startObj);
+    endObj.setHours(endObj.getHours() + 1); // Standarddauer 1 Stunde
+
+    let dtStart, dtEnd, isAllDay = false;
+
+    // Prüfen, ob Uhrzeit gesetzt ist
+    if (event.start.includes("T")) {
+      // Termin mit Uhrzeit → DATE-TIME UTC
+      dtStart = startObj.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+      dtEnd = endObj.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+    } else {
+      // Ganztägig → VALUE=DATE
+      dtStart = event.start.replace(/-/g, "");
+      dtEnd = endObj.toISOString().split("T")[0].replace(/-/g, "");
+      isAllDay = true;
+    }
 
     ics += "BEGIN:VEVENT\n";
     ics += "X-GWITEM-TYPE:APPOINTMENT\n";
@@ -245,10 +258,17 @@ function exportICS() {
     ics += "TRANSP:TRANSPARENT\n";
     ics += "X-GWSHOW-AS:FREE\n";
     ics += "X-MICROSOFT-CDO-INTENDEDSTATUS:FREE\n";
-    ics += "X-GWALLDAYEVENT:TRUE\n";
     ics += "DESCRIPTION:" + event.title + "\n";
-    ics += "DTSTART;VALUE=DATE:" + dtStart + "\n";
-    ics += "DTEND;VALUE=DATE:" + dtEnd + "\n";
+
+    if (isAllDay) {
+      ics += "DTSTART;VALUE=DATE:" + dtStart + "\n";
+      ics += "DTEND;VALUE=DATE:" + dtEnd + "\n";
+      ics += "X-GWALLDAYEVENT:TRUE\n";
+    } else {
+      ics += "DTSTART:" + dtStart + "\n";
+      ics += "DTEND:" + dtEnd + "\n";
+    }
+
     ics += "UID:" + event.id + "@familienkalender\n";
     ics += "PRIORITY:5\n";
     ics += "CLASS:PUBLIC\n";
@@ -264,5 +284,6 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
+
 
 
