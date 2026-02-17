@@ -12,8 +12,8 @@ let calendar;
 const categories = {
   "Mama": "#FFB6C1",
   "Papa": "#87CEFA",
-  "Kind_O": "#FFD700",
-  "Kind_I": "#90EE90",
+  "Kind1": "#FFD700",
+  "Kind2": "#90EE90",
   "Familie": "#FFA500"
 };
 
@@ -22,12 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   loadEvents().then(events => {
 
-    // Jeder Termin bekommt eine ID
+    // Nur IDs im Speicher erzeugen, **nicht speichern**
     currentEvents = currentEvents.map(e => {
       if (!e.id) e.id = crypto.randomUUID();
       return e;
     });
-    saveEvents(currentEvents);
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
@@ -155,6 +154,7 @@ function saveEvent() {
     calendar.addEvent(newEvent);
   }
 
+  // Nur speichern, wenn wirklich Änderungen stattgefunden haben
   saveEvents(currentEvents);
   closeModal();
 }
