@@ -78,5 +78,11 @@
     "allDay": false,
     "backgroundColor": "#87CEFA",
     "borderColor": "#87CEFA"
+  },
+  {
+    "id": "f63ab146-1deb-43b4-9e9a-acab725652eb",
+    "title": "Gruppentraining (Kind_I)",
+    "start": "2026-02-05T14:20",
+    "allDay": false
   }
 ]
