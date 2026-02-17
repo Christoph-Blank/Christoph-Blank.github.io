@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Familienkalender</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Familienkalender</h1>
+
+<select id="personSelect">
+  <option value="Mama">Mama</option>
+  <option value="Papa">Papa</option>
+  <option value="Kind1">Kind1</option>
+  <option value="Kind2">Kind2</option>
+</select>
+
+<div id="calendar"></div>
+
+<button onclick="exportICS()">Kalender exportieren</button>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
