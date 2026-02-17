@@ -156,3 +156,12 @@ input, select {
   margin: 0;
   transform: translateY(1px); /* minimaler optischer Feinschliff */
 }
+
+#modalAllDay {
+  width: 18px;
+  height: 18px;
+  accent-color: #4CAF50;   /* optional: Farbe anpassen */
+  margin-right: 6px;
+  cursor: pointer;
+}
+
