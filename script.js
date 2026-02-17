@@ -1,5 +1,5 @@
 const username = "Christoph-Blank";
-const repo = "familienkalender";
+const repo = "Christoph-Blank.github.io";
 const token = "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";
 const filePath = "events.json";
 
