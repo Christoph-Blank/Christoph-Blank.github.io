@@ -46,30 +46,25 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       eventClick: function(info) {
         selectedEvent = info.event;
-        openEditModal(info.event);
+        openEditModal(info.event, isMobile);
       }
     });
 
-    // Nur Desktop: dateClick aktivieren
+    // Desktop: dateClick aktivieren
     if (!isMobile) {
       calendar.setOption('dateClick', function(info) {
         selectedDate = info.dateStr;
         selectedEvent = null;
-        openCreateModal();
+        openCreateModal(isMobile);
       });
     }
 
     calendar.render();
   });
 
-  // Button für neuen Termin (immer aktiv)
+  // Button für neuen Termin
   createBtn.addEventListener("click", function() {
-    if (selectedDate || isMobile) {
-      // Desktop: selectedDate wird beim Klick auf eine Zelle gesetzt
-      // Mobile: wir setzen heute als default
-      if (!selectedDate) selectedDate = new Date().toISOString().split("T")[0];
-      openCreateModal();
-    }
+    openCreateModal(isMobile);
   });
 
   document.getElementById("saveEventBtn")
@@ -81,17 +76,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // ---------------- MODAL ----------------
 
-function openCreateModal() {
+function openCreateModal(isMobile) {
   selectedEvent = null;
   document.getElementById("modalHeadline").innerText = "Neuer Termin";
   document.getElementById("modalTitle").value = "";
   document.getElementById("modalTime").value = "";
   document.getElementById("modalPerson").value = "Mama";
   document.getElementById("deleteEventBtn").style.display = "none";
+
+  const modalDate = document.getElementById("modalDate");
+
+  if (isMobile) {
+    modalDate.style.display = "block";
+    modalDate.value = new Date().toISOString().split("T")[0]; // Default heute
+  } else {
+    modalDate.style.display = "none";
+    modalDate.value = selectedDate || new Date().toISOString().split("T")[0];
+  }
+
   document.getElementById("eventModal").style.display = "block";
 }
 
-function openEditModal(event) {
+function openEditModal(event, isMobile) {
   selectedEvent = event;
   document.getElementById("modalHeadline").innerText = "Termin bearbeiten";
 
@@ -100,6 +106,16 @@ function openEditModal(event) {
 
   document.getElementById("modalTitle").value = titlePart;
   document.getElementById("modalPerson").value = person;
+
+  const modalDate = document.getElementById("modalDate");
+  if (isMobile) {
+    modalDate.style.display = "block";
+    modalDate.value = event.startStr.split("T")[0];
+  } else {
+    modalDate.style.display = "none";
+    selectedDate = event.startStr.split("T")[0];
+    modalDate.value = selectedDate;
+  }
 
   if (event.startStr.includes("T")) {
     document.getElementById("modalTime").value =
@@ -128,15 +144,17 @@ function saveEvent() {
   const person = document.getElementById("modalPerson").value;
   const title = document.getElementById("modalTitle").value;
   const time = document.getElementById("modalTime").value;
+  const date = document.getElementById("modalDate").value;
 
-  if (!title || !time) {
-    alert("Bitte Titel und Uhrzeit eingeben");
+  if (!title || !time || !date) {
+    alert("Bitte Titel, Uhrzeit und Datum eingeben");
     return;
   }
 
+  const dateTime = formatDateTime(date, time);
+
   if (selectedEvent) {
     // Bearbeiten
-    const newDateTime = formatDateTime(selectedEvent.startStr.split("T")[0], time);
     const newTitle = title + " (" + person + ")";
     const index = currentEvents.findIndex(e => e.id === selectedEvent.id);
 
@@ -144,20 +162,19 @@ function saveEvent() {
       currentEvents[index] = {
         id: currentEvents[index].id,
         title: newTitle,
-        start: newDateTime,
+        start: dateTime,
         backgroundColor: categories[person],
         borderColor: categories[person]
       };
     }
 
     selectedEvent.setProp("title", newTitle);
-    selectedEvent.setStart(newDateTime);
+    selectedEvent.setStart(dateTime);
     selectedEvent.setProp("backgroundColor", categories[person]);
     selectedEvent.setProp("borderColor", categories[person]);
 
   } else {
     // Neuer Termin
-    const dateTime = formatDateTime(selectedDate, time);
     const newEvent = {
       id: crypto.randomUUID(),
       title: title + " (" + person + ")",
@@ -257,5 +274,4 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
-
 
