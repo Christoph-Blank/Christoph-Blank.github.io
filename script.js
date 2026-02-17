@@ -233,9 +233,19 @@ function exportICS() {
   let ics = "BEGIN:VCALENDAR\nVERSION:2.0\n";
 
   currentEvents.forEach(event => {
+    let start = event.start.replace(/[-:]/g, "");
+    
+    // Endzeit 1 Stunde nach Start
+    let dt = new Date(event.start);
+    dt.setHours(dt.getHours() + 1);
+    let end = dt.toISOString().replace(/[-:]/g, "").split(".")[0];
+
     ics += "BEGIN:VEVENT\n";
+    ics += "UID:" + event.id + "\n";
     ics += "SUMMARY:" + event.title + "\n";
-    ics += "DTSTART:" + event.start.replace(/[-:]/g, "") + "\n";
+    ics += "DTSTART:" + start + "\n";
+    ics += "DTEND:" + end + "\n";
+    ics += "STATUS:CONFIRMED\n";
     ics += "END:VEVENT\n";
   });
 
@@ -247,3 +257,4 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
+
