@@ -5,6 +5,7 @@ const filePath = "events.json";
 
 let currentEvents = [];
 let selectedDate = null;
+let selectedEvent = null;
 let calendar;
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -21,30 +22,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
       select: function(info) {
         selectedDate = info.startStr;
+        selectedEvent = null;
         createBtn.disabled = false;
       },
 
       eventClick: function(info) {
-
-        const action = prompt(
-          "1 = Bearbeiten\n2 = Löschen"
-        );
-
-        if (action === "2") {
-          if (confirm("Termin löschen?")) {
-
-            const title = info.event.title;
-            const start = info.event.startStr;
-
-            info.event.remove();
-
-            currentEvents = currentEvents.filter(e =>
-              !(e.title === title && e.start === start)
-            );
-
-            saveEvents(currentEvents);
-          }
-        }
+        openEditModal(info.event);
       }
     });
 
@@ -53,24 +36,63 @@ document.addEventListener('DOMContentLoaded', function () {
 
   createBtn.addEventListener("click", function() {
     if (selectedDate) {
-      openModal();
+      openCreateModal();
     }
   });
 
   document.getElementById("saveEventBtn")
-    .addEventListener("click", saveNewEvent);
+    .addEventListener("click", saveEvent);
+
+  document.getElementById("deleteEventBtn")
+    .addEventListener("click", deleteEvent);
 });
 
 
-function openModal() {
+// ---------------- MODAL STEUERUNG ----------------
+
+function openCreateModal() {
+
+  selectedEvent = null;
+
+  document.getElementById("modalHeadline").innerText = "Neuer Termin";
+  document.getElementById("modalTitle").value = "";
+  document.getElementById("modalTime").value = "";
+  document.getElementById("deleteEventBtn").style.display = "none";
+
   document.getElementById("eventModal").style.display = "block";
 }
+
+
+function openEditModal(event) {
+
+  selectedEvent = event;
+
+  document.getElementById("modalHeadline").innerText = "Termin bearbeiten";
+
+  const [titlePart, personPart] = event.title.split(" (");
+  const person = personPart ? personPart.replace(")", "") : "";
+
+  document.getElementById("modalTitle").value = titlePart;
+  document.getElementById("modalPerson").value = person;
+
+  if (event.startStr.includes("T")) {
+    document.getElementById("modalTime").value =
+      event.startStr.split("T")[1].substring(0,5);
+  }
+
+  document.getElementById("deleteEventBtn").style.display = "inline-block";
+  document.getElementById("eventModal").style.display = "block";
+}
+
 
 function closeModal() {
   document.getElementById("eventModal").style.display = "none";
 }
 
-function saveNewEvent() {
+
+// ---------------- SPEICHERN ----------------
+
+function saveEvent() {
 
   const person = document.getElementById("modalPerson").value;
   const title = document.getElementById("modalTitle").value;
@@ -81,30 +103,76 @@ function saveNewEvent() {
     return;
   }
 
-  const dateTime = selectedDate + "T" + time;
+  if (selectedEvent) {
+    // 🔵 BEARBEITEN
 
-  const newEvent = {
-    title: title + " (" + person + ")",
-    start: dateTime
-  };
+    const newDateTime = selectedEvent.startStr.split("T")[0] + "T" + time;
+    const newTitle = title + " (" + person + ")";
 
-  currentEvents.push(newEvent);
-  calendar.addEvent(newEvent);
+    const oldTitle = selectedEvent.title;
+    const oldStart = selectedEvent.startStr;
+
+    selectedEvent.setProp("title", newTitle);
+    selectedEvent.setStart(newDateTime);
+
+    const index = currentEvents.findIndex(e =>
+      e.title === oldTitle && e.start === oldStart
+    );
+
+    if (index !== -1) {
+      currentEvents[index] = {
+        title: newTitle,
+        start: newDateTime
+      };
+    }
+
+  } else {
+    // 🟢 NEUER TERMIN
+
+    const dateTime = selectedDate + "T" + time;
+    const newEvent = {
+      title: title + " (" + person + ")",
+      start: dateTime
+    };
+
+    currentEvents.push(newEvent);
+    calendar.addEvent(newEvent);
+  }
+
   saveEvents(currentEvents);
-
   closeModal();
-  document.getElementById("modalTitle").value = "";
-  document.getElementById("modalTime").value = "";
 }
 
+
+// ---------------- LÖSCHEN ----------------
+
+function deleteEvent() {
+
+  if (!selectedEvent) return;
+
+  if (!confirm("Termin wirklich löschen?")) return;
+
+  const title = selectedEvent.title;
+  const start = selectedEvent.startStr;
+
+  selectedEvent.remove();
+
+  currentEvents = currentEvents.filter(e =>
+    !(e.title === title && e.start === start)
+  );
+
+  saveEvents(currentEvents);
+  closeModal();
+}
+
+
+// ---------------- GITHUB ----------------
 
 async function loadEvents() {
 
   const response = await fetch(
     `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`,
-    {
-      headers: { Authorization: "token " + token }
-    }
+    { headers: { Authorization: "token " + token } }
   );
 
   const data = await response.json();
@@ -119,9 +187,7 @@ async function saveEvents(events) {
 
   const response = await fetch(
     `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`,
-    {
-      headers: { Authorization: "token " + token }
-    }
+    { headers: { Authorization: "token " + token } }
   );
 
   const data = await response.json();
@@ -146,6 +212,8 @@ async function saveEvents(events) {
   );
 }
 
+
+// ---------------- EXPORT ----------------
 
 function exportICS() {
 
