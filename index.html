@@ -1,217 +1,67 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Familienkalender</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- FullCalendar CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
-
-  <style>
-    body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  margin: 0;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: #333;
-}
-
-h1 {
-  text-align: center;
-  padding: 20px;
-  color: white;
-  font-weight: 600;
-}
-
-#calendar {
-  background: white;
-  border-radius: 20px;
-  padding: 15px;
-  margin: 10px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-button {
-  background: #667eea;
-  color: white;
-  border: none;
-  padding: 12px 18px;
-  border-radius: 12px;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 5px;
-  transition: background 0.2s;
-}
-
-button:hover {
-  background: #5a67d8;
-}
-
-#deleteEventBtn {
-  background: #e53e3e;
-}
-
-#deleteEventBtn:hover {
-  background: #c53030;
-}
-
-/* Floating Button */
-#createEventBtn {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  font-size: 30px;
-  padding: 0;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
-
-/* Modal */
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 100;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(6px);
-  background: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  background: white;
-  padding: 25px 30px;       /* Innenabstand: oben/unten 25px, links/rechts 30px */
-  border-radius: 20px;
-  width: 90%;
-  max-width: 400px;
-  margin: 15% auto;
-  box-sizing: border-box;   /* damit Padding in die Breite einbezogen wird */
-  animation: slideUp 0.3s ease;
-}
-
-input, select {
-  width: 100%;
-  padding: 12px 15px;       /* Innenabstand links/rechts */
-  margin-top: 8px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  font-size: 16px;
-  box-sizing: border-box;   /* wichtig, damit padding + border die Breite nicht sprengt */
-}
-
-
-@keyframes slideUp {
-  from { transform: translateY(40px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-/* Mobile Optimierung */
-@media (max-width: 600px) {
-
-  h1 {
-    font-size: 20px;
-  }
-
-  .modal-content {
-    margin-top: 40%;
-  }
-
-  #calendar {
-    margin: 5px;
-    padding: 10px;
-  }
-
-  button {
-    font-size: 15px;
-  }
-}
-
-#legend {
-  background-color: white;  /* Weißer Hintergrund */
-  padding: 8px 12px;        /* Etwas Innenabstand */
-  border-radius: 6px;       /* Runde Ecken, optional */
-  display: inline-block;     /* Nur so breit wie nötig */
-  font-size: 14px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: leichter Schatten */
-}
-
-#legend span {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin-right: 5px;
-  vertical-align: middle;
-  border-radius: 4px;
-}
-
-.fc-event {
-  white-space: normal !important;
-  word-break: break-word;
-  line-height: 1.2;
-}
-
-.allday-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 6px;           /* Abstand zwischen Checkbox und Text */
-  margin-top: 8px;
-}
-
-.allday-wrapper input[type="checkbox"] {
-  margin: 0;          /* entfernt Browser-Standardversatz */
-}
-
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
 </head>
 <body>
 
-  <h2>Familienkalender</h2>
+<h1>Familienkalender</h1>
 
-  <button onclick="exportICS()">Kalender exportieren (ICS)</button>
+<div id="calendar"></div>
 
-  <div id="calendar"></div>
+<button onclick="exportICS()">Kalender exportieren</button>
 
-  <!-- Modal -->
-  <div id="eventModal">
-    <div class="modal-content">
-      <h3 id="modalHeadline">Neuer Termin</h3>
+<!-- Modal -->
+<div id="eventModal" class="modal">
+  <div class="modal-content">
 
-      <input type="text" id="modalTitle" placeholder="Titel">
+    <h2 id="modalHeadline">Neuer Termin</h2>
 
-      <input type="time" id="modalTime">
+    <label>Person:</label>
+    <select id="modalPerson">
+      <option value="Mama">Mama</option>
+      <option value="Papa">Papa</option>
+      <option value="Kind_O">Kind_O</option>
+      <option value="Kind_I">Kind_I</option>      
+      <option value="Familie">Familie</option>
+    </select>
 
-      <!-- GANZTAGES TERMIN -->
-      <div class="allday-wrapper">
-        <input type="checkbox" id="modalAllDay">
-        <label for="modalAllDay">Ganztages-Termin</label>
-      </div>
+    <label>Beschreibung:</label>
+    <input type="text" id="modalTitle">
 
-      <select id="modalPerson">
-        <option value="Mama">Mama</option>
-        <option value="Papa">Papa</option>
-        <option value="Kind1">Kind1</option>
-        <option value="Kind2">Kind2</option>
-        <option value="Familie">Familie</option>
-      </select>
+    <label>Uhrzeit:</label>
+    <input type="time" id="modalTime">
 
-      <div class="modal-buttons">
-        <button onclick="closeModal()">Abbrechen</button>
-        <button id="deleteEventBtn" style="display:none;">Löschen</button>
-        <button id="saveEventBtn">Speichern</button>
-      </div>
-    </div>
+    
+    <label>
+    <input type="checkbox" id="modalAllDay" /> Ganztages-Termin
+    </label>
+    
+    <br><br>
+
+    <button id="saveEventBtn">Speichern</button>
+    <button id="deleteEventBtn" style="display:none;">Termin löschen</button>
+    <button onclick="closeModal()">Abbrechen</button>
+
   </div>
+</div>
+  
+<div id="legend">
+  <span style="background:#FFB6C1;"></span> Mama
+  <span style="background:#87CEFA;"></span> Papa
+  <span style="background:#FFD700;"></span> Kind_O
+  <span style="background:#90EE90;"></span> Kind_I
+  <span style="background:#FFA500;"></span> Familie
+</div>
 
-  <!-- FullCalendar JS -->
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
-
-  <!-- Dein Script -->
-  <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+<script src="script.js"></script>
 
 </body>
+
+
 </html>
