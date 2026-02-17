@@ -52,15 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
         openEditModal(info.event);
       },
 
-      eventDidMount: function(info) {
-        if (info.event.start) {
-          const timeCell = info.el.querySelector('.fc-event-time');
-          if (timeCell) {
-            // Immer die Zeit direkt aus info.event.start holen, nicht aus textContent
-            const date = new Date(info.event.start);
+      eventContent: function(arg) {
+          let date = arg.event.start;
+          if (date) {
             const hours = String(date.getHours()).padStart(2, '0');
             const minutes = String(date.getMinutes()).padStart(2, '0');
-            timeCell.textContent = hours + ":" + minutes + " Uhr";
+            return { html: `<b>${hours}:${minutes} Uhr</b> ${arg.event.title}` };
+          } else {
+            return { html: arg.event.title };
           }
         }
       }
