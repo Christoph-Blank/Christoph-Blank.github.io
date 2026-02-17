@@ -19,5 +19,12 @@
     "start": "2026-02-11T20:30",
     "backgroundColor": "#FFB6C1",
     "borderColor": "#FFB6C1"
+  },
+  {
+    "id": "61ae2e14-f4d3-437e-ab34-73127ed62b75",
+    "title": "Auto termin (Papa)",
+    "start": "2026-02-19T13:30",
+    "backgroundColor": "#87CEFA",
+    "borderColor": "#87CEFA"
   }
 ]
