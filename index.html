@@ -1,67 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <title>Familienkalender</title>
-  <link rel="stylesheet" href="style.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+  <!-- FullCalendar CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
+
 </head>
 <body>
 
-<h1>Familienkalender</h1>
+  <h2>Familienkalender</h2>
 
-<div id="calendar"></div>
+  <button onclick="exportICS()">Kalender exportieren (ICS)</button>
 
-<button onclick="exportICS()">Kalender exportieren</button>
+  <div id="calendar"></div>
 
-<!-- Modal -->
-<div id="eventModal" class="modal">
-  <div class="modal-content">
+  <!-- Modal -->
+  <div id="eventModal">
+    <div class="modal-content">
+      <h3 id="modalHeadline">Neuer Termin</h3>
 
-    <h2 id="modalHeadline">Neuer Termin</h2>
+      <input type="text" id="modalTitle" placeholder="Titel">
 
-    <label>Person:</label>
-    <select id="modalPerson">
-      <option value="Mama">Mama</option>
-      <option value="Papa">Papa</option>
-      <option value="Kind_O">Kind_O</option>
-      <option value="Kind_I">Kind_I</option>      
-      <option value="Familie">Familie</option>
-    </select>
+      <input type="time" id="modalTime">
 
-    <label>Beschreibung:</label>
-    <input type="text" id="modalTitle">
+      <!-- GANZTAGES TERMIN -->
+      <div class="allday-wrapper">
+        <input type="checkbox" id="modalAllDay">
+        <label for="modalAllDay">Ganztages-Termin</label>
+      </div>
 
-    <label>Uhrzeit:</label>
-    <input type="time" id="modalTime">
+      <select id="modalPerson">
+        <option value="Mama">Mama</option>
+        <option value="Papa">Papa</option>
+        <option value="Kind1">Kind1</option>
+        <option value="Kind2">Kind2</option>
+        <option value="Familie">Familie</option>
+      </select>
 
-    
-    <label>
-    <input type="checkbox" id="modalAllDay" /> Ganztages-Termin
-    </label>
-    
-    <br><br>
-
-    <button id="saveEventBtn">Speichern</button>
-    <button id="deleteEventBtn" style="display:none;">Termin löschen</button>
-    <button onclick="closeModal()">Abbrechen</button>
-
+      <div class="modal-buttons">
+        <button onclick="closeModal()">Abbrechen</button>
+        <button id="deleteEventBtn" style="display:none;">Löschen</button>
+        <button id="saveEventBtn">Speichern</button>
+      </div>
+    </div>
   </div>
-</div>
-  
-<div id="legend">
-  <span style="background:#FFB6C1;"></span> Mama
-  <span style="background:#87CEFA;"></span> Papa
-  <span style="background:#FFD700;"></span> Kind_O
-  <span style="background:#90EE90;"></span> Kind_I
-  <span style="background:#FFA500;"></span> Familie
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
-<script src="script.js"></script>
+  <!-- FullCalendar JS -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+
+  <!-- Dein Script -->
+  <script src="script.js"></script>
 
 </body>
-
-
 </html>
