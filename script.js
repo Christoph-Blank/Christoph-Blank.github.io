@@ -18,13 +18,12 @@ const categories = {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-
   const calendarEl = document.getElementById('calendar');
   const createBtn = document.getElementById("createEventBtn");
 
   loadEvents().then(events => {
 
-    // Fallback: jeder Termin bekommt eine ID
+    // Jeder Termin bekommt eine ID
     currentEvents = currentEvents.map(e => {
       if (!e.id) e.id = crypto.randomUUID();
       return e;
@@ -37,7 +36,11 @@ document.addEventListener('DOMContentLoaded', function () {
       firstDay: 1,
       selectable: false,
       events: currentEvents,
-      eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false, meridiem: false },
+      eventTimeFormat: {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      },
 
       dateClick: function(info) {
         selectedDate = info.dateStr;
@@ -48,18 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
-      },
-
-      // Stabilisierte Zeitanzeige
-      eventContent: function(arg) {
-        let date = arg.event.start;
-        let timeText = "";
-        if (date) {
-          const hours = String(date.getHours()).padStart(2, '0');
-          const minutes = String(date.getMinutes()).padStart(2, '0');
-          timeText = `<b>${hours}:${minutes} Uhr</b> `;
-        }
-        return { html: `${timeText}${arg.event.title}` };
       }
     });
 
@@ -114,6 +105,12 @@ function closeModal() {
   document.getElementById("eventModal").style.display = "none";
 }
 
+// ---------------- HELPER ----------------
+
+function formatDateTime(dateStr, timeStr) {
+  return dateStr + "T" + timeStr;
+}
+
 // ---------------- SPEICHERN ----------------
 
 function saveEvent() {
@@ -128,7 +125,7 @@ function saveEvent() {
 
   if (selectedEvent) {
     // Bearbeiten
-    const newDateTime = selectedEvent.startStr.split("T")[0] + "T" + time;
+    const newDateTime = formatDateTime(selectedEvent.startStr.split("T")[0], time);
     const newTitle = title + " (" + person + ")";
     const index = currentEvents.findIndex(e => e.id === selectedEvent.id);
 
@@ -149,7 +146,7 @@ function saveEvent() {
 
   } else {
     // Neuer Termin
-    const dateTime = selectedDate + "T" + time;
+    const dateTime = formatDateTime(selectedDate, time);
     const newEvent = {
       id: crypto.randomUUID(),
       title: title + " (" + person + ")",
@@ -249,5 +246,4 @@ function exportICS() {
   link.download = "familienkalender.ics";
   link.click();
 }
-
 
