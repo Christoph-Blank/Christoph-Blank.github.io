@@ -10,11 +10,11 @@ let calendar;
 
 // Kategorie-Farben
 const categories = {
-  "Mama": "#FFB6C1",    // rosa
-  "Papa": "#87CEFA",    // blau
-  "Kind_O": "#FFD700",   // gold
-  "Kind_I": "#90EE90",   // grün
-  "Familie": "#FFA500"  // orange
+  "Mama": "#FFB6C1",
+  "Papa": "#87CEFA",
+  "Kind1": "#FFD700",
+  "Kind2": "#90EE90",
+  "Familie": "#FFA500"
 };
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -33,35 +33,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
-      locale: 'de',        // Kalender auf Deutsch
-      firstDay: 1,         // Wochenstart Montag
+      locale: 'de',
+      firstDay: 1,
       selectable: false,
       events: currentEvents,
       eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false, meridiem: false },
 
-      // Mobile Tap
       dateClick: function(info) {
         selectedDate = info.dateStr;
         selectedEvent = null;
         openCreateModal();
       },
 
-      // EventClick für Bearbeiten
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
       },
 
+      // Stabilisierte Zeitanzeige
       eventContent: function(arg) {
-          let date = arg.event.start;
-          if (date) {
-            const hours = String(date.getHours()).padStart(2, '0');
-            const minutes = String(date.getMinutes()).padStart(2, '0');
-            return { html: `<b>${hours}:${minutes} Uhr</b> ${arg.event.title}` };
-          } else {
-            return { html: arg.event.title };
-          }
+        let date = arg.event.start;
+        let timeText = "";
+        if (date) {
+          const hours = String(date.getHours()).padStart(2, '0');
+          const minutes = String(date.getMinutes()).padStart(2, '0');
+          timeText = `<b>${hours}:${minutes} Uhr</b> `;
         }
+        return { html: `${timeText}${arg.event.title}` };
       }
     });
 
