@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
         hour12: false
       },
 
-      // Termin erstellen nur über Klick auf Kalenderzelle
       dateClick: function(info) {
         selectedDate = info.dateStr;
         selectedEvent = null;
@@ -50,6 +49,12 @@ document.addEventListener('DOMContentLoaded', function () {
       eventClick: function(info) {
         selectedEvent = info.event;
         openEditModal(info.event);
+      },
+
+      // Zeilenumbruch in den Terminen erzwingen
+      eventDidMount: function(info) {
+        info.el.style.whiteSpace = "normal";    // Zeilenumbruch erlauben
+        info.el.style.wordBreak = "break-word"; // Lange Wörter umbrechen
       }
     });
 
@@ -154,7 +159,7 @@ function saveEvent() {
     calendar.addEvent(newEvent);
   }
 
-  // Nur speichern, wenn wirklich Änderungen stattgefunden haben
+  // Speichern nur bei echten Änderungen
   saveEvents(currentEvents);
   closeModal();
 }
