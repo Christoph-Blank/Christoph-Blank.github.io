@@ -23,7 +23,9 @@
   {
     "id": "75e81545-9314-4523-88b6-85ea51363804",
     "title": "Training Fussball (Kind_O)",
-    "start": "2026-02-18T16:00"
+    "start": "2026-02-18T16:00",
+    "backgroundColor": "#FFD700",
+    "borderColor": "#FFD700"
   },
   {
     "id": "1d47a4c1-a9c6-4a3e-8ab0-9bb94d15e1dd",
