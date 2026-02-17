@@ -40,5 +40,12 @@
     "start": "2026-02-20T16:30",
     "backgroundColor": "#FFD700",
     "borderColor": "#FFD700"
+  },
+  {
+    "id": "c01a790c-782c-4615-8da6-3be2f9fc0a97",
+    "title": "sport (Familie)",
+    "start": "2026-02-26T08:10",
+    "backgroundColor": "#FFA500",
+    "borderColor": "#FFA500"
   }
 ]
