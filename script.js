@@ -19,7 +19,6 @@ const categories = {
 
 document.addEventListener('DOMContentLoaded', function () {
   const calendarEl = document.getElementById('calendar');
-  const createBtn = document.getElementById("createEventBtn");
 
   loadEvents().then(events => {
 
@@ -42,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
         hour12: false
       },
 
+      // Termin erstellen nur über Klick auf Kalenderzelle
       dateClick: function(info) {
         selectedDate = info.dateStr;
         selectedEvent = null;
@@ -55,10 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     calendar.render();
-  });
-
-  createBtn.addEventListener("click", function() {
-    if (selectedDate) openCreateModal();
   });
 
   document.getElementById("saveEventBtn")
