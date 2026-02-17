@@ -12,8 +12,8 @@ let calendar;
 const categories = {
   "Mama": "#FFB6C1",    // rosa
   "Papa": "#87CEFA",    // blau
-  "Kind1": "#FFD700",   // gold
-  "Kind2": "#90EE90",   // grün
+  "Kind_O": "#FFD700",   // gold
+  "Kind_I": "#90EE90",   // grün
   "Familie": "#FFA500"  // orange
 };
 
