@@ -12,8 +12,8 @@ let calendar;
 const categories = {
   "Mama": "#FFB6C1",
   "Papa": "#87CEFA",
-  "Kind1": "#FFD700",
-  "Kind2": "#90EE90",
+  "Kind_O": "#FFD700",
+  "Kind_I": "#90EE90",
   "Familie": "#FFA500"
 };
 
