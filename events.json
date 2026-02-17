@@ -29,5 +29,12 @@
     "id": "1d47a4c1-a9c6-4a3e-8ab0-9bb94d15e1dd",
     "title": "Musikschule (Kind_I)",
     "start": "2026-02-13T15:30"
+  },
+  {
+    "id": "1a979709-2cc0-49da-8a07-97cd8980086d",
+    "title": "Fussball Training (Kind_O)",
+    "start": "2026-02-20T16:30",
+    "backgroundColor": "#FFD700",
+    "borderColor": "#FFD700"
   }
 ]
