@@ -144,3 +144,15 @@ input, select {
   word-break: break-word;
   line-height: 1.2;
 }
+
+.allday-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;           /* Abstand zwischen Checkbox und Text */
+  margin-top: 8px;
+}
+
+.allday-wrapper input[type="checkbox"] {
+  margin: 0;          /* entfernt Browser-Standardversatz */
+}
+
