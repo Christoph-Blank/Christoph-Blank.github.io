@@ -69,5 +69,13 @@
     "allDay": false,
     "backgroundColor": "#FFA500",
     "borderColor": "#FFA500"
+  },
+  {
+    "id": "37d15722-fe8e-44e9-b98f-49c2105e51e3",
+    "title": "Gruppenbesprechung heute morgen und wann und wo und überhaupt wie lange kann man denn hier schreiben..  nichts genaues weiß man nicht  (Mama)",
+    "start": "2026-02-24T23:39",
+    "allDay": false,
+    "backgroundColor": "#FFB6C1",
+    "borderColor": "#FFB6C1"
   }
 ]
