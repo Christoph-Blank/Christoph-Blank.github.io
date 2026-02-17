@@ -52,5 +52,13 @@
     "id": "f3e8b4b0-fd0a-4f72-ae76-01a4efdae7e5",
     "title": "Qtjezkz3 (Kind_I)",
     "start": "2026-02-25T00:00"
+  },
+  {
+    "id": "e2efcd5d-808f-441f-9c91-4bb0f98639eb",
+    "title": "Gebhardts zu besuch (Familie)",
+    "start": "2026-02-12",
+    "allDay": true,
+    "backgroundColor": "#FFA500",
+    "borderColor": "#FFA500"
   }
 ]
