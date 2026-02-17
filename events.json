@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "de3af3b2-e930-449e-ba90-6272ace8d53c",
+    "title": "Familienfeier ab 14:30 (Familie)",
+    "start": "2026-02-18T10:00",
+    "backgroundColor": "#FFA500",
+    "borderColor": "#FFA500"
+  }
+]
