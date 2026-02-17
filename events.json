@@ -40,5 +40,12 @@
     "start": "2026-02-12T17:10",
     "backgroundColor": "#FFB6C1",
     "borderColor": "#FFB6C1"
+  },
+  {
+    "id": "63ab05dc-00a5-48bb-b91d-7e98c058e8aa",
+    "title": "feier (Familie)",
+    "start": "2026-02-21T10:00",
+    "backgroundColor": "#FFA500",
+    "borderColor": "#FFA500"
   }
 ]
