@@ -1,6 +1,6 @@
 const username = "Christoph-Blank";
 const repo = "Christoph-Blank.github.io";
-const token = "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";
+const token = "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";
 const filePath = "events.json";
 
 let currentEvents = [];
